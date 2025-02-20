@@ -3,12 +3,19 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: molecular-definition-data-types
+id: hl7.fhir.uv.molecular-definition-data-types
 canonical: http://hl7.org/fhir/uv/molecular-definition-data-types
 name: MolecularDefinitionDataTypes
 title: Molecular Definition Implementation Guide for Molecular Data Types
 description: The Molecular Definition Implementation Guide for Molecular Data Types defines the use of the MolecularDefinition resource to represent genomic data types.
 status: draft # draft | active | retired | unknown
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg  #<<< must include a http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension that identifies the workgroup responsible for the IG. This is the authoritative element.
+    valueCode: cg  # <<< The value must be the code for the workgroup
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: draft
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 0
 version: 1.0.0-ballot1
 fhirVersion: 6.0.0-ballot2 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
