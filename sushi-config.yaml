@@ -9,7 +9,7 @@ name: MolecularDefinitionDataTypes
 title: Molecular Definition Implementation Guide for Molecular Data Types
 description: The Molecular Definition Implementation Guide for Molecular Data Types defines the use of the MolecularDefinition resource to represent genomic data types.
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 1.0.0-ballot1
 fhirVersion: 6.0.0-ballot2 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
@@ -19,6 +19,11 @@ publisher:
   name: HL7 International / Clinical Genomics
   url: http://www.hl7.org/Special/committees/clingenomics
   email: cg@lists.HL7.org
+
+dependencies:
+  hl7.fhir.r6.core: latest
+  hl7.fhir.uv.extensions.r5: latest
+  hl7.terminology.r5: latest
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
