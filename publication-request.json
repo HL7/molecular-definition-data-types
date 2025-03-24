@@ -1,6 +1,6 @@
 {
   "package-id" : "hl7.fhir.uv.molecular-definition-data-types",
-  "version" : "1.0.0-ballot",
+  "version" : "1.0.0-ballot1",
   "path" : "http://hl7.org/fhir/uv/molecular-definition-data-types/2025Sep",
   "mode" : "working",
   "status" : "ballot",

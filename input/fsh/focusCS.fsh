@@ -3,7 +3,8 @@ Id:         molecular-definition-focus-cs
 Title:     "Molecular Definition focus code system"
 Description: "Molecular Definition Focus terms that describe various representation elements."
 
-* ^url =  "http://hl7.org/fhir/uv/molecular-definition-data-types-ig/CodeSystem/moleculardefinition-focus"
+* ^experimental = false
+* ^caseSensitive = true
 
 * #context-state
     "Context State"
