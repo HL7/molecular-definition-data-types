@@ -1,7 +1,7 @@
 Profile: AlleleSliced
 Parent: MolecularDefinition
 Description: "An Allele profile of the MolecularDefinition resource using slicing approach."
-id allele-sliced
+Id: allele-sliced
 
 * ^experimental = true //needs to be true since the parent is experimental
 
