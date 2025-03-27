@@ -3,7 +3,7 @@ Parent:      MolecularDefinition
 Description: "Genotype profile of Molecular Definition"
 id: genotype
 
-* ^experimental = true
+* ^experimental = true // more discussion and modeling work are still needed
 
 * type MS
 * type 1..1
