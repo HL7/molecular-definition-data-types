@@ -5,7 +5,7 @@
   "mode" : "working",
   "status" : "ballot",
   "sequence" : "STU1",
-  "desc" : "This is the initial release of the olecular Definition Implementation Guide for Molecular Data Types for initial ballot September 2025.",
+  "desc" : "This is the initial release of the Molecular Definition Implementation Guide for Molecular Data Types for initial ballot September 2025.",
   "first" : true,
   "title" : "Molecular Definition Implementation Guide for Molecular Data Types",
   "ci-build" : "http://build.fhir.org/ig/HL7/molecular-definition-data-types",
