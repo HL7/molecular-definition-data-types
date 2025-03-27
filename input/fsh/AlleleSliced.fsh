@@ -16,3 +16,10 @@ id allele-sliced
 * representation ^slicing.ordered = false
 * representation ^slicing.description = "Slice based on the representation.focus value to differentiate between Context and Allele states."
 
+* representation contains 
+    contextState 0..1 MS and 
+    alleleState 1..1 MS
+
+* representation[contextState].focus = MolecularDefinitionFocusCS#context-state "Context State" // context state slice
+* representation[alleleState].focus = MolecularDefinitionFocusCS#allele-state "Allele State" // allele state slice
+
