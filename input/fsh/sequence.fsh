@@ -1,6 +1,7 @@
 Profile:     Sequence
 Parent:      MolecularDefinition
 Description: "Sequence profile of Molecular Definition"
+id: sequence
 
 * ^experimental = true //needs to be true since the parent is experimental
 

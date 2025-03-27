@@ -1,6 +1,7 @@
 Profile: Variation
 Parent: MolecularDefinition
 Description: "A Variation profile of the MolecularDefinition resource."
+id: variation
 
 * ^experimental = true //needs to be true since the parent is experimental
 
