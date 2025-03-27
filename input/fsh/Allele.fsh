@@ -7,4 +7,6 @@ id: allele
 * type MS
 * type 1..1
 * location 1..1
-// * member 0..0
+
+// * member 0..0  // to be used later when using R6 draft 3
+* memberState 0..0  // to be removed later when using R6 draft 3
