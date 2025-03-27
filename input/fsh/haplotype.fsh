@@ -1,9 +1,9 @@
 Profile:     Haplotype
 Parent:      MolecularDefinition
-Description: "Haplotype profile of Molecular Definition"
+Description: "Haplotype profile of Molecular Definition Resource"
 id: haplotype
 
-* ^experimental = true
+* ^experimental = true // more discussion and modeling work are still needed
 
 * type MS
 * type 1..1
