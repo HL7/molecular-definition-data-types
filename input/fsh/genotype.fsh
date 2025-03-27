@@ -12,6 +12,8 @@ id: genotype
 // * member MS
 // * member 0..*
 
+* member only Reference(Allele or Haplotype)
+
 // * representation.literal 0..1 // need to be discussed
 // * representation.resolvable 0..1 // need to be discussed
 * representation.extracted 0..0
