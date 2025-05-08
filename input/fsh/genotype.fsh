@@ -9,10 +9,9 @@ Id: genotype
 * type 1..1
 * location 0..0
 
-// * member MS
-// * member 0..*
-
-* memberState only Reference(Allele or Haplotype)
+* member MS
+* member 0..*
+* member only Reference(Allele or Haplotype)
 
 // * representation.literal 0..1 // need to be discussed
 // * representation.resolvable 0..1 // need to be discussed

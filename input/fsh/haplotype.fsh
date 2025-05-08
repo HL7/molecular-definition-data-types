@@ -9,10 +9,9 @@ Id: haplotype
 * type 1..1
 * location 0..0
 
-// * member MS
-// * member 0..*
-
-* memberState only Reference(Allele) // need to be renamed when we start using draft-3
+* member MS
+* member 0..*
+* member only Reference(Allele)
 
 * representation.literal 0..0
 // * representation.resolvable 0..1 // need to be discussed
