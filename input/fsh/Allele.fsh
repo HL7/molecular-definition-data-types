@@ -1,6 +1,6 @@
 Profile: Allele
 Parent: MolecularDefinition
-Description: "An Allele profile of the MolecularDefinition resource."
+Description: "Allele profile of the MolecularDefinition resource."
 Id: allele
 * ^experimental = true //needs to be true since the parent is experimental
 
