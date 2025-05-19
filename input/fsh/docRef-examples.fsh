@@ -69,3 +69,17 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch?db=imgthla;id=HLA00001;format=fasta;style=raw"
 * content.attachment.title = "HLA00001"
+
+
+Instance: example-genomicfile-mw7162561
+InstanceOf: DocumentReference
+Usage: #example
+* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.value = "11111"
+* status = #current
+* docStatus = #preliminary
+* description = "A sample Document Reference instance representing Homo sapiens isolate 7 BRCA1 (BRCA1) gene, exon 10 and partial cds."
+* securityLabel = $v3-Confidentiality#R "Restricted"
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/MW716256.1?report=fasta"
+* content.attachment.title = "Homo sapiens isolate 7 BRCA1 (BRCA1) gene, exon 10 and partial cds"
