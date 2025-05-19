@@ -111,3 +111,17 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_000251.3?report=fasta"
 * content.attachment.title = "Homo sapiens mutS homolog 2 (MSH2), transcript variant 1, mRNA"
+
+
+Instance: example-genomicfile-nm0007694
+InstanceOf: DocumentReference
+Usage: #example
+* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.value = "11111"
+* status = #current
+* docStatus = #preliminary
+* description = "(CYP2C19), mRNA"
+* securityLabel = $v3-Confidentiality#R "Restricted"
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_000769.4?report=fasta"
+* content.attachment.title = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), mRNA"
