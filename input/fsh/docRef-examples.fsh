@@ -55,3 +55,17 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NG_008384"
 * content.attachment.title = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
+
+
+Instance: example-genomicfile-hla00001
+InstanceOf: DocumentReference
+Usage: #example
+* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.value = "11111"
+* status = #current
+* docStatus = #preliminary
+* description = "A sample Document Reference instance representing HLA00001."
+* securityLabel = $v3-Confidentiality#R "Restricted"
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch?db=imgthla;id=HLA00001;format=fasta;style=raw"
+* content.attachment.title = "HLA00001"
