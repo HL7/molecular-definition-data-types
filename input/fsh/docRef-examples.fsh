@@ -97,3 +97,17 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NG_008384.3?report=fasta"
 * content.attachment.title = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
+
+
+Instance: example-genomicfile-nm0002513
+InstanceOf: DocumentReference
+Usage: #example
+* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.value = "11111"
+* status = #current
+* docStatus = #preliminary
+* description = "A sample Document Reference instance representing Homo sapiens mutS homolog 2 (MSH2), transcript variant 1, mRNA."
+* securityLabel = $v3-Confidentiality#R "Restricted"
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_000251.3?report=fasta"
+* content.attachment.title = "Homo sapiens mutS homolog 2 (MSH2), transcript variant 1, mRNA"
