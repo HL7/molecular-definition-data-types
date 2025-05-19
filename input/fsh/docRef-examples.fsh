@@ -139,3 +139,17 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_002024.5?report=fasta"
 * content.attachment.title = "Homo sapiens FMRP translational regulator 1 (FMR1), transcript variant ISO1, mRNA"
+
+
+Instance: example-genomicfile-nc00001010-url
+InstanceOf: DocumentReference
+Usage: #example
+* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.value = "11111"
+* status = #current
+* docStatus = #preliminary
+* description = "Chr10, GRCh37.p13 sequence"
+* securityLabel = $v3-Confidentiality#R "Restricted"
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NC_000010.10?report=fasta"
+* content.attachment.title = "Homo sapiens chromosome 10, GRCh37.p13 Primary Assembly, NC_000010.10"
