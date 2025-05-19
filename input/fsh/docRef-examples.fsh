@@ -83,3 +83,17 @@ Usage: #example
 * content.attachment.contentType = #text/html
 * content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/MW716256.1?report=fasta"
 * content.attachment.title = "Homo sapiens isolate 7 BRCA1 (BRCA1) gene, exon 10 and partial cds"
+
+
+Instance: example-genomicfile-ng0083843
+InstanceOf: DocumentReference
+Usage: #example
+* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.value = "11111"
+* status = #current
+* docStatus = #preliminary
+* description = "A sample Document Reference instance representing Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10."
+* securityLabel = $v3-Confidentiality#R "Restricted"
+* content.attachment.contentType = #text/html
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NG_008384.3?report=fasta"
+* content.attachment.title = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
