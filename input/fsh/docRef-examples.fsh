@@ -95,7 +95,7 @@ Usage: #example
 * description = "A sample Document Reference instance representing Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10."
 * securityLabel = $v3-Confidentiality#R "Restricted"
 * content.attachment.contentType = #text/plain
-* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NG_008384.3?report=fasta"
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NG_008384.3?report=fasta&log$=seqview&format=text"
 * content.attachment.title = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
 
 
