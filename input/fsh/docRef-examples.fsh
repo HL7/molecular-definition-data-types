@@ -123,7 +123,7 @@ Usage: #example
 * description = "(CYP2C19), mRNA"
 * securityLabel = $v3-Confidentiality#R "Restricted"
 * content.attachment.contentType = #text/plain
-* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_000769.4?report=fasta"
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_000769.4?report=fasta&log$=seqview&format=text"
 * content.attachment.title = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), mRNA"
 
 
