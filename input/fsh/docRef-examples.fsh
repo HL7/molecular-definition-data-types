@@ -109,7 +109,7 @@ Usage: #example
 * description = "A sample Document Reference instance representing Homo sapiens mutS homolog 2 (MSH2), transcript variant 1, mRNA."
 * securityLabel = $v3-Confidentiality#R "Restricted"
 * content.attachment.contentType = #text/plain
-* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_000251.3?report=fasta"
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_000251.3?report=fasta&log$=seqview&format=text"
 * content.attachment.title = "Homo sapiens mutS homolog 2 (MSH2), transcript variant 1, mRNA"
 
 
