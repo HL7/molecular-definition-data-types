@@ -81,7 +81,7 @@ Usage: #example
 * description = "A sample Document Reference instance representing Homo sapiens isolate 7 BRCA1 (BRCA1) gene, exon 10 and partial cds."
 * securityLabel = $v3-Confidentiality#R "Restricted"
 * content.attachment.contentType = #text/plain
-* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/MW716256.1?report=fasta"
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/MW716256.1?report=fasta&log$=seqview&format=text"
 * content.attachment.title = "Homo sapiens isolate 7 BRCA1 (BRCA1) gene, exon 10 and partial cds"
 
 
