@@ -137,7 +137,7 @@ Usage: #example
 * description = "A sample Document Reference instance representing Homo sapiens FMRP translational regulator 1 (FMR1), transcript variant ISO1, mRNA."
 * securityLabel = $v3-Confidentiality#R "Restricted"
 * content.attachment.contentType = #text/plain
-* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_002024.5?report=fasta"
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NM_002024.5?report=fasta&log$=seqview&format=text"
 * content.attachment.title = "Homo sapiens FMRP translational regulator 1 (FMR1), transcript variant ISO1, mRNA"
 
 
