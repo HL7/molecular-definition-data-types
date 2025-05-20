@@ -151,5 +151,5 @@ Usage: #example
 * description = "Chr10, GRCh37.p13 sequence"
 * securityLabel = $v3-Confidentiality#R "Restricted"
 * content.attachment.contentType = #text/plain
-* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NC_000010.10?report=fasta"
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NC_000010.10?report=fasta&log$=seqview&format=text"
 * content.attachment.title = "Homo sapiens chromosome 10, GRCh37.p13 Primary Assembly, NC_000010.10"
