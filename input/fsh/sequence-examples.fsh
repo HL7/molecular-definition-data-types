@@ -37,4 +37,4 @@ Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
 // * representation[0].resolvable = Reference(example-genomicFile-cyp2c19-url)
-* representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-url)
+* representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-url)
