@@ -3,7 +3,7 @@ Alias: $v3-Confidentiality = http://terminology.hl7.org/CodeSystem/v3-Confidenti
 Instance: example-genomicfile-af1961831-url
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
@@ -46,7 +46,7 @@ Usage: #example
 Instance: example-genomicfile-cyp2c19-url
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
@@ -60,7 +60,7 @@ Usage: #example
 Instance: example-genomicfile-hla00001
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
@@ -74,7 +74,7 @@ Usage: #example
 Instance: example-genomicfile-mw7162561
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
@@ -88,7 +88,7 @@ Usage: #example
 Instance: example-genomicfile-ng0083843
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
@@ -102,7 +102,7 @@ Usage: #example
 Instance: example-genomicfile-nm0002513
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
@@ -116,7 +116,7 @@ Usage: #example
 Instance: example-genomicfile-nm0007694
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
@@ -130,7 +130,7 @@ Usage: #example
 Instance: example-genomicfile-nm0020245
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
@@ -144,7 +144,7 @@ Usage: #example
 Instance: example-genomicfile-nc00001010-url
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "http://www.somesystemabc.net/identifiers/files"
+* identifier.system = "http://example.org/identifiers/files"
 * identifier.value = "11111"
 * status = #current
 * docStatus = #preliminary
