@@ -101,3 +101,23 @@ Usage: #example
 * representation.extracted.coordinateInterval.startQuantity.value = 97868
 * representation.extracted.coordinateInterval.endQuantity.value = 99871
 * representation.extracted.reverseComplement = false
+
+
+Instance: example-sequence-cyp2c19-concatenated-regions
+InstanceOf: Sequence
+Description: "A downstream region extracted from a sequence"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation.concatenated.sequenceElement[0].sequence.reference = "MolecularDefinition/example-sequence-cyp2c19-upstream-region"
+* representation.concatenated.sequenceElement[=].sequence.type = "MolecularDefinition"
+* representation.concatenated.sequenceElement[=].sequence.display = "Sequence CYP2C19 Upstream Region"
+* representation.concatenated.sequenceElement[=].ordinalIndex = 0
+* representation.concatenated.sequenceElement[+].sequence.reference = "MolecularDefinition/example-sequence-cyp2c19-gene-region"
+* representation.concatenated.sequenceElement[=].sequence.type = "MolecularDefinition"
+* representation.concatenated.sequenceElement[=].sequence.display = "Sequence CYP2C19 Gene Region"
+* representation.concatenated.sequenceElement[=].ordinalIndex = 1
+* representation.concatenated.sequenceElement[+].sequence.reference = "MolecularDefinition/example-sequence-cyp2c19-downstream-region"
+* representation.concatenated.sequenceElement[=].sequence.type = "MolecularDefinition"
+* representation.concatenated.sequenceElement[=].sequence.display = "Sequence CYP2C19 Downstream Region"
+* representation.concatenated.sequenceElement[=].ordinalIndex = 2
