@@ -37,3 +37,12 @@ Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-url)
+
+
+Instance: example-sequence-cyp2c19-attached
+InstanceOf: Sequence
+Description: "A sequence represented as an attachement"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-attached)
