@@ -36,5 +36,41 @@ Description: "A sequence represented as a resolvable URL"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-// * representation[0].resolvable = Reference(example-genomicFile-cyp2c19-url)
-* representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-url)
+* representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-url)
+
+
+Instance: example-sequence-cyp2c19-attached
+InstanceOf: Sequence
+Description: "A sequence represented as an attachement"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-attached)
+
+
+Instance: example-sequence-cyp2c19-accession
+InstanceOf: Sequence
+Description: "A sequence represented as an attachement"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-accession)
+
+
+Instance: example-sequence-cyp2c19-gene-region
+InstanceOf: Sequence
+Description: "A sequence represented as an attachement"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation.extracted.startingMolecule.reference = "MolecularDefinition/example-sequence-cyp2c19-accession"
+// * representation.extracted.startingMolecule.type = "MolecularDefinition"
+// * representation.extracted.startingMolecule.display = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
+* representation.extracted.coordinateInterval.coordinateSystem.system.coding.system = "http://loinc.org"
+* representation.extracted.coordinateInterval.coordinateSystem.system.coding.code = "LA30100-4"
+* representation.extracted.coordinateInterval.coordinateSystem.system.coding.display = "0-based interval counting"
+* representation.extracted.coordinateInterval.coordinateSystem.system.text = "0-based interval counting"
+* representation.extracted.coordinateInterval.startQuantity = 5001
+* representation.extracted.coordinateInterval.endQuantity = 97867
+* representation.extracted.reverseComplement = false
+
