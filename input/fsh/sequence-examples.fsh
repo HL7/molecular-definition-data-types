@@ -70,7 +70,7 @@ Usage: #example
 * representation.extracted.coordinateInterval.coordinateSystem.system.coding.code = "LA30100-4"
 * representation.extracted.coordinateInterval.coordinateSystem.system.coding.display = "0-based interval counting"
 * representation.extracted.coordinateInterval.coordinateSystem.system.text = "0-based interval counting"
-* representation.extracted.coordinateInterval.startQuantity = 5001
-* representation.extracted.coordinateInterval.endQuantity = 97867
+* representation.extracted.coordinateInterval.startQuantity.value = 5001
+* representation.extracted.coordinateInterval.endQuantity.value = 97867
 * representation.extracted.reverseComplement = false
 
