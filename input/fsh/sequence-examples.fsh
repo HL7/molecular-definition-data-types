@@ -60,7 +60,7 @@ Usage: #example
 
 Instance: example-sequence-cyp2c19-gene-region
 InstanceOf: Sequence
-Description: "A sequence represented as an attachement"
+Description: "A gene region extracted from a sequence"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
@@ -72,3 +72,32 @@ Usage: #example
 * representation.extracted.coordinateInterval.endQuantity.value = 97867
 * representation.extracted.reverseComplement = false
 
+
+Instance: example-sequence-cyp2c19-upstream-region
+InstanceOf: Sequence
+Description: "An upstream region extracted from a sequence"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation.extracted.startingMolecule.reference = "MolecularDefinition/example-sequence-cyp2c19-accession"
+// * representation.extracted.startingMolecule.type = "MolecularDefinition"
+// * representation.extracted.startingMolecule.display = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
+* representation.extracted.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30100-4 "0-based interval counting"
+* representation.extracted.coordinateInterval.startQuantity.value = 1
+* representation.extracted.coordinateInterval.endQuantity.value = 5000
+* representation.extracted.reverseComplement = false
+
+
+Instance: example-sequence-cyp2c19-downstream-region
+InstanceOf: Sequence
+Description: "A downstream region extracted from a sequence"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation.extracted.startingMolecule.reference = "MolecularDefinition/example-sequence-cyp2c19-accession"
+// * representation.extracted.startingMolecule.type = "MolecularDefinition"
+// * representation.extracted.startingMolecule.display = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
+* representation.extracted.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30100-4 "0-based interval counting"
+* representation.extracted.coordinateInterval.startQuantity.value = 97868
+* representation.extracted.coordinateInterval.endQuantity.value = 99871
+* representation.extracted.reverseComplement = false
