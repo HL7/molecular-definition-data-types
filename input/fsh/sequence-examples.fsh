@@ -105,7 +105,7 @@ Usage: #example
 
 Instance: example-sequence-cyp2c19-concatenated-regions
 InstanceOf: Sequence
-Description: "A downstream region extracted from a sequence"
+Description: "A sequence represented as a concatenation of sequence instances"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
