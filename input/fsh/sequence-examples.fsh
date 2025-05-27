@@ -14,7 +14,7 @@ Instance: example-sequence-a-aa-iupac
 InstanceOf: Sequence
 Description: "Simple Sequence example with IUPAC encoding"
 Usage: #example
-* moleculeType.coding = MoleculeType#AA "AA Sequence"
+* moleculeType.coding = MoleculeType#aa "AA Sequence"
 * type.coding = MoleculeType#aa "AA Sequence"
 // * representation[0].literal.encoding.coding = Encodings#aa-1-noamb-20common "Amino acid, 1 letter, no ambiguity, 20 common"
 * representation[0].literal.encoding.coding = Encodings#amino-acid-1letter-unambiguous "Amino Acid 1-letter Unambiguous Symbols"
@@ -73,3 +73,4 @@ Usage: #example
 * representation.extracted.coordinateInterval.startQuantity = 5001
 * representation.extracted.coordinateInterval.endQuantity = 97867
 * representation.extracted.reverseComplement = false
+
