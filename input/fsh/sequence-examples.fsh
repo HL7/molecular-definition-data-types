@@ -67,10 +67,10 @@ Usage: #example
 // * representation.extracted.startingMolecule.type = "MolecularDefinition"
 // * representation.extracted.startingMolecule.display = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
 * representation.extracted.coordinateInterval.coordinateSystem.system.coding.system = "http://loinc.org"
-* representation.extracted.coordinateInterval.coordinateSystem.system.coding.code = "LA30100-4"
+* representation.extracted.coordinateInterval.coordinateSystem.system.coding.code = LA30100-4
 * representation.extracted.coordinateInterval.coordinateSystem.system.coding.display = "0-based interval counting"
 * representation.extracted.coordinateInterval.coordinateSystem.system.text = "0-based interval counting"
-* representation.extracted.coordinateInterval.startQuantity = 5001
-* representation.extracted.coordinateInterval.endQuantity = 97867
+* representation.extracted.coordinateInterval.startQuantity.value = 5001
+* representation.extracted.coordinateInterval.endQuantity.value = 97867
 * representation.extracted.reverseComplement = false
 
