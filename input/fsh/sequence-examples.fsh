@@ -60,7 +60,7 @@ Usage: #example
 
 Instance: example-sequence-cyp2c19-gene-region
 InstanceOf: Sequence
-Description: "A sequence represented as an attachement"
+Description: "A gene region extracted from a sequence"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
@@ -75,7 +75,7 @@ Usage: #example
 
 Instance: example-sequence-cyp2c19-upstream-region
 InstanceOf: Sequence
-Description: "A sequence represented as an attachement"
+Description: "An upstream region extracted from a sequence"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
@@ -90,7 +90,7 @@ Usage: #example
 
 Instance: example-sequence-cyp2c19-downstream-region
 InstanceOf: Sequence
-Description: "A sequence represented as an attachement"
+Description: "A downstream region extracted from a sequence"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
