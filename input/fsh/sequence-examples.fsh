@@ -37,7 +37,7 @@ Description: "A sequence represented as a resolvable URL"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-* representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-url)
+* representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-url)
 
 
 Instance: example-sequence-cyp2c19-attached
@@ -46,7 +46,7 @@ Description: "A sequence represented as an attachement"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-* representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-attached)
+* representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-attached)
 
 
 Instance: example-sequence-cyp2c19-accession
@@ -55,7 +55,7 @@ Description: "A sequence represented as an attachement"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-* representation[0].resolvable = Reference(DocumentReference/example-genomicFile-cyp2c19-accession)
+* representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-accession)
 
 
 Instance: example-sequence-cyp2c19-gene-region
