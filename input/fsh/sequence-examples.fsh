@@ -143,3 +143,24 @@ Usage: #example
 * representation.repeated.sequenceMotif.type = "MolecularDefinition"
 * representation.repeated.sequenceMotif.display = "cgg"
 * representation.repeated.copyCount = 20
+
+
+Instance: example-sequence-fmr1-cgg-20x-edited-referenced
+InstanceOf: Sequence
+Description: "A sequence example composed of 20x repeats of CGG sequence"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation.relative.startingMolecule.reference = "MolecularDefinition/example-sequence-fmr1-cgg-20x-repeat"
+* representation.relative.startingMolecule.type = "MolecularDefinition"
+* representation.relative.startingMolecule.display = "CGG 20X"
+* representation.relative.edit.editOrder = 0
+* representation.relative.edit.coordinateInterval.coordinateSystem.system.coding.system = $LNC#LA30102-0 "1-based character counting"
+* representation.relative.edit.coordinateInterval.startQuantity.value = 31
+* representation.relative.edit.coordinateInterval.endQuantity.value = 31
+* representation.relative.edit.replacementMolecule.reference = "MolecularDefinition/example-sequence-a"
+* representation.relative.edit.replacementMolecule.type = "MolecularDefinition"
+* representation.relative.edit.replacementMolecule.display = "A"
+* representation.relative.edit.replacedMolecule.reference = "MolecularDefinition/example-sequence-c"
+* representation.relative.edit.replacedMolecule.type = "MolecularDefinition"
+* representation.relative.edit.replacedMolecule.display = "C"
