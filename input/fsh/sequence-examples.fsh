@@ -175,6 +175,25 @@ Usage: #example
 * representation.relative.edit.replacedMolecule.type = "MolecularDefinition"
 * representation.relative.edit.replacedMolecule.display = "C"
 
+Instance: replacement
+InstanceOf: Sequence
+Description: "Simple Sequence example with IUPAC encoding, A"
+Usage: #inline
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[0].literal.value = "A"
+
+
+Instance: replaced
+InstanceOf: Sequence
+Description: "Simple Sequence example with IUPAC encoding, C"
+Usage: #inline
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[0].literal.value = "C"
+
 
 Instance: example-sequence-fmr1-cgg-20x-edited-contained
 InstanceOf: Sequence
@@ -187,9 +206,9 @@ Usage: #example
 * representation.relative.startingMolecule.type = "MolecularDefinition"
 * representation.relative.startingMolecule.display = "CGG 20X"
 * representation.relative.edit.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
-* representation.relative.edit.replacementMolecule.reference = "#example-sequence-a-dna-iupac"
+* representation.relative.edit.replacementMolecule.reference = "#replacement"
 * representation.relative.edit.replacementMolecule.type = "MolecularDefinition"
 * representation.relative.edit.replacementMolecule.display = "A"
-* representation.relative.edit.replacedMolecule.reference = "#example-sequence-c-dna-iupac"
+* representation.relative.edit.replacedMolecule.reference = "#replaced"
 * representation.relative.edit.replacedMolecule.type = "MolecularDefinition"
 * representation.relative.edit.replacedMolecule.display = "C"
