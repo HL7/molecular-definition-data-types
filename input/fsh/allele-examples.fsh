@@ -1,4 +1,4 @@
-Alias: $LNC = http://loinc.org
+// Alias: $LNC = http://loinc.org
 Alias: $PHV = https://www.pharmvar.org
 
 Instance: example-allelesliced-cyp2c19-1016
