@@ -3,12 +3,22 @@ Alias: $LNC = http://loinc.org
 
 Instance: example-sequence-a-dna-iupac
 InstanceOf: Sequence
-Description: "Simple Sequence example with IUPAC encoding"
+Description: "Simple Sequence example with IUPAC encoding, A"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
 * representation[0].literal.value = "A"
+
+
+Instance: example-sequence-c-dna-iupac
+InstanceOf: Sequence
+Description: "Simple Sequence example with IUPAC encoding, C"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[0].literal.value = "C"
 
 
 Instance: example-sequence-a-aa-iupac
@@ -158,9 +168,11 @@ Usage: #example
 * representation.relative.edit.coordinateInterval.coordinateSystem.system.coding.system = $LNC#LA30102-0 "1-based character counting"
 * representation.relative.edit.coordinateInterval.startQuantity.value = 31
 * representation.relative.edit.coordinateInterval.endQuantity.value = 31
-* representation.relative.edit.replacementMolecule.reference = "MolecularDefinition/example-sequence-a"
+* representation.relative.edit.replacementMolecule.reference = "MolecularDefinition/example-sequence-a-dna-iupac"
 * representation.relative.edit.replacementMolecule.type = "MolecularDefinition"
 * representation.relative.edit.replacementMolecule.display = "A"
-* representation.relative.edit.replacedMolecule.reference = "MolecularDefinition/example-sequence-c"
+* representation.relative.edit.replacedMolecule.reference = "MolecularDefinition/example-sequence-c-dna-iupac"
 * representation.relative.edit.replacedMolecule.type = "MolecularDefinition"
 * representation.relative.edit.replacedMolecule.display = "C"
+
+
