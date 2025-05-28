@@ -206,9 +206,9 @@ Usage: #example
 * representation.relative.startingMolecule.type = "MolecularDefinition"
 * representation.relative.startingMolecule.display = "CGG 20X"
 * representation.relative.edit.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
-* representation.relative.edit.replacementMolecule.reference = "#replacement"
+* representation.relative.edit.replacementMolecule = Reference(replacement)
 * representation.relative.edit.replacementMolecule.type = "MolecularDefinition"
 * representation.relative.edit.replacementMolecule.display = "A"
-* representation.relative.edit.replacedMolecule.reference = "#replaced"
+* representation.relative.edit.replacedMolecule = Reference(replaced)
 * representation.relative.edit.replacedMolecule.type = "MolecularDefinition"
 * representation.relative.edit.replacedMolecule.display = "C"
