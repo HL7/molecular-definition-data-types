@@ -199,6 +199,8 @@ Instance: example-sequence-fmr1-cgg-20x-edited-contained
 InstanceOf: Sequence
 Description: "A sequence example composed of 20x repeats of CGG sequence edited using contained resources"
 Usage: #example
+* contained[0] = replacement
+* contained[+] = replaced
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
 * moleculeType.coding.display = "DNA Sequence"
