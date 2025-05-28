@@ -122,6 +122,7 @@ Usage: #example
 * representation.concatenated.sequenceElement[=].sequence.display = "Sequence CYP2C19 Downstream Region"
 * representation.concatenated.sequenceElement[=].ordinalIndex = 2
 
+
 Instance: example-sequence-cgg
 InstanceOf: Sequence
 Description: "Simple Sequence example of GGC sequence"
@@ -132,4 +133,13 @@ Usage: #example
 * representation[0].literal.value = "CGG"
 
 
-
+Instance: example-sequence-fmr1-cgg-20x-repeat
+InstanceOf: Sequence
+Description: "A sequence example composed of 20x repeats of CGG sequence"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation.repeated.sequenceMotif.reference = "MolecularDefinition/example-sequence-cgg"
+* representation.repeated.sequenceMotif.type = "MolecularDefinition"
+* representation.repeated.sequenceMotif.display = "cgg"
+* representation.repeated.copyCount = 20
