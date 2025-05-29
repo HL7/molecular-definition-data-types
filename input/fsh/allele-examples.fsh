@@ -14,7 +14,7 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 1016
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 1016
 //* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
-* representation[alleleState].code.coding.system = $PHV#PV00076 "CYP2C19*1.002"
+* representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
 * representation[alleleState].code.coding.version = "6.2"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
 * representation[alleleState].literal.value = "G"
@@ -36,7 +36,7 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 1016
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 1016
-* representation[alleleState].code.coding.system = $PHV#PV00076 "CYP2C19*1.002"
+* representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
 * representation[alleleState].code.coding.version = "6.2"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
 * representation[alleleState].literal.value = "G"
