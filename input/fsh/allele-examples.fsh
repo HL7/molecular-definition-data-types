@@ -3,7 +3,7 @@ Alias: $PHV = https://www.pharmvar.org
 
 Instance: example-allelesliced-cyp2c19-1016
 InstanceOf: Allele
-Description: "Simple Sequence example with IUPAC encoding, A"
+Description: "A simple Allele example"
 Usage: #example
 * moleculeType.coding = MoleculeType#rna "RNA Sequence"
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nm0007694-url"
