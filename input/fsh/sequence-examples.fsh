@@ -43,11 +43,19 @@ Usage: #example
 
 Instance: example-sequence-cyp2c19-url
 InstanceOf: Sequence
-Description: "A sequence represented as a resolvable URL"
+Description: "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-url)
+
+Instance: example-sequence-nm0007694-url
+InstanceOf: Sequence
+Description: "A sequence represented as a resolvable URL"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].resolvable = Reference(DocumentReference/example-genomicfile-nm0007694)
 
 
 Instance: example-sequence-cyp2c19-attached
