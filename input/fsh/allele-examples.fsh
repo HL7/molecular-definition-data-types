@@ -43,7 +43,7 @@ Usage: #example
 * representation[contextState].literal.value = "A"
 
 Instance: example-sequence-nm0007694-acc
-InstanceOf: MolecularSequence
+InstanceOf: Sequence
 Usage: #inline
 * moleculeType.coding = MoleculeType#rna "RNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
