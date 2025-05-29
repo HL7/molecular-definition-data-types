@@ -6,6 +6,7 @@ InstanceOf: Allele
 Description: "A simple Allele example"
 Usage: #example
 * moleculeType.coding = MoleculeType#rna "RNA Sequence"
+* type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nm0007694-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
