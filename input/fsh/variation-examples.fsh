@@ -10,4 +10,4 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30100-4 "0-based interval counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 1015
 * representation[referenceState].literal.value = "A"
-* representation[alternativeState].literal.values = "G"
+* representation[alternativeState].literal.value = "G"
