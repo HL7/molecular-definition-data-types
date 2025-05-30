@@ -5,7 +5,9 @@
 
     <a name="scope-and-usage"> </a>
     <h3>Scope and Usage</h3>
-
+  <p>
+    The Allele profile is a key component of this implementation guide, defining the genetic makeup at specific locations within the genomic molecules. It provides a structured representation of genetic content in two distinct states: the context state, which establishes the broader genomic setting, and the allele state, which specifies the particular genetic makeup at that location. The Allele profile builds upon the Sequence profile, utilizing its representation of raw genetic sequences to ensure accuracy and consistency. Additionally, it serves as a foundational element that other profiles within this guide can leverage to enhance their functionality and interoperability.
+  </p>
   <p>
     This is the Allele profile intro.
   </p>
