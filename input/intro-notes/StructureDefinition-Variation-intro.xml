@@ -7,7 +7,7 @@
     <h3>Scope and Usage</h3>
 
   <p>
-    This is the Variation profile intro.
+    The Variation profile defines a structured approach for representing genetic variations at specific genomic loci. It characterizes the genetic composition at a given location in three distinct states: context, reference, and alternative. This profile leverages MolecularDefinition resource to enable precise communication of genetic alterations. Where applicable, the Variation profile can integrate Sequence and Allele profiles to provide a comprehensive representation of genomic changes, supporting interoperability in health information systems.
   </p>
 
 </div>
