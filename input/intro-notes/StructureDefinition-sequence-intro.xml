@@ -1,0 +1,15 @@
+<div xmlns="http://www.w3.org/1999/xhtml" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd
+                         http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd">
+
+    <a name="scope-and-usage"> </a>
+    <h3>Scope and Usage</h3>
+  <p>
+    The Sequence profile serves as a foundational component of this implementation guide, designed to represent raw genetic sequences such as DNA, RNA, and proteins. It supports multiple representation formats, ensuring flexibility across diverse implementation needs and use cases. Unlike other profiles, such as Allele and Variation, which emphasize genomic location, the Sequence profile focuses on the intrinsic composition of the genetic sequence itself. Additionally, it plays a crucial role in supporting and integrating with various other profiles within this guide, enhancing their functionality.
+  </p>
+  <p>
+    This is the Sequence profile intro.
+  </p>
+
+</div>
