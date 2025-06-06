@@ -15,6 +15,10 @@ By establishing a standardized approach to genomic data representation, this FHI
 
 ## How to Use this Guide
 
+### Profiles
+
+### Code Systems
+
 ## Understanding FHIR
 
 ## Related Specifications
