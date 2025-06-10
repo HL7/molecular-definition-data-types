@@ -222,3 +222,12 @@ Usage: #example
 * representation.relative.edit.replacedMolecule = Reference(replaced)
 * representation.relative.edit.replacedMolecule.type = "MolecularDefinition"
 * representation.relative.edit.replacedMolecule.display = "C"
+
+
+Instance: example-sequence-nc00000714-url
+InstanceOf: Sequence
+Description: "A sequence represented as a resolvable URL, NC_000007.14"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].resolvable = Reference(DocumentReference/example-genomicfile-nc00000714-url)
