@@ -1,0 +1,13 @@
+<div xmlns="http://www.w3.org/1999/xhtml" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd
+                         http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd">
+
+    <a name="scope-and-usage"> </a>
+    <h3>Scope and Usage</h3>
+
+  <p>
+    The Variation profile defines a structured approach for representing genetic variations at specific genomic loci. It characterizes the genetic composition at a given location in three distinct states: context, reference, and alternative. This profile leverages MolecularDefinition resource to enable precise communication of genetic alterations. Where applicable, the Variation profile can integrate Sequence and Allele profiles to provide a comprehensive representation of genomic changes, supporting interoperability in health information systems.
+  </p>
+
+</div>
