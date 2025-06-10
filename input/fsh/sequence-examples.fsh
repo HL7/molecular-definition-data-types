@@ -226,7 +226,7 @@ Usage: #example
 
 Instance: example-sequence-nc00000714-url
 InstanceOf: Sequence
-Description: "A sequence represented as a resolvable URL, NC_000007.14"
+Description: "A sequence represented as a resolvable URL, NC_000007.14 Homo sapiens chromosome 7, GRCh38.p14 Primary Assembly"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
