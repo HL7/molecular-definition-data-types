@@ -31,6 +31,7 @@ To achieve the ultimate objective of this implementation guide, it was essential
 - [Amino Acid 3-letter Unambiguous Symbols](CodeSystem-amino-acid-3letter-unambiguous.html) as three-letter unambiguous symbols for the 20 common amino acids.
 
 ### Topology
+The Topology code system defines the structural arrangement of molecular sequences or modifications, capturing the spatial and organizational characteristics of genomic molecules. It includes codes that describe configurations such as linear contiguous sequences, linear sequences with gaps, circular sequences, and branched structures, reflecting the diverse molecular architectures found in genomic and biochemical contexts. By standardizing these topological descriptors, the code system facilitates precise representation of molecular structure, which is critical for understanding functional and regulatory genomic features.
 
 ### Location
 Genomic location and coordinates are fundamental to ensuring the reliable and precise positioning of genomic molecules within the context of another molecule, such as a DNA sequence. This implementation guide incorporates various code systems designed to support location elements, enabling accurate representation of genomic positions. These systems capture essential details like chromosome identifiers, start and end positions, and coordinate types, facilitating unambiguous mapping of genetic features relative to reference genomes.
