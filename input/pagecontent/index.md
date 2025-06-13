@@ -25,6 +25,10 @@ To achieve the ultimate objective of this implementation guide, it was essential
 - [Nucleotide DNA 1-letter Symbols Including N](CodeSystem-nucleotide-dna-1letter-with-n.html) as Single-letter symbols for DNA residues, including N for any nucleotide.
 - [Nucleotide DNA 1-letter Unambiguous Symbols](CodeSystem-nucleotide-dna-1letter-unambiguous.html) as Single-letter unambiguous symbols for DNA residues. 
 - [Nucleotide RNA 1-letter Unambiguous Symbols](CodeSystem-nucleotide-rna-1letter-unambiguous.html) as Single-letter unambiguous symbols for RNA residues.
+- [Amino Acid 1-letter Ambiguous Symbols](CodeSystem-amino-acid-1letter-ambiguous.html) as Single-letter symbols for amino acids, including ambiguous symbols.
+- [Amino Acid 1-letter Unambiguous Symbols](CodeSystem-amino-acid-1letter-unambiguous.html) as Single-letter unambiguous symbols for the 20 common amino acids.
+- [Amino Acid 3-letter Ambiguous Symbols](CodeSystem-amino-acid-3letter-ambiguous.html) as Three-letter symbols for amino acids, including ambiguous symbols.
+- [Amino Acid 3-letter Unambiguous Symbols](CodeSystem-amino-acid-3letter-unambiguous.html) as Three-letter unambiguous symbols for the 20 common amino acids.
 
 ### 
 
