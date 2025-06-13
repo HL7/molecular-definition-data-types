@@ -42,6 +42,13 @@ Genomic location and coordinates are fundamental to ensuring the reliable and pr
 ### Representation Focus
 The [Focus code system](CodeSystem-molecular-definition-focus-cs.html) is a foundational component within the molecular definition representation framework. It plays a pivotal role in articulating the relationships between each molecular representation and the described genomic molecule, as well as defining how these representations interrelate based on specific use cases. For example, in the [Variation Profile](StructureDefinition-variation.html), the Focus element is utilized to distinguish between reference, alternative, and contextual states, thereby enabling precise characterization and interpretation of genetic variations as detailed further in the [Variation Profile](StructureDefinition-variation.html) documentation.
 
+## Implemenation Use Cases
+This implementation guide, along with its included artifacts, has been meticulously designed and developed to address practical use cases involving the exchange of genomic molecules and their associated data across diverse institutions and systems. By providing standardized frameworks and code systems, the guide facilitates seamless interoperability and accurate data representation. This section presents example use cases that demonstrate how this implementation guide can be leveraged to represent real genomic concepts as FHIR resource instances, thereby illustrating its applicability and effectiveness in real-world genomic data exchange scenarios.
+
+### Use Case -1
+### Use Case -2
+### Use Case -3
+
 ## Understanding FHIR
 
 ## Related Specifications
