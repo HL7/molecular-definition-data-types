@@ -57,7 +57,14 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 
 -[Example of Sequence profile of CYP2C19 as Accession Number](MolecularDefinition-example-genomic-cyp2c19-accession.html)
 
-### Use Case -3
+## Molecular Sequence from a Resolvable URL
+
+The following MolecularDefinitions show examples of a sequence represented as a resolvable URL leveraging the [Sequence](StructureDefinition-sequence.html) profile. This example shows how the [DocumentReference]({{site.data.fhir.path}}documentreference.html) resource is utilized to represent the corresponding URL.
+
+- [Sequence example of CYP2C19 as URL](MolecularDefinition-example-sequence-cyp2c19-url.html)
+
+
+### Use Case -4
 
 ## Understanding FHIR
 
