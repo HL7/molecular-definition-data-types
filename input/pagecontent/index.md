@@ -52,7 +52,11 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 - [Simple Sequence example Amino Acid A, IUPAC](MolecularDefinition-example-sequence-a-aa-iupac.html)
 
 
-### Use Case -2
+### Representing a Molecular Sequence Using Accession Number as a Code
+The following MolecularDefinitions show examples of a sequence represented as a code using an accession number leveraging the [Sequence](StructureDefinition-sequence.html) profile.
+
+-[Example of Sequence profile of CYP2C19 as Accession Number](MolecularDefinition-example-genomic-cyp2c19-accession.html)
+
 ### Use Case -3
 
 ## Understanding FHIR
