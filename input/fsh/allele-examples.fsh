@@ -138,3 +138,25 @@ Usage: #example
 * representation[alleleState].literal.value = "C"
 //* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
 * representation[contextState].literal.value = "C"
+
+
+// HLA00002
+
+Instance: example-allelesliced-hla-98-c
+InstanceOf: Allele
+Description: "An Allele example representing a part of HLA00001.1:c.[98T])"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
+* location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
+* location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
+* location.sequenceLocation.coordinateInterval.startQuantity.value = 98
+* location.sequenceLocation.coordinateInterval.endQuantity.value = 98
+//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+* representation[alleleState].literal.value = "C"
+//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+* representation[contextState].literal.value = "T"
+
+
