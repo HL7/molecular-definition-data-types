@@ -57,7 +57,7 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 
 -[Example of Sequence profile of CYP2C19 as Accession Number](MolecularDefinition-example-genomic-cyp2c19-accession.html)
 
-## Molecular Sequence from a Resolvable URL
+### Molecular Sequence from a Resolvable URL
 
 The following MolecularDefinitions show examples of a sequence represented as a resolvable URL leveraging the [Sequence](StructureDefinition-sequence.html) profile. This example shows how the [DocumentReference]({{site.data.fhir.path}}documentreference.html) resource is utilized to represent the corresponding URL.
 
@@ -65,6 +65,8 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 
 
 ### Use Case -4
+### Use Case -5
+### Use Case -6
 
 ### An Aggregate Use Case to Represent How Sequence, Allele, Haplotype and Genotype Profiles Can Work Together to Represent an HLA Genotype
 
