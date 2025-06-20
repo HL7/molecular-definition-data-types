@@ -72,7 +72,13 @@ To illustrate the interaction of various MolecularDefinition profiles, we begin 
 
 - [Genotype of HLA-A*01:01:01:01 and HLA-A*01:02:01:01 haplotype](MolecularDefinition-example-genotype-hla-00001-and-2.html)
    - [HLA-A*01:01:01:01 Haplotype instance](MolecularDefinition-example-haplotype-hla-00001.html)
+      - [First Allele, HLA00001.1:c.98T](MolecularDefinition-example-allelesliced-hla-98-t.html)
+      - [Second Allele, HLA00001.1:c.121C](MolecularDefinition-example-allelesliced-hla-121-c.html)
+      - [Third Allele, HLA00001.1:c.123C](MolecularDefinition-example-allelesliced-hla-123-c.html)
+      - [Fourth Allele, HLA00001.1:c.126G](MolecularDefinition-example-allelesliced-hla-126-g.html)
+      - [Fifth Allele, HLA00001.1:c.144C](MolecularDefinition-example-allelesliced-hla-144-c.html)
    - [HLA-A*01:02:01:01 Haplotype instance](MolecularDefinition-example-haplotype-hla-00002.html)
+      -TBA
 
 
 ## Understanding FHIR
