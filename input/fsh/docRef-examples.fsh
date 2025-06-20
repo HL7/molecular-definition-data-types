@@ -153,3 +153,17 @@ Usage: #example
 * content.attachment.contentType = #text/plain
 * content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NC_000010.10?report=fasta&log$=seqview&format=text"
 * content.attachment.title = "Homo sapiens chromosome 10, GRCh37.p13 Primary Assembly, NC_000010.10"
+
+
+Instance: example-genomicfile-nc00000714-url
+InstanceOf: DocumentReference
+Usage: #example
+* identifier.system = "http://example.org/identifiers/files"
+* identifier.value = "11111"
+* status = #current
+* docStatus = #preliminary
+* description = "Chr7, GRCh38.p14 sequence"
+* securityLabel = $v3-Confidentiality#R "Restricted"
+* content.attachment.contentType = #text/plain
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NC_000007.14?report=fasta&log$=seqview&format=text"
+* content.attachment.title = "Homo sapiens chromosome 7, GRCh38.p14 Primary Assembly"
