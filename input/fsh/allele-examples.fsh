@@ -144,7 +144,7 @@ Usage: #example
 
 Instance: example-allelesliced-hla-98-c
 InstanceOf: Allele
-Description: "An Allele example representing a part of HLA00001.1:c.[98T>C])"
+Description: "An Allele example representing a part of HLA00001.1:c.[98C])"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
@@ -162,7 +162,7 @@ Usage: #example
 
 Instance: example-allelesliced-hla-121-a
 InstanceOf: Allele
-Description: "An Allele example representing a part of HLA00001.1:c.[121C>A])"
+Description: "An Allele example representing a part of HLA00001.1:c.[121A])"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
@@ -180,7 +180,7 @@ Usage: #example
 
 Instance: example-allelesliced-hla-123-t
 InstanceOf: Allele
-Description: "An Allele example representing a part of HLA00001.1:c.[123C>T])"
+Description: "An Allele example representing a part of HLA00001.1:c.[123T])"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
@@ -198,7 +198,7 @@ Usage: #example
 
 Instance: example-allelesliced-hla-126-a
 InstanceOf: Allele
-Description: "An Allele example representing a part of HLA00001.1:c.[126G>A])"
+Description: "An Allele example representing a part of HLA00001.1:c.[126A])"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
@@ -216,7 +216,7 @@ Usage: #example
 
 Instance: example-allelesliced-hla-144-a
 InstanceOf: Allele
-Description: "An Allele example representing a part of HLA00001.1:c.[144C>A])"
+Description: "An Allele example representing a part of HLA00001.1:c.[144A])"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
