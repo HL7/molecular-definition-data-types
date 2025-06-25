@@ -22,3 +22,15 @@ Usage: #example
 * member[+] = Reference(MolecularDefinition/example-allelesliced-hla-123-t)
 * member[+] = Reference(MolecularDefinition/example-allelesliced-hla-126-a)
 * member[+] = Reference(MolecularDefinition/example-allelesliced-hla-144-a)
+
+
+// CYP2C19*1.002:c.[661G; 1016G]
+
+Instance: example-haplotype-cyp2c19-1002
+InstanceOf: Haplotype
+Description: "Example of Haplotype profile representing CYP2C19*1.002 as CYP2C19*1.002:c.[661G; 1016G]"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* member[0] = Reference(MolecularDefinition/example-allelesliced-cyp2c19-661g)
+* member[+] = Reference(MolecularDefinition/example-allelesliced-cyp2c19-1016g)
