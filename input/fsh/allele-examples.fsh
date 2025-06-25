@@ -27,7 +27,7 @@ Usage: #example
 
 Instance: example-allelesliced-cyp2c19-1016g
 InstanceOf: Allele
-Description: "A simple Allele example showing CYP2C19*1.002:c.1016G"
+Description: "A simple Allele example showing a G at position 1016 on NM_000769.4, applicable to both CYP2C19*1.002 and CYP2C19*3.002"
 Usage: #example
 * moleculeType.coding = MoleculeType#rna "RNA Sequence"
 * type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
