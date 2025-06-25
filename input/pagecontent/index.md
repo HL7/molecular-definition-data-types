@@ -80,11 +80,11 @@ To illustrate the interaction of various MolecularDefinition profiles, we begin 
       - [Fourth Allele, HLA00001.1:c.126G](MolecularDefinition-example-allelesliced-hla-126-g.html)
       - [Fifth Allele, HLA00001.1:c.144C](MolecularDefinition-example-allelesliced-hla-144-c.html)
    - [HLA-A*01:02:01:01 Haplotype instance](MolecularDefinition-example-haplotype-hla-00002.html)
-      - [First Allele, HLA00001.1:c.98T>C](MolecularDefinition-example-allelesliced-hla-98-c.html)
-      - [Second Allele, HLA00001.1:c.121C>A](MolecularDefinition-example-allelesliced-hla-121-a.html)
-      - [Third Allele, HLA00001.1:c.123C>T](MolecularDefinition-example-allelesliced-hla-123-t.html)
-      - [Fourth Allele, HLA00001.1:c.126G>A](MolecularDefinition-example-allelesliced-hla-126-a.html)
-      - [Fifth Allele, HLA00001.1:c.144C>A](MolecularDefinition-example-allelesliced-hla-144-a.html)
+      - [First Allele, HLA00001.1:c.98C](MolecularDefinition-example-allelesliced-hla-98-c.html)
+      - [Second Allele, HLA00001.1:c.121A](MolecularDefinition-example-allelesliced-hla-121-a.html)
+      - [Third Allele, HLA00001.1:c.123T](MolecularDefinition-example-allelesliced-hla-123-t.html)
+      - [Fourth Allele, HLA00001.1:c.126A](MolecularDefinition-example-allelesliced-hla-126-a.html)
+      - [Fifth Allele, HLA00001.1:c.144A](MolecularDefinition-example-allelesliced-hla-144-a.html)
 
 
 ## Understanding FHIR
