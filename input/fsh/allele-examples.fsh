@@ -22,7 +22,7 @@ Usage: #example
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
 * representation[alleleState].literal.value = "G"
 //* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
-* representation[contextState].literal.value = "A"
+* representation[contextState].literal.value = "G"
 
 
 Instance: example-allelesliced-cyp2c19-1016g
