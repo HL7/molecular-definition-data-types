@@ -13,7 +13,7 @@ Usage: #example
 
 Instance: example-haplotype-hla-00002
 InstanceOf: Haplotype
-Description: "Example of Haplotype profile representing HLA-A*01:02:01:01 as HLA00001.1:c.[98T>C; 121C>A; 123C>T; 126G>A; 144C>A]"
+Description: "Example of Haplotype profile representing HLA-A*01:02:01:01 as HLA00001.1:c.[98C; 121A; 123T; 126A; 144A]"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
