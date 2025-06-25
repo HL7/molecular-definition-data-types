@@ -7,6 +7,7 @@ Id: allele
 * type MS
 * type 1..1
 * location 1..1
+* location.sequenceLocation.sequenceContext only Reference(Sequence)
 * member 0..0
 
 * representation ^slicing.discriminator.type = #value

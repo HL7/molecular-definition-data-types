@@ -8,6 +8,7 @@ Id: variation
 * type MS
 * type 1..1
 * location 1..1
+* location.sequenceLocation.sequenceContext only Reference(Sequence)
 
 * member 0..0  // to be used later when using R6 draft 3
 
