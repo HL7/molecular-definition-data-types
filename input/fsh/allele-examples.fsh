@@ -1,9 +1,12 @@
 // Alias: $LNC = http://loinc.org
 Alias: $PHV = https://www.pharmvar.org
 
-Instance: example-allelesliced-cyp2c19-1016
+
+// CYP2C19*1.002:c.[661G; 1016G]
+
+Instance: example-allelesliced-cyp2c19-1016g
 InstanceOf: Allele
-Description: "A simple Allele example"
+Description: "A simple Allele example showing CYP2C19*1.002:c.1016G"
 Usage: #example
 * moleculeType.coding = MoleculeType#rna "RNA Sequence"
 * type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
@@ -20,6 +23,9 @@ Usage: #example
 * representation[alleleState].literal.value = "G"
 //* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
 * representation[contextState].literal.value = "A"
+
+
+
 
 
 Instance: example-allelesliced-cyp2c19-1016-cont
