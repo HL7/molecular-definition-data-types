@@ -90,13 +90,13 @@ To illustrate the interaction of various MolecularDefinition profiles, we begin 
 #### CYP2C19 Genotype
 The CYP2C19 gene encodes an enzyme essential for metabolizing several medications, including anti-coagulants, anti-depressants, and proton pump inhibitors. Variations in an individual's CYP2C19 genotype can significantly influence drug response, affecting efficacy and risk of adverse effects. In this example, the genotype is represented as a composite of two haplotypes, CYP2C19*1.002 and CYP2C19*3.002, each defined by two alleles located at positions 661 and 1016 within the reference sequence context. This genomic information involves representing these haplotypes and their constituent alleles by leveraging the MOlecular Definition profiles, i.e., Genotype, Haplotype, Allelem and Sequence, through a series of interconnected profile instances.
 
-- [Genotype of CYP2C19\*1.002 and CYP2C19\*3.002](MolecularDefinition-example-genotype-cyp2c19-1002-and-3)
-   - [CYP2C19*1.002:c.[661G; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-1002)
-      - [First Allele, CYP2C19*1.002:c.661G](MolecularDefinition-example-allelesliced-cyp2c19-661g)
-      - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g)
-   - [CYP2C19*3.002:c.[661A; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-3002)
-      - [First Allele, CYP2C19*1.002:c.661A](MolecularDefinition-example-allelesliced-cyp2c19-661a)
-      - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g)
+- [Genotype of CYP2C19\*1.002 and CYP2C19\*3.002](MolecularDefinition-example-genotype-cyp2c19-1002-and-3.html)
+   - [CYP2C19*1.002:c.[661G; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-1002.html)
+      - [First Allele, CYP2C19*1.002:c.661G](MolecularDefinition-example-allelesliced-cyp2c19-661g.html)
+      - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
+   - [CYP2C19*3.002:c.[661A; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-3002.html)
+      - [First Allele, CYP2C19*1.002:c.661A](MolecularDefinition-example-allelesliced-cyp2c19-661a.html)
+      - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
 
 
 ## Understanding FHIR
