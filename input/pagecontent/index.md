@@ -86,7 +86,9 @@ To illustrate the interaction of various MolecularDefinition profiles, we begin 
       - [Fourth Allele, HLA00001.1:c.126A](MolecularDefinition-example-allelesliced-hla-126-a.html)
       - [Fifth Allele, HLA00001.1:c.144A](MolecularDefinition-example-allelesliced-hla-144-a.html)
 
-<!-- example-genotype-cyp2c19-1002-and-3 -->
+- [Genotype of CYP2C19*1.002 and CYP2C19*3.002](MolecularDefinition-example-genotype-cyp2c19-1002-and-3)
+   - [CYP2C19*1.002:c.[661G; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-1002)
+   - [CYP2C19*3.002:c.[661A; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-3002)
 
 
 ## Understanding FHIR
