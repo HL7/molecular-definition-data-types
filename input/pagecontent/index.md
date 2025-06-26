@@ -91,6 +91,8 @@ To illustrate the interaction of various MolecularDefinition profiles, we begin 
       - [First Allele, CYP2C19*1.002:c.661G](MolecularDefinition-example-allelesliced-cyp2c19-661g)
       - [Second Allele, CYP2C19*1.002:c.1016G](example-allelesliced-cyp2c19-1016g)
    - [CYP2C19*3.002:c.[661A; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-3002)
+      - [First Allele, CYP2C19*1.002:c.661a](MolecularDefinition-example-allelesliced-cyp2c19-661a)
+      - [Second Allele, CYP2C19*1.002:c.1016G](example-allelesliced-cyp2c19-1016g)
 
 
 ## Understanding FHIR
