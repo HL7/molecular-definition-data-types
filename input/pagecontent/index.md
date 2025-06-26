@@ -89,7 +89,7 @@ To illustrate the interaction of various MolecularDefinition profiles, we begin 
 - [Genotype of CYP2C19*1.002 and CYP2C19*3.002](MolecularDefinition-example-genotype-cyp2c19-1002-and-3)
    - [CYP2C19*1.002:c.[661G; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-1002)
       - [First Allele, CYP2C19*1.002:c.661G](MolecularDefinition-example-allelesliced-cyp2c19-661g)
-      - [Second Allele, CYP2C19*1.002:c.1016G](example-allelesliced-cyp2c19-1016g)
+      - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g)
    - [CYP2C19*3.002:c.[661A; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-3002)
       - [First Allele, CYP2C19*1.002:c.661A](MolecularDefinition-example-allelesliced-cyp2c19-661a)
       - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g)
