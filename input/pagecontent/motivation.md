@@ -20,4 +20,5 @@ To ensure broad adoption and interoperability, the Molecular Definition resource
 - Variant Annotation (VA) framework
 - Phenopackets. 
 
-### 
+### Molecular Definition resource and profiles offer structured information models that preserve semantics of corrsponding genetic concepts
+The Molecular Definition resource and its specilized profiles offer cleaner data structures and enhanced semantic expression, aligning more naturally with FHIR granular architecture through focused yet connected resources. This design simplifies the complexity of existing Observation profiles by reducing dependence on loosely structured Obaservation components that often obscure the true meaning of genetic data. By enabling attributes to be attached at the appropriate levels such as the report, observation, or variation levels. Therefoer, it preserves semantic clarity and improves data integrity. This focused and well structured resource not only streamlines implementation but also enhances the precision and usability of genomic information within clinical workflows and interoperable systems.
