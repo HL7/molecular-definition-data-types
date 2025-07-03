@@ -3,6 +3,9 @@
 ## Motivating drivers for a specialized Molecular Definition Profiles
 Developing a specialized Molecular Definition Profiles to represent discrete genetic data is essential to support clinical use cases that requires reliable genetic information across various applications and institutions. The following paragraphs list some of the motivating drivers for this implementation guide.
 
+### Narrative PDF reporta are not efficient to modern computational approaches
+Modern computational analyses in genomics demand cleaner, more expressive data representations that go beyond the limitations of traditional methods. Simply capturing sections of a PDF report is no longer sufficient, as such unstructured data hinders automated processing, integration, and advanced analytics. To fully leverage the power of computational tools and enable scalable, precise interpretation of genetic information, it is imperative to develop a FHIR resource that supports structured, discrete genetic data that convery both data content and their semantics. This will facilitate more accurate interpretation, seamless data exchange, and robust clinical decision support.
+
 ### Implementers feedback
 Current approaches to representing genomic data within FHIR—whether through existing resources or profiles—do not adequately address the needs of discrete genomic data representation. Feedback from implementers consistently highlights that these methods are often too complex, ambiguous, and insufficiently granular, leading to challenges in accurate data capture, interpretation, and interoperability. This complexity hampers clinical adoption and limits the effective use of genomic information in decision support and research. Therefore, a dedicated, streamlined FHIR resource is needed to provide clear, precise, and user-friendly representation of discrete genetic variants, improving both implementation feasibility and clinical utility.
 
