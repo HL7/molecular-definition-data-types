@@ -158,6 +158,8 @@ This implementation guide is based on the HL7 [FHIR]({{site.data.fhir.path}}inde
 *   [Base resource]({{site.data.fhir.path}}resource.html)
 *   [FHIR Validation]({{site.data.fhir.path}}validation.html)
 
+### Clinical Genomics Information Modeling Subgroup (to be added) 
+
 ## Related Specifications
 
 ## Cross Version Analysis 
