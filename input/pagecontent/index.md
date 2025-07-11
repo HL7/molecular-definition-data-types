@@ -160,6 +160,10 @@ This implementation guide is based on the HL7 [FHIR]({{site.data.fhir.path}}inde
 
 ### Clinical Genomics Information Modeling Subgroup (to be added) 
 
+## Extending beyond this Guide
+<!-- from Genomics reporting IG -->
+Implementers should use this guide to structure genomics data in an interoperable way. The Clinical Genomics Working Group understands that this guide is not complete, and implementers might identify additional concepts and data elements. 
+
 ## Related Specifications
 
 ## Cross Version Analysis 
