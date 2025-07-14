@@ -19,12 +19,12 @@ This Implementation Guide is designed to assist system developers and standards 
 While readers of this Implementation Guide are encouraged to begin with this page and proceed through the linked sections sequentially, they are free to navigate directly to any section of interest or move back and forth according to their individual needs—for example, jumping directly to the Use Case section. The recommended reading sequence starts with the Motivation section, which provides the foundational rationale behind the Molecular Definition profiles. Following this, readers should familiarize themselves with the Molecular Definition core resource to understand its structure and scope. Next, it is important to grasp the intended goals of each profile, including their distinctions and interrelationships. Afterward, an overview of the curated Code Systems should be reviewed to appreciate their specific purposes and how they support the corresponding profiles. Finally, readers may explore the practical examples beginning with simpler Sequence, Allele, and Variation example instances, progressively advancing to the more complex scenarios involving Haplotypes and Genotypes.
 
 Suggested Sequence:
-1. Motivation of this implementation guide
+1. [Motivation](motivation.html) of this implementation guide
 2. Introduction to HL7 FHIR
 3. FHIR Molecular Definition resource
 4. MolecularDefinition profiles and their corresponding genetic concepts
 5. Supporting terminologies, i.e., code systems and value sets
-6. Examples
+6. [Example Use Cases](use-cases.html)
 7. Supporting tools
 
 
