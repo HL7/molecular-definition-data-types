@@ -20,10 +20,10 @@ While readers of this Implementation Guide are encouraged to begin with this pag
 
 Suggested Sequence:
 1. [Motivation](motivation.html) of this implementation guide
-2. Introduction to HL7 FHIR
-3. FHIR Molecular Definition resource
-4. MolecularDefinition profiles and their corresponding genetic concepts
-5. Supporting terminologies, i.e., code systems and value sets
+2. [Introduction to HL7 FHIR](#understanding-fhir)
+3. [FHIR Molecular Definition resource]({{site.data.fhir.path}}moleculardefinition.html)
+4. MolecularDefinition [profiles](#profiles) and their corresponding genetic concepts
+5. [Supporting terminologies](#code-systems), i.e., code systems and value sets
 6. [Example Use Cases](use-cases.html)
 7. Supporting tools
 
