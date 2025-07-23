@@ -76,6 +76,10 @@ This implementation guide is based on the HL7 [FHIR]({{site.data.fhir.path}}inde
 *   [Base resource]({{site.data.fhir.path}}resource.html)
 *   [FHIR Validation]({{site.data.fhir.path}}validation.html)
 
+## Molecular Definition as Part of The FHIR Diagnostic Module
+The Molecular Definition is currently leveraged by the Observation resource, positioning it as a cornerstone for supporting a wide range of diagnostic use cases within the HL7 FHIR framework. Specifically, the Observation resource can capture findings of specific genomic variations alongside encounter-specific details, which can then be referenced by the FHIR Diagnostic Report to provide enhanced context and interpretation. In this workflow, both the Diagnostic Report and Observation may reference an instance of the Genomic Study resource, thereby offering detailed information regarding analysis methods and sequencing processes. Consequently, the combined use of Diagnostic Report, Observation, Molecular Definition, and Genomic Study resources enables comprehensive support for diverse genomic use cases within clinical and research settings. The figure below depicts these relationship.
+
+
 ### Clinical Genomics Information Modeling Subgroup (to be added) 
 
 ## Extending beyond this Guide
