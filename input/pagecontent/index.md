@@ -36,6 +36,9 @@ The Sequence profile serves as a foundational element of this Implementation Gui
 - [Haplotype](StructureDefinition-haplotype.html) profile is a collection of related Alleles that are in cis to each other.
 - [Genotype](StructureDefinition-genotype.html) profile is a collection of related Alleles and/or Haplotypes that are in cis or trans to each other.
 
+![Molecular Definition Profiles](MolDef-profiles-resized.png "Molecular Definition Profiles and Relationships")
+
+
 ### Code Systems
 To achieve the ultimate objective of this implementation guide, it was essential to develop multiple code systems designed to represent diverse data elements in a standardized, interoperable format. These code systems are meticulously structured to preserve the precise semantics of genetic concepts, which often possess alternative definitions across different contexts. By establishing a common framework for encoding these concepts, the guide ensures consistent interpretation and facilitates seamless data exchange among stakeholders, thereby promoting clarity, accuracy, and interoperability within the genetic information domain. The following section provides a detailed description of these code systems and their intended purposes. These code systems are systematically grouped according to their specific functions and domains of use, enabling targeted application and effective management within the broader genetic data ecosystem.
 
