@@ -11,7 +11,7 @@ Id: allele
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
 * member 0..0
 
-* representation.literal.encoding from Encodings (required)
+* representation.literal.encoding from EncodingsVS (required)
 
 * representation ^slicing.discriminator.type = #value
 * representation ^slicing.discriminator.path = "focus"
