@@ -39,3 +39,10 @@ Title: "Coordinate Origin Value Set"
 Description: "Coordinate origin value set of how the start of the sequence is denoted."
 * ^experimental = true
 * include codes from system CoordinateOrigin
+
+ValueSet: TopologyVS
+Id:  topology-vs
+Title: "Topology Origin Value Set"
+Description: "Topology value set of how the genomic molecule are structured toplologically."
+* ^experimental = true
+* include codes from system Topology
