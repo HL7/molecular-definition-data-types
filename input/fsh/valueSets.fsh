@@ -18,3 +18,10 @@ Title: "Molecule Type Value Set"
 Description: "Molecule type terms that describe various genomic molucles, e.g., DNA or RNA."
 * ^experimental = true
 * include codes from system MoleculeType
+
+ValueSet: StrandOrientationVS
+Id:  strand-orientation-vs
+Title: "Strand Orientation Value Set"
+Description: "Strand orientation terms of various molecular sequences."
+* ^experimental = true
+* include codes from system StrandOrientation
