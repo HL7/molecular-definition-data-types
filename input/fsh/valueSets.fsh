@@ -26,14 +26,14 @@ Description: "Strand orientation terms of various molecular sequences."
 * ^experimental = true
 * include codes from system StrandOrientation
 
-ValueSet: NormalizationMethod
+ValueSet: NormalizationMethodVS
 Id:  normalization-method-vs
 Title: "Normalization Method Value Set"
 Description: "Normalization method value set of genomic sequence, e.g., left or right shift."
 * ^experimental = true
 * include codes from system NormalizationMethod
 
-ValueSet: CoordinateOrigin
+ValueSet: CoordinateOriginVS
 Id:  coordinate-origin-vs
 Title: "Coordinate Origin Value Set"
 Description: "Coordinate origin value set of how the start of the sequence is denoted."
