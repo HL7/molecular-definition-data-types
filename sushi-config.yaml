@@ -21,7 +21,6 @@ fhirVersion: 6.0.0-ballot3 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
 license: CC0-1.0
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 publisher:
   name: HL7 International / Clinical Genomics
   url: http://www.hl7.org/Special/committees/clingenomics
@@ -29,7 +28,7 @@ publisher:
 
 dependencies:
   hl7.fhir.r6.core: latest
-#  hl7.fhir.uv.extensions.r5: latest
+  hl7.fhir.uv.extensions.r5: latest
 #  hl7.terminology.r5: latest
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
