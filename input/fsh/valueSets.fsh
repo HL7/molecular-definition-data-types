@@ -25,3 +25,10 @@ Title: "Strand Orientation Value Set"
 Description: "Strand orientation terms of various molecular sequences."
 * ^experimental = true
 * include codes from system StrandOrientation
+
+ValueSet: NormalizationMethod
+Id:  normalization-method-vs
+Title: "Normalization Method Value Set"
+Description: "Normalization method value set of genomic sequence, e.g., left or right shift."
+* ^experimental = true
+* include codes from system NormalizationMethod
