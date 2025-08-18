@@ -7,6 +7,7 @@ Id: allele
 * type MS
 * type 1..1
 * type from MoleculeTypeVS (required)
+* topology from TopologyVS
 * location ^short = "Genomic location of the specified allele"
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
