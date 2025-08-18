@@ -8,6 +8,7 @@ Id: haplotype
 * type MS
 * type 1..1
 * type from MoleculeTypeVS (required)
+* topology from TopologyVS
 * location 0..0
 
 * member MS
