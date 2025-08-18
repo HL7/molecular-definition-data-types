@@ -7,6 +7,7 @@ Id: sequence
 
 * type MS
 * type 1..1
+* type from MoleculeTypeVS (required)
 * location 0..0
 
 * member 0..0
