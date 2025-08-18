@@ -7,6 +7,7 @@ Id: variation
 
 * type MS
 * type 1..1
+* type from MoleculeTypeVS (required)
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
 
