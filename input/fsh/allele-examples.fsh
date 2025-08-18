@@ -1,5 +1,5 @@
 // Alias: $LNC = http://loinc.org
-Alias: $PHV = https://www.pharmvar.org
+Alias: $PHV = http://www.pharmvar.org
 
 
 // CYP2C19*1.002:c.[661G; 1016G]

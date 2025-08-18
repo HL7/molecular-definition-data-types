@@ -3,3 +3,19 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# Suppressing warnings about using tooling from version 5.0.0 for a version 6.0.0-ballot3 because version 6.0.0 tooling not available
+This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.tools.r5' is from version 5.0.0
+The ImplementationGuide is based on FHIR version 6.0.0-ballot3 but package hl7.terminology.r5#6.5.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+
+
+# Suppressing the warnings about reference to jurisdiction elements (now deprecated) becuase errors in IG Publisher if jurisdiction elements are not present.
+Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
+
+# Suppressing warnings about reference to experimental CodeSystem - the CodeSystem is experimental in R6, perhaps an error to be corrected
+Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+
+# Suppressing messages about references to Draft CodeSystems that we have defined in this IG (we plan to keep these in the IG for the first release)
+Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type|1.0.0-ballot1
+Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecular-definition-focus-cs|1.0.0-ballot1
+Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings|1.0.0-ballot1

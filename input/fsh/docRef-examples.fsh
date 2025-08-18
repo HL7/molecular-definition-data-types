@@ -17,8 +17,6 @@ Usage: #example
 Instance: example-genomicfile-cyp2c19-accession
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "https://www.ncbi.nlm.nih.gov/nuccore"
-* identifier.value = "NG_008384.3"
 * status = #current
 * docStatus = #preliminary
 * description = "CYP2C19 gene sequence"
@@ -31,8 +29,6 @@ Usage: #example
 Instance: example-genomicfile-cyp2c19-attached
 InstanceOf: DocumentReference
 Usage: #example
-* identifier.system = "https://www.ncbi.nlm.nih.gov/nuccore"
-* identifier.value = "NG_008384.3"
 * status = #current
 * docStatus = #preliminary
 * description = "CYP2C19 gene sequence"
