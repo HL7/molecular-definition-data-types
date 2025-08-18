@@ -8,6 +8,7 @@ Id: variation
 * type MS
 * type 1..1
 * type from MoleculeTypeVS (required)
+* topology from TopologyVS
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
 
