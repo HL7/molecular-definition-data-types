@@ -11,6 +11,7 @@ Id: variation
 * topology from TopologyVS
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
+* location.sequenceLocation.strand from StrandOrientationVS (required)
 
 * member 0..0  // to be used later when using R6 draft 3
 

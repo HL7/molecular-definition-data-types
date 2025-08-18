@@ -11,6 +11,7 @@ Id: allele
 * location ^short = "Genomic location of the specified allele"
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
+* location.sequenceLocation.strand from StrandOrientationVS (required)
 * member 0..0
 
 * representation.literal.encoding from EncodingsVS (required)
