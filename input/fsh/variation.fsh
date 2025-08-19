@@ -12,6 +12,7 @@ Id: variation
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
 * location.sequenceLocation.strand from StrandOrientationVS (required)
+* location.sequenceLocation.coordinateInterval.coordinateSystem.origin from CoordinateOriginVS (required)
 
 * member 0..0  // to be used later when using R6 draft 3
 
