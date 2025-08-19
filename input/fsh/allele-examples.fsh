@@ -18,7 +18,6 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 661
 //* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
-* representation[alleleState].code.coding.version = "6.2"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
 * representation[alleleState].literal.value = "G"
 //* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
@@ -39,7 +38,6 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 661
 //* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*3.002"
-* representation[alleleState].code.coding.version = "6.2"
 * representation[alleleState].code.coding.display = "CYP2C19*3.002"
 * representation[alleleState].literal.value = "A"
 //* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
@@ -61,7 +59,6 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 1016
 //* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
-* representation[alleleState].code.coding.version = "6.2"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
 * representation[alleleState].literal.value = "G"
 //* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
@@ -86,7 +83,6 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 1016
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 1016
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
-* representation[alleleState].code.coding.version = "6.2"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
 * representation[alleleState].literal.value = "G"
 * representation[contextState].literal.value = "A"

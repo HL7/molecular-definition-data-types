@@ -19,3 +19,7 @@ Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-typ
 Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type|1.0.0-ballot1
 Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecular-definition-focus-cs|1.0.0-ballot1
 Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings|1.0.0-ballot1
+
+# Suppressing external CodeSystem validation warnings since tx.fhir.org does not yet support these codesystems
+A definition for CodeSystem 'http://www.ncbi.nlm.nih.gov/refseq' could not be found, so the code cannot be validated
+A definition for CodeSystem 'http://www.pharmvar.org' could not be found, so the code cannot be validated
