@@ -16,11 +16,11 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 661
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 661
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
 * representation[alleleState].literal.value = "G"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "G"
 
 
@@ -36,11 +36,11 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 661
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 661
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*3.002"
 * representation[alleleState].code.coding.display = "CYP2C19*3.002"
 * representation[alleleState].literal.value = "A"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "G"
 
 
@@ -57,11 +57,11 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 1016
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 1016
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
 * representation[alleleState].literal.value = "G"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "A"
 
 
@@ -107,9 +107,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 98
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 98
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "T"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "T"
 
 
@@ -125,9 +125,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 121
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 121
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "C"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"
 
 
@@ -143,9 +143,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 123
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 123
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "C"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"
 
 
@@ -161,9 +161,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 126
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 126
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "G"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "G"
 
 
@@ -179,9 +179,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 144
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 144
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "C"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"
 
 
@@ -199,9 +199,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 98
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 98
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "C"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "T"
 
 
@@ -217,9 +217,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 121
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 121
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "A"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"
 
 
@@ -235,9 +235,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 123
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 123
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "T"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"
 
 
@@ -253,9 +253,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 126
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 126
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "A"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "G"
 
 
@@ -271,7 +271,7 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 144
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 144
-//* representation[0].focus.coding = MolecularDefinitionFocusCS#allele-state "Allele State"
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].literal.value = "A"
-//* representation[+].focus.coding = MolecularDefinitionFocusCS#context-state "Context State"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"

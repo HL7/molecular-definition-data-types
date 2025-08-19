@@ -7,7 +7,7 @@ Id: allele
 * type MS
 * type 1..1
 * type from MoleculeTypeVS (required)
-* topology from TopologyVS
+* topology from TopologyVS (required)
 * location ^short = "Genomic location of the specified allele"
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
@@ -26,5 +26,5 @@ Id: allele
     contextState 0..1 MS and 
     alleleState 1..1 MS
 
-* representation[contextState].focus = MolecularDefinitionFocusCS#context-state "Context State" // context state slice
-* representation[alleleState].focus = MolecularDefinitionFocusCS#allele-state "Allele State" // allele state slice
+* representation[contextState].focus = MolecularDefinitionFocus#context-state "Context State" // context state slice
+* representation[alleleState].focus = MolecularDefinitionFocus#allele-state "Allele State" // allele state slice

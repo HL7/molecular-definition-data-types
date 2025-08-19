@@ -8,7 +8,7 @@ Id: variation
 * type MS
 * type 1..1
 * type from MoleculeTypeVS (required)
-* topology from TopologyVS
+* topology from TopologyVS (required)
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
 * location.sequenceLocation.strand from StrandOrientationVS (required)
@@ -26,7 +26,7 @@ Id: variation
     referenceState 1..1 MS and 
     alternativeState 1..1 MS
 
-* representation[contextState].focus = MolecularDefinitionFocusCS#context-state "Context State" // context state slice
-* representation[referenceState].focus = MolecularDefinitionFocusCS#reference-state "Reference State" // reference state slice
-* representation[alternativeState].focus = MolecularDefinitionFocusCS#alternative-state "Alternative State" // alternative state slice
+* representation[contextState].focus = MolecularDefinitionFocus#context-state "Context State" // context state slice
+* representation[referenceState].focus = MolecularDefinitionFocus#reference-state "Reference State" // reference state slice
+* representation[alternativeState].focus = MolecularDefinitionFocus#alternative-state "Alternative State" // alternative state slice
 

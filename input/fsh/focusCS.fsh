@@ -1,6 +1,6 @@
-CodeSystem: MolecularDefinitionFocusCS
-Id:         molecular-definition-focus-cs
-Title:     "Molecular Definition focus code system"
+CodeSystem: MolecularDefinitionFocus
+Id:         molecular-definition-focus
+Title:     "Molecular Definition Focus"
 Description: "Molecular Definition Focus terms that describe various representation elements."
 
 * ^experimental = false

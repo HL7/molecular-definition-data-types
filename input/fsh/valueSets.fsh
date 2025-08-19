@@ -1,48 +1,48 @@
 ValueSet: MolecularDefinitionFocusVS
-Id:  molecular-definition-focus-vs
-Title: "Molecular Definition Focus Value Set"
+Id:  molecular-definition-focus
+Title: "Molecular Definition Focus"
 Description: "Molecular Definition Focus terms that describe various representation elements."
 * ^experimental = true
-* include codes from system MolecularDefinitionFocusCS
+* include codes from system MolecularDefinitionFocus
 
 ValueSet: EncodingsVS
-Id:  encodings-vs
-Title: "Molecular Definition Encodings Value Set"
+Id:  encodings
+Title: "Molecular Definition Encodings"
 Description: "Molecular Definition Encodings terms that describe various encoding schemas."
 * ^experimental = true
 * include codes from system Encodings
 
 ValueSet: MoleculeTypeVS
-Id:  molecule-type-vs
-Title: "Molecule Type Value Set"
+Id:  molecule-type
+Title: "Molecule Type"
 Description: "Molecule type terms that describe various genomic molucles, e.g., DNA or RNA."
 * ^experimental = true
 * include codes from system MoleculeType
 
 ValueSet: StrandOrientationVS
-Id:  strand-orientation-vs
-Title: "Strand Orientation Value Set"
+Id:  strand-orientation
+Title: "Strand Orientation"
 Description: "Strand orientation terms of various molecular sequences."
 * ^experimental = true
 * include codes from system StrandOrientation
 
 ValueSet: NormalizationMethodVS
-Id:  normalization-method-vs
-Title: "Normalization Method Value Set"
-Description: "Normalization method value set of genomic sequence, e.g., left or right shift."
+Id:  normalization-method
+Title: "Normalization Method"
+Description: "Normalization method of genomic sequence, e.g., left or right shift."
 * ^experimental = true
 * include codes from system NormalizationMethod
 
 ValueSet: CoordinateOriginVS
-Id:  coordinate-origin-vs
-Title: "Coordinate Origin Value Set"
-Description: "Coordinate origin value set of how the start of the sequence is denoted."
+Id:  coordinate-origin
+Title: "Coordinate Origin"
+Description: "Coordinate origin of how the start of the sequence is denoted."
 * ^experimental = true
 * include codes from system CoordinateOrigin
 
 ValueSet: TopologyVS
-Id:  topology-vs
-Title: "Topology Origin Value Set"
-Description: "Topology value set of how the genomic molecule are structured toplologically."
+Id:  topology
+Title: "Topology"
+Description: "Topology of how the genomic molecule are structured toplologically."
 * ^experimental = true
 * include codes from system Topology

@@ -17,7 +17,7 @@ Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-typ
 
 # Suppressing messages about references to Draft CodeSystems that we have defined in this IG (we plan to keep these in the IG for the first release)
 Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type|1.0.0-ballot1
-Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecular-definition-focus-cs|1.0.0-ballot1
+Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecular-definition-focus|1.0.0-ballot1
 Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings|1.0.0-ballot1
 
 # Suppressing external CodeSystem validation warnings since tx.fhir.org does not yet support these codesystems
