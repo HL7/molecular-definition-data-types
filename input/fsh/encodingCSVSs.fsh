@@ -116,8 +116,8 @@ Description: "Single-letter unambiguous symbols for DNA residues."
 
 ValueSet: NucleotideDNA1LetterWithN
 Id: nucleotide-dna-1letter-with-n
-Title: "Nucleotide DNA 1-letter Symbols Including N"
-Description: "Single-letter symbols for DNA residues, including N for any nucleotide."
+Title: "Nucleotide DNA 1-letter Unambiguous Symbols Including N"
+Description: "Single-letter unambiguous symbols for DNA residues, including N for any nucleotide."
 * ^experimental = false
 * NucleotideDNA#G
 * NucleotideDNA#A

@@ -17,6 +17,7 @@ Id: allele
 * member 0..0
 
 * representation.literal.encoding from EncodingsVS (required)
+* insert SetLiteralBindings
 
 * representation ^slicing.discriminator.type = #value
 * representation ^slicing.discriminator.path = "focus"

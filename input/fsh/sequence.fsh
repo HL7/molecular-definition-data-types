@@ -9,6 +9,7 @@ Id: sequence
 * type 1..1
 * type from MoleculeTypeVS (required)
 * topology from TopologyVS (required)
+* member 0..0
 * location 0..0
 
-* member 0..0
+* insert SetLiteralBindings
