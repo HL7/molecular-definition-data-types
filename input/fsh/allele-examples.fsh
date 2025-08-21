@@ -276,7 +276,7 @@ Usage: #example
 //* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"
 
-
+// Terminology binding examples
 
 Instance: example-allelesliced-cyp2c19-661g-coded
 InstanceOf: Allele
