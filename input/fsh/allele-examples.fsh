@@ -299,3 +299,25 @@ Usage: #example
 * representation[alleleState].literal.value = "G"
 //* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "G"
+
+
+Instance: example-allelesliced-hla-144-a-coded
+InstanceOf: Allele
+Description: "An Allele example representing a part of HLA00001.1:c.[144A])"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
+* location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
+* location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.origin = CoordinateOriginVS#sequence-start "Sequence start"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod = NormalizationMethodVS#left-shift "Left shift"
+* location.sequenceLocation.coordinateInterval.startQuantity.value = 144
+* location.sequenceLocation.coordinateInterval.endQuantity.value = 144
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
+* representation[alleleState].literal.value = "A"
+* representation[alleleState].literal.encoding = EncodingsVS#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
+* representation[contextState].literal.encoding = EncodingsVS#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[contextState].literal.value = "C"
