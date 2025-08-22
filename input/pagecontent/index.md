@@ -44,7 +44,11 @@ To achieve the ultimate objective of this implementation guide, it was essential
 
 ### Molecular Focus
 In the context of HL7 FHIR standards applied to genomics, the MolecularDefinitionFocus coding system is utilized to precisely describe the molecular state at a specified genomic locus. This coding system encompasses several key concepts:
-- 
+- Context State: This code represents the current state of the molecule at the given location, serving as a baseline descriptor of the molecular context within the genomic sequence.
+- Allele State: This code defines the molecular state according to a specific allele that may present at the specified locus, thereby reflecting the allele-specific variation impacting the molecule.
+- Reference State: This code indicates the molecular state as determined by comparison to a reference molecule, typically representing the canonical or consensus genomic sequence.
+- Alternative State: This code characterizes the molecular state based on an alternative genomic makeup, distinguishing it from the reference and capturing polymorphic or variant genomic information.
+
 
 ### Molecule Type and Encodings
 [Molecule Type CodeSystem](CodeSystem-molecule-type.html) encompasses codes that specify the chemical composition of the corresponding genomic molecule, which may be DNA, RNA, or amino acids. In addition to defining the molecular nature of the corresponding genetic molecule, the [Encoding CodeSystem](CodeSystem-encodings.html) specifies how the biochemical structures of DNA, RNA, and amino acids are represented. For instance, amino acids can be encoded using various standardized symbol sets, including Amino Acid 1-letter Unambiguous Symbols, Amino Acid 3-letter Unambiguous Symbols, Amino Acid 1-letter Ambiguous Symbols, and Amino Acid 3-letter Ambiguous Symbols. This differentiation allows for precise and flexible representation of amino acid sequences, accommodating both exact and ambiguous biochemical characterizations essential for accurate genetic data interpretation and interoperability. Each of these code systems maintains its own curated list of valid codes, and ValueSets are used to represent the concepts for the specific encoding options. This comprehensive enumeration facilitates rigorous validation of content across various implementations, ensuring that data conform to standardized representations and thereby promoting consistency, accuracy, and interoperability in genetic information exchange. The following are the available ValueSets:
