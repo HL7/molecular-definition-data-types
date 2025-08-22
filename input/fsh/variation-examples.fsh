@@ -40,6 +40,8 @@ Usage: #example
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30100-4 "0-based interval counting"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.origin = CoordinateOrigin#sequence-start "Sequence start"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod = NormalizationMethod#left-shift "Left shift"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 1015
 * representation[referenceState].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
 * representation[referenceState].literal.value = "A"
