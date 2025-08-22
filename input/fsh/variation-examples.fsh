@@ -43,7 +43,10 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.coordinateSystem.origin = CoordinateOrigin#sequence-start "Sequence start"
 * location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod = NormalizationMethod#left-shift "Left shift"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 87531302
+* representation[referenceState].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
 * representation[referenceState].literal.value = "A"
+* representation[alternativeState].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
 * representation[alternativeState].literal.value = "C"
+* representation[contextState].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
 * representation[contextState].literal.value = "T"
 
