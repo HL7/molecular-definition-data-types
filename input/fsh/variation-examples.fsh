@@ -30,7 +30,7 @@ Usage: #example
 
 // Terminology binding examples
 
-Instance: example-variation-tri-allelic-ABCB1
+Instance: example-variation-tri-allelic-ABCB1-coded
 InstanceOf: Variation
 Description: "Example of Variation profile of tri-allelic variant in ABCB1"
 Usage: #example
