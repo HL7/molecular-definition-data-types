@@ -73,6 +73,12 @@ Genomic location and coordinates are fundamental to ensuring the reliable and pr
 - The [Coordinate Origin CodeSystem](CodeSystem-coordinate-origin.html) establishes the reference points from which sequence coordinates are counted. It standardizes starting point of counting, i.e., sequence start, feature start, or feature end. Using these codes may ensure consistent and unambiguous positioning of genomic elements across different datasets and applications.
 - The [Normalization Method CodeSystem](CodeSystem-normalization-method.html) describes the standardized techniques used to normalize sequence variants including left-shift, right-shift, and fully-justified.
 
+#### Cytoband Interval [TBD]
+This section will include descriptions and diagrams in relation to how to use various MolDef elements and associated terminologies to represent various cytoband intervals use cases, how to handle validation, ... etc.
+<!-- Add a diagram about the location element and another one for focusing on cytoband interval elements -->
+
+
+
 ### Representation Focus
 The [Focus CodeSystem](CodeSystem-molecular-definition-focus.html) is a foundational component within the molecular definition representation framework. It plays a pivotal role in articulating the relationships between each molecular representation and the described genomic molecule, as well as defining how these representations interrelate based on specific use cases. For example, in the [Variation Profile](StructureDefinition-variation.html), the Focus element is utilized to distinguish between reference, alternative, and contextual states, thereby enabling precise characterization and interpretation of genetic variations as detailed further in the [Variation Profile](StructureDefinition-variation.html) documentation.
 
