@@ -9,7 +9,7 @@
     The Allele profile is a key component of this implementation guide, defining the genetic makeup at specific locations within the genomic molecules. It provides a structured representation of genetic content in two distinct states: the context state, which establishes the broader genomic setting, and the allele state, which specifies the particular genetic makeup at that location. The Allele profile builds upon the Sequence profile, utilizing its representation of raw genetic sequences to ensure accuracy and consistency. Additionally, it serves as a foundational element that other profiles within this guide can leverage to enhance their functionality and interoperability.
   </p>
   <p>
-    This is the Allele profile intro.
+    In describing an allele using the Molecular Definition resource, it is strongly recommended to employ the Allele profile. Following the provision of requisite identifiers and precise genomic location as previously outlined, the Allele profile features two principal slices within the representation element. These slices correspond directly to the defined states: the allele state and the context state. While the allele state slice—representing the specific allelic genetic makeup at the designated locus—is mandatory, the context state slice, which represent current genetic makeup within the context of designated sequence, remains optional yet highly encouraged to enhance clarity. Each slice is designed to capture a single state exclusively, ensuring a precise and unambiguous molecular depiction.
   </p>
 
 </div>
