@@ -6,8 +6,8 @@
     <a name="scope-and-usage"> </a>
     <h3>Scope and Usage</h3>
   <p>
-  The Molecular Definition Haplotype profile is designed to represent genomic haplotypes as collections of alleles residing in cis configuration. It utilizes the member element to reference one or more alleles, each defined through the Molecular Definition Allele profile. Notably, the location element is not employed directly within the Haplotype profile; instead, genomic locations are conveyed through the referenced member alleles. This granular yet interconnected structure provides a robust and precise means of representing complex genetic makeup within a cohesive framework.
-</p>
+   The Molecular Definition Genotype profile is intended to represent genomic genotypes as collections of alleles and haplotypes that may be arranged in cis or trans configurations. It employs the member element to reference one or more alleles and/or haplotypes, each defined using the Molecular Definition Allele and Haplotype profiles, respectively. Similar to the Haplotype profile, the location element is not used directly within the Genotype profile; rather, genomic locations are conveyed through the referenced member alleles. This granular yet integrative structure offers a comprehensive and precise approach to representing complex genetic makeup.
+  </p>
   <p>
     to be added
   </p>
