@@ -30,7 +30,7 @@ Usage: #example
 
 // Terminology binding examples
 
-Instance: example-variation-cyp2c19-1015-spdi
+Instance: example-variation-cyp2c19-1015-spdi-coded
 InstanceOf: Variation
 Description: "Example of Variation profile of CYP2C19 at Position 1015 as SPDI"
 Usage: #example
