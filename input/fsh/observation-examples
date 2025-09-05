@@ -1,8 +1,15 @@
 // Observation examples for demonstration only. For genomic reporting, FHIR Genomics Reporting IG should be used for now
 
-Instance: MolDef-Observation
+Instance: MolDef-Variation-Observation
 InstanceOf: Observation
 Description: "An Observation example that leverages molecular definition instance of variation"
 * code = $LNC#81252-9 "Discrete genetic variant"
 * valueReference.reference = "example-variation-cyp2c19-1015-spdi"
+* valueReference.type= "MolecularDefinition"
+
+Instance: MolDef-Allele-Observation
+InstanceOf: Observation
+Description: "An Observation example that leverages molecular definition instance of Allele"
+* code = $LNC#81252-9 "Discrete genetic variant"
+* valueReference.reference = "example-allelesliced-cyp2c19-1016-cont"
 * valueReference.type= "MolecularDefinition"
