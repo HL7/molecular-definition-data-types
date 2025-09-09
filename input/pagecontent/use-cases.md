@@ -1,4 +1,3 @@
-## Implementation Use Cases
 This implementation guide, along with its included artifacts, has been meticulously designed and developed to address practical use cases involving the exchange of genomic molecules and their associated data across diverse institutions and systems. By providing standardized frameworks and code systems, the guide facilitates seamless interoperability and accurate data representation. This section presents example use cases that demonstrate how this implementation guide can be leveraged to represent real genomic concepts as FHIR resource instances, thereby illustrating its applicability and effectiveness in real-world genomic data exchange scenarios. The following subsections provides example instances of MolecularDefinition resource and their corresponding profiles.
 
 ### Representing a Molecular Sequence as a Literal String
@@ -7,18 +6,15 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 - [Simple Sequence example DNA A, IUPAC](MolecularDefinition-example-sequence-a-dna-iupac.html)
 - [Simple Sequence example Amino Acid A, IUPAC](MolecularDefinition-example-sequence-a-aa-iupac.html)
 
-
 ### Representing a Molecular Sequence Using Accession Number as a Code
 The following MolecularDefinitions show examples of a sequence represented as a code using an accession number leveraging the [Sequence](StructureDefinition-sequence.html) profile.
 
 - [Example of Sequence profile of CYP2C19 as Accession Number](MolecularDefinition-example-genomic-cyp2c19-accession.html)
 
 ### Molecular Sequence from a Resolvable URL
-
 The following MolecularDefinitions show examples of a sequence represented as a resolvable URL leveraging the [Sequence](StructureDefinition-sequence.html) profile. This example shows how the [DocumentReference]({{site.data.fhir.path}}documentreference.html) resource is utilized to represent the corresponding URL.
 
 - [Sequence example of CYP2C19 as URL](MolecularDefinition-example-sequence-cyp2c19-url.html)
-
 
 ### Use Case -4
 ### Use Case -5
