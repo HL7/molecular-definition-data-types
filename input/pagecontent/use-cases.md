@@ -28,6 +28,11 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 - [Example of Sequence profile of CYP2C19 upstream region](MolecularDefinition-example-sequence-cyp2c19-upstream-region.html)
 - [Example of Sequence profile of CYP2C19 downstream region](MolecularDefinition-example-sequence-cyp2c19-downstream-region.html)
 
+### Molecular Sequence constructed as a concatenation of several other Molecular Sequence instances
+The following MolecularDefinitions show examples of a sequence represented as a concatenation of sequence instances. In this example, the three subsequences from the Extracted example are reassembled into the full genetic locus.
+
+- [Example of Sequence profile of FMR1 CGG motif repeated 20 times](MolecularDefinition-example-sequence-fmr1-cgg-20x-repeat.html)
+
 ### Use Case -5
 ### Use Case -6
 
