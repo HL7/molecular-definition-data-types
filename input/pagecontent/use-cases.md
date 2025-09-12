@@ -31,6 +31,11 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 ### Molecular Sequence constructed as a concatenation of several other Molecular Sequence instances
 The following MolecularDefinitions show examples of a sequence represented as a concatenation of sequence instances. In this example, the three subsequences from the Extracted example are reassembled into the full genetic locus.
 
+- [Example of Sequence profile of CYP2C19 of concatenated upstream, gene, and downstream regions](MolecularDefinition-example-sequence-cyp2c19-concatenated-regions.html)
+
+### Molecular Sequence constructed as a Repeated Motif
+The following MolecularDefinitions show examples of a sequence represented as a repeated sequence motif. In this use case, the CGG trinucleotide repeat from the FMR1 gene is represented in a compressed form that emphasizes the copyCount (convenient for use cases where the number of repeats is important).
+
 - [Example of Sequence profile of FMR1 CGG motif repeated 20 times](MolecularDefinition-example-sequence-fmr1-cgg-20x-repeat.html)
 
 ### Use Case -5
