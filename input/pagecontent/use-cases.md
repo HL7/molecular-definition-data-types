@@ -21,6 +21,13 @@ The following MolecularDefinitions show examples of a sequence represented as an
 
 - [Sequence example of CYP2C19 as Attachment](MolecularDefinition-example-sequence-cyp2c19-attached.html)
 
+### Molecular Sequence extracted from another Molecular Sequence
+The following MolecularDefinitions show examples of a sequence represented as a subsequence extracted from a “parent” sequence. In these examples, a sequence representing the CYP2C19 genetic locus is used as the “parent”, from which three subsequences are extracted (corresponding to the upstream region, gene region, and downstream region).
+
+- [Example of Sequence profile of CYP2C19 gene region](MolecularDefinition-example-sequence-cyp2c19-gene-region.html)
+- [Example of Sequence profile of CYP2C19 upstream region](MolecularDefinition-example-sequence-cyp2c19-upstream-region.html)
+- [Example of Sequence profile of CYP2C19 downstream region](MolecularDefinition-example-sequence-cyp2c19-downstream-region.html)
+
 ### Use Case -5
 ### Use Case -6
 
