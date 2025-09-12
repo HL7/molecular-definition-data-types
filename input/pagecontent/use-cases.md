@@ -59,7 +59,8 @@ The following examples illustrate instances of variation. In this example, the s
 
 - [Example of Variation profile of CYP2C19 at Position 1015 as SPDI](MolecularDefinition-example-variation-cyp2c19-1015-spdi.html)
 
-
+The following example illustrates a tri-allelic polymorphism. In this example, it is necessary to unambiguously specify the reference and alternate alleles, neither of which might match the state of the context sequence at the specified location. The slices on the representation element are needed to support this use case.
+- [Example of Variation profile of ABCB1 Tri-allelic Variation](MolecularDefinition-example-variation-tri-allelic-ABCB1.html)
 
 ### Use Case -5
 ### Use Case -6
