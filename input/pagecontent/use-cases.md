@@ -38,6 +38,11 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 
 - [Example of Sequence profile of FMR1 CGG motif repeated 20 times](MolecularDefinition-example-sequence-fmr1-cgg-20x-repeat.html)
 
+### Molecular Sequence constructed as an Edit on another Molecular Sequence
+The following MolecularDefinitions show examples of a sequence represented as a relative sequence, which applies an edit to a starting sequence to create the sequence of interest. In this example, the starting sequence is a perfect CGG trinucleotide that was repeated 20 times (see the repeated motif example). The desired sequence is not a perfect repeat, however, and a single nucleotide must be edited to yield the sequence of interest. The result of this edit operation represents an actual CGG repeat region that is found in the FMR1 gene.
+
+- [Example of Sequence profile of FMR1 using CGG motifs edited by external referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-referenced.html)
+
 ### Use Case -5
 ### Use Case -6
 
