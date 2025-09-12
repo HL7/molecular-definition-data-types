@@ -16,7 +16,11 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 
 - [Sequence example of CYP2C19 as URL](MolecularDefinition-example-sequence-cyp2c19-url.html)
 
-### Use Case -4
+### Molecular Sequence from a File
+The following MolecularDefinitions show examples of a sequence represented as an attached file.
+
+- [Sequence example of CYP2C19 as Attachment](MolecularDefinition-example-sequence-cyp2c19-attached.html)
+
 ### Use Case -5
 ### Use Case -6
 
