@@ -1,7 +1,7 @@
 Structured genetic information plays a crucial role in modern genomic medicine, enabling precision-based approaches such as personalized medicine and targeted therapies. Accurate representation and exchange of genetic data are essential for clinical decision-making, research, and interoperability across healthcare systems. However, the inherent complexity of genetic definitions, along with variations in interpretation based on context and use case, poses significant challenges in standardizing genetic data communication.
 
 ### Scope
-This implementation guide addresses these challenges by leveraging the newly developed Molecular Definition resource to support the structured representation of fundamental genetic concepts, including sequence, allele, and variation. Additionally, it integrates various core FHIR resources to establish a robust framework for interoperable genetic data exchange.
+This implementation guide addresses these challenges by leveraging the newly developed [Molecular Definition]({{site.data.fhir.path}}moleculardefinition.html) resource to support the structured representation of fundamental genetic concepts, including sequence, allele, and variation. Additionally, it integrates various core FHIR resources to establish a robust framework for interoperable genetic data exchange.
 
 The guide outlines methodologies and provides practical examples of how to utilize the developed Molecular Definition profiles across diverse genomic applications, including:
 
@@ -10,7 +10,7 @@ The guide outlines methodologies and provides practical examples of how to utili
    - Comprehensive representation of genetic variations, ranging from simple mutations to complex structural variations, for diagnostic purposes.
    - Logical presentation of haplotypes and genotypes relevant to clinical or research settings.
 
-By establishing a standardized approach to genomic data representation, this FHIR implementation guide facilitates consistent and accurate genetic information exchange, fostering improved integration within electronic health records, research databases, and clinical genomic workflows
+By establishing a standardized approach to genomic data representation, this implementation guide facilitates consistent and accurate genetic information exchange, fostering improved integration within electronic health records, research databases, and clinical genomic workflows
 
 ### How to Use this Guide
 This Implementation Guide is designed to assist system developers and standards implementers in adopting the FHIR genomic profiles of the Molecular Definition resource across diverse use cases. The implementation guide defines five key profiles—Sequence, Allele, Variation, Haplotype, and Genotype—each tailored to represent distinct genomic concepts. To ensure consistent and reliable representation of the various data elements within these profiles, the guide also provides a curated set of Code Systems and Value Sets. These terminologies, currently bound with example strength to their respective elements, are expected to evolve and undergo validation over time, while already supporting meaningful and accurate data representation. The included Code Systems and Value Sets comprise a combination of adapted existing ontologies and terminologies alongside newly developed vocabularies specifically crafted for the Molecular Definition structure. Furthermore, the Use Cases section illustrates practical applications of these Molecular Definition profiles, Code Systems, and Value Sets through real-world genomic molecule examples, facilitating a deeper understanding of their implementation in clinical and research contexts
@@ -20,11 +20,16 @@ While readers of this Implementation Guide are encouraged to begin with this pag
 Suggested Sequence:
 1. [Motivation](motivation.html) of this implementation guide
 2. [Introduction to HL7 FHIR](#understanding-fhir)
-3. [FHIR Molecular Definition resource]({{site.data.fhir.path}}moleculardefinition.html)
+3. [Molecular Definition resource]({{site.data.fhir.path}}moleculardefinition.html)
 4. MolecularDefinition [profiles](#profiles) and their corresponding genetic concepts
 5. [Supporting terminologies](#supporting-terminologies), i.e., code systems and value sets
 6. [Example Use Cases](use-cases.html)
 7. Supporting tools
+
+### Relationship to the Genomics Reporting Implementation Guide
+This Implementation Guide is designed to encapsulate the foundational definitional elements of genomic molecules and concepts—such as sequences and alleles—adopting a patient-agnostic perspective crucial for establishing a standardized genomic FHIR artifiacts. To enable the communication of patient-specific genomic information, stakeholders are advised to refer to the most current iteration of the [Genomics Reporting Implementation Guide](https://hl7.org/fhir/uv/genomics-reporting/) (GRIG). The Clinical Genomics Workgroup is working towards a strategic vision where the guides are used together, but the first release of this guide will be independent of the GRIG.
+
+* NOTE - perhaps we should include a diagram/picture of the future vision?
 
 ### Profiles
 
@@ -39,10 +44,10 @@ The Sequence profile serves as a foundational element of this Implementation Gui
 
 
 ### Supporting terminologies
-To achieve the ultimate objective of this implementation guide, it was essential to develop multiple code systems designed to represent diverse data elements in a standardized, interoperable format. These code systems are meticulously structured to preserve the precise semantics of genetic concepts, which often possess alternative definitions across different contexts. By establishing a common framework for encoding these concepts, the guide ensures consistent interpretation and facilitates seamless data exchange among stakeholders, thereby promoting clarity, accuracy, and interoperability within the genetic information domain. The following section provides a detailed description of these code systems and their intended purposes. These code systems are systematically grouped according to their specific functions and domains of use, enabling targeted application and effective management within the broader genetic data ecosystem.
+To achieve the objective of this implementation guide, it was essential to develop multiple code systems designed to represent diverse data elements in a standardized, interoperable format. These code systems are meticulously structured to preserve the precise semantics of genetic concepts, which often possess alternative definitions across different contexts. By establishing a common framework for encoding these concepts, the guide ensures consistent interpretation and facilitates seamless data exchange among stakeholders, thereby promoting clarity, accuracy, and interoperability within the genetic information domain. The following section provides a detailed description of these code systems and their intended purposes. These code systems are systematically grouped according to their specific functions and domains of use, enabling targeted application and effective management within the broader genetic data ecosystem.
 
 #### Molecular Focus
-In the context of HL7 FHIR standards applied to genomics, the MolecularDefinitionFocus coding system is utilized to precisely describe the molecular state at a specified genomic locus. This coding system encompasses several key concepts:
+The MolecularDefinition Focus coding system is utilized to precisely describe the molecular state at a specified genomic locus. This coding system encompasses several key concepts:
 - Context State: This code represents the current state of the molecule at the given location, serving as a baseline descriptor of the molecular context within the genomic sequence.
 - Allele State: This code defines the molecular state according to a specific allele that may present at the specified locus, thereby reflecting the allele-specific variation impacting the molecule.
 - Reference State: This code indicates the molecular state as determined by comparison to a reference molecule, typically representing the canonical or consensus genomic sequence.
@@ -79,10 +84,10 @@ This section will include descriptions and diagrams in relation to how to use va
 
 
 #### Representation Focus
-The [Focus CodeSystem](CodeSystem-molecular-definition-focus.html) is a foundational component within the molecular definition representation framework. It plays a pivotal role in articulating the relationships between each molecular representation and the described genomic molecule, as well as defining how these representations interrelate based on specific use cases. For example, in the [Variation Profile](StructureDefinition-variation.html), the Focus element is utilized to distinguish between reference, alternative, and contextual states, thereby enabling precise characterization and interpretation of genetic variations as detailed further in the [Variation Profile](StructureDefinition-variation.html) documentation.
+The [Focus CodeSystem](CodeSystem-molecular-definition-focus.html) is a foundational component within the molecular definition representation framework. It plays a role in articulating the relationships between each molecular representation and the described genomic molecule, as well as defining how these representations interrelate based on specific use cases. For example, in the [Variation Profile](StructureDefinition-variation.html), the Focus element is utilized to distinguish between reference, alternative, and contextual states, thereby enabling precise characterization and interpretation of genetic variations as detailed further in the [Variation Profile](StructureDefinition-variation.html) documentation.
 
 #### More Code Systems
-The HL7 Clinical Genomics Workgroup is currently engaged in efforts to expand the inclusion of additional FHIR code systems that represent widely used genomics terminologies such as HGNC (HUGO Gene Nomenclature Committee), PharmVar (Pharmacogene Variation Consortium), and RefSeq (NCBI Reference Sequence Database). This initiative aims to enhance the interoperability and standardization of genomic data representation within the HL7 FHIR clinical genomics framework, thereby facilitating more consistent and comprehensive exchange of genomic information across health IT systems. These code systems are expected to be incorporated into this implementation guide, thereby streamlining the implementation of this standard and promoting greater consistency and efficiency across adopting organizations.
+The Clinical Genomics Workgroup is currently engaged in efforts to expand the inclusion of additional FHIR code systems that represent widely used genomics terminologies such as HGNC (HUGO Gene Nomenclature Committee), PharmVar (Pharmacogene Variation Consortium), and RefSeq (NCBI Reference Sequence Database). This initiative aims to enhance the interoperability and standardization of genomic data representation within the HL7 FHIR clinical genomics framework, thereby facilitating more consistent and comprehensive exchange of genomic information across health IT systems. These code systems are expected to be incorporated into this implementation guide, thereby streamlining the implementation of this standard and promoting greater consistency and efficiency across adopting organizations.
 
 ### Understanding FHIR
 <!-- From Genomics Reporting IG -->
@@ -99,21 +104,12 @@ This implementation guide is based on the HL7 [FHIR]({{site.data.fhir.path}}inde
 *   [FHIR Validation]({{site.data.fhir.path}}validation.html)
 
 ### Molecular Definition as Part of The FHIR Diagnostic Module
-As part of the FHIR Diagnostic Module, the Molecular Definition is currently leveraged by the Observation resource, positioning it as a cornerstone for supporting a wide range of diagnostic use cases within the HL7 FHIR framework. Specifically, the Observation resource can capture findings of specific genomic variations alongside encounter-specific details, which can then be referenced by the FHIR Diagnostic Report to provide enhanced context and interpretation. In this workflow, both the Diagnostic Report and Observation may reference an instance of the Genomic Study resource, thereby offering detailed information regarding analysis methods and sequencing processes. Consequently, the combined use of Diagnostic Report, Observation, Molecular Definition, and Genomic Study resources enables comprehensive support for diverse genomic use cases within clinical and research settings. The figure below depicts these relationships.
+As part of the FHIR [Diagnostic Module]({{site.data.fhir.path}}diagnostics-module.html), the Molecular Definition is currently leveraged by the Observation resource, positioning it for supporting a wide range of diagnostic use cases within the FHIR framework. Specifically, the Observation resource can capture findings of specific genomic variations alongside encounter-specific details, which can then be referenced by the FHIR Diagnostic Report to provide enhanced context and interpretation. In this workflow, both the Diagnostic Report and Observation may reference an instance of the Genomic Study resource, thereby offering detailed information regarding analysis methods and sequencing processes. Consequently, the combined use of Diagnostic Report, Observation, Molecular Definition, and Genomic Study resources enables comprehensive support for diverse genomic use cases within clinical and research settings. The figure below depicts these relationships.
 ![Molecular Definition Relationship with Observation, Diagnostic Report, and Genomic Study](MolDef-diagnostic-relations_resized.png "Molecular Definition Relationship with Observation, Diagnostic Report, and Genomic Study")
-
-
-#### Clinical Genomics Information Modeling Subgroup (to be added) 
 
 ### Extending beyond this Guide
 <!-- from Genomics reporting IG -->
 Implementers should use this guide to structure genomics data in an interoperable way. The Clinical Genomics Working Group understands that this guide is not complete, and implementers might identify additional concepts and data elements. 
-
-### Related Specifications
-
-#### Genomics Reporting Implementation Guide
-The Molecular Definition data type Implementation Guide is meticulously designed to encapsulate the foundational definitional elements of genomic molecules and concepts—such as sequences and alleles—adopting a patient-agnostic perspective crucial for establishing a standardized genomic FHIR artifiacts. To enable the precise communication of patient-specific genomic information, stakeholders are advised to refer to the most current iteration of the [FHIR Genomics Reporting Implementation Guide](https://hl7.org/fhir/uv/genomics-reporting/). Within this context, the HL7 Clinical Genomics Workgroup, alongside its Information Modeling Subgroup, has prioritized advancing the integration and leveraging of the Molecular Definition resource and its associated data type guide into the broader Genomics Reporting framework. Achieving this integration, however, necessitates a concerte and collaborative effort among diverse stakeholders, the development and validation of implementation-driven use cases, and the assurance of adequate resource allocation. Recognizing these complexities, the FHIR Clinical Genomics Workgroup has placed this topic prominently on its agenda for thorough discussion, strategic decision making, and the establishment of a clear implementation roadmap.
-
 
 ### Cross Version Analysis 
 
@@ -132,3 +128,10 @@ The Molecular Definition data type Implementation Guide is meticulously designed
 {% include ip-statements.xhtml %} 
 
 ### Acknowledgments
+
+
+| Name           | Organization               |
+|----------------|----------------------------|
+| Name 1         | Org 1                      |
+| Name 1         | Org 1                      |
+| Name 1         | Org 1                      |
