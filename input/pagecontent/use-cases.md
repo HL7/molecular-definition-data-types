@@ -43,6 +43,11 @@ The following MolecularDefinitions show examples of a sequence represented as a 
 
 - [Example of Sequence profile of FMR1 using CGG motifs edited by external referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-referenced.html)
 
+### Molecular Sequence including a Contained Referenced resource
+Many instances of MolecularDefinition reference other instances of MolecularDefinition. When references within a message are not desired, contained resources can be used. This example shows how contained resources can be used to create a standalone message. It is the same content that was used in the relative (edit) example, but the references have been changed to contained resources.
+
+- [Example of Sequence profile of FMR1 using CGG motifs edited by contained referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-contained.html)
+
 ### Use Case -5
 ### Use Case -6
 
