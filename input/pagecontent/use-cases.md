@@ -48,6 +48,12 @@ Many instances of MolecularDefinition reference other instances of MolecularDefi
 
 - [Example of Sequence profile of FMR1 using CGG motifs edited by contained referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-contained.html)
 
+### Allele
+The following examples illustrate instances of allele. In this example, the asserted state of the allele is different from the state of the context sequence at the given location. Note: the CG group is still determining how to best represent named alleles; therefore, the reference to the star allele in this example should be considered to be a draft (if not ignored).
+
+- [Example of Allele profile including slices for CYP2C19 position 1016](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
+- [Example of Allele profile including slices for CYP2C19 position 1016 while leveraging contained resources](example-allelesliced-cyp2c19-1016-cont.html)
+
 ### Use Case -5
 ### Use Case -6
 
