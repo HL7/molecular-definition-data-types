@@ -26,13 +26,15 @@ Suggested Sequence:
 6. [Example Use Cases](use-cases.html)
 7. Supporting tools
 
-### Relationship to the Genomics Reporting Implementation Guide
-This Implementation Guide is designed to encapsulate the foundational definitional elements of genomic molecules and concepts—such as sequences and alleles—adopting a patient-agnostic perspective crucial for establishing a standardized genomic FHIR artifiacts. To enable the communication of patient-specific genomic information, stakeholders are advised to refer to the most current iteration of the [Genomics Reporting Implementation Guide](https://hl7.org/fhir/uv/genomics-reporting/) (GRIG). The Clinical Genomics Workgroup is working towards a strategic vision where the guides are used together, but the first release of this guide will be independent of the GRIG.
+### The Future with the Genomics Reporting Implementation Guide
+This Implementation Guide is designed to encapsulate the foundational definitional elements of genomic molecules and concepts—such as sequences and alleles—adopting a patient-agnostic perspective crucial for establishing a standardized genomic FHIR artifiacts. To enable the communication of patient-specific genomic information, stakeholders are advised to refer to the most current iteration of the [Genomics Reporting Implementation Guide](https://hl7.org/fhir/uv/genomics-reporting/) (GRIG).
 
-* NOTE - perhaps we should include a diagram/picture of the future vision?
+As of today, this IG and the GRIG are independent of each other. At some future time the Clinical Genomics Working Group may decide to include the discrete data structures defined by this Implementation Guide within the GRIG, by addition to and/or substitution of corresponding structures (e.g., Haplotype profile), which is anticipated to improve the ability to exchange structured genomic data produced by clinical testing. That decision will be subject to open discussion and formal vote(s). Note significant value of this IG is in the loose coupling between the well-defined, discrete data structures and the context in which the data are used, so this IG will add value to genomic data interoperability regardless of the decision(s) or timeline(s) related to its inclusion within the GRIG.
 
+![Future State of Genomics in FHIR](future-fhir-genomics.jpeg "Future State of Genomics in FHIR")  
+  
+  
 ### Profiles
-
 The Sequence profile serves as a foundational element of this Implementation Guide, designed to represent raw genetic sequences—including DNA, RNA, and proteins across multiple formats to accommodate diverse implementation needs. Unlike profiles such as Allele and Variation that emphasize genomic location, the Sequence profile focuses on the intrinsic composition of genetic material and supports integration with other profiles to enhance overall functionality. The Allele profile builds upon the Sequence profile by defining genetic makeup at specific genomic locations through two states: the base context and the specific allele state. This structured representation ensures accuracy and consistency, formng a basis for other profiles to leverage. The Variation profile represents genetic variations at a precise location, characterizing genetic composition in three states—context, reference, and alternative—while enabling integration with Sequence profile for comprehensive depiction of genomic alterations. The Haplotype profile captures collections of related alleles that exist in CIS (on the same chromosome), representing linked genetic variants. Finally, the Genotype profile extends this concept to encompass collections of related alleles and/or haplotypes that may be in CIS or Trans (on opposite chromosomes) configurations, enabling detailed representation of an individual’s genetic composition. The following is a list of these profiles, their adopted short definitions as well as their corresponding structure definition pages including various examples:
 - [Sequence](StructureDefinition-sequence.html) profile to represent raw and contiguous genetic sequences, including DNA, RNA, and proteins in a  multiple formats
 - [Allele](StructureDefinition-allele.html) profile is a genetic sequence within a specified location, representing the context (i.e., current) state, and the corresponding allele state
@@ -103,32 +105,23 @@ This implementation guide is based on the HL7 [FHIR]({{site.data.fhir.path}}inde
 *   [Base resource]({{site.data.fhir.path}}resource.html)
 *   [FHIR Validation]({{site.data.fhir.path}}validation.html)
 
-### Molecular Definition as Part of The FHIR Diagnostic Module
-As part of the FHIR [Diagnostic Module]({{site.data.fhir.path}}diagnostics-module.html), the Molecular Definition is currently leveraged by the Observation resource, positioning it for supporting a wide range of diagnostic use cases within the FHIR framework. Specifically, the Observation resource can capture findings of specific genomic variations alongside encounter-specific details, which can then be referenced by the FHIR Diagnostic Report to provide enhanced context and interpretation. In this workflow, both the Diagnostic Report and Observation may reference an instance of the Genomic Study resource, thereby offering detailed information regarding analysis methods and sequencing processes. Consequently, the combined use of Diagnostic Report, Observation, Molecular Definition, and Genomic Study resources enables comprehensive support for diverse genomic use cases within clinical and research settings. The figure below depicts these relationships.
-![Molecular Definition Relationship with Observation, Diagnostic Report, and Genomic Study](MolDef-diagnostic-relations_resized.png "Molecular Definition Relationship with Observation, Diagnostic Report, and Genomic Study")
-
 ### Extending beyond this Guide
 <!-- from Genomics reporting IG -->
 Implementers should use this guide to structure genomics data in an interoperable way. The Clinical Genomics Working Group understands that this guide is not complete, and implementers might identify additional concepts and data elements. 
 
 ### Cross Version Analysis 
-
 {% include cross-version-analysis.xhtml %} 
 
 ### Dependency Table 
-
 {% include dependency-table-short.xhtml %} 
 
 ### Globals Table 
-
 {% include globals-table.xhtml %} 
 
 ### IP Statements 
-
 {% include ip-statements.xhtml %} 
 
 ### Acknowledgments
-
 
 | Name           | Organization               |
 |----------------|----------------------------|
