@@ -1,6 +1,6 @@
 Profile:     Genotype
 Parent:      MolecularDefinition
-Description: "Genotype profile of Molecular Definition"
+Description: "Genotype profile of MolecularDefinition"
 Id: genotype
 
 * ^experimental = true // more discussion and modeling work are still needed

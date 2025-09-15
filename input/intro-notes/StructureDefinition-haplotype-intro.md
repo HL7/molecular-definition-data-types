@@ -1,0 +1,2 @@
+### Scope and Usage
+The Haplotype profile is designed to represent genomic haplotypes as collections of alleles that reside in a cis configuration. It utilizes the member element to reference one or more alleles, each defined through the Allele profile. The location element is not used directly in the Haplotype profile; instead, genomic locations are conveyed through the referenced member alleles. This detailed and interconnected structure enables precise representation of complex genetic makeup within a unified framework.

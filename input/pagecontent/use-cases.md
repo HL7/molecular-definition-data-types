@@ -1,6 +1,6 @@
 This implementation guide, along with its included artifacts, has been designed to address practical use cases involving the exchange of genomic molecules and their associated data across diverse institutions and systems. By providing standardized frameworks and code systems, the guide facilitates seamless interoperability and accurate data representation. This section shows how the guide can be used to represent real genomic concepts as FHIR resources, demonstrating its use in real-world genomic data exchange scenarios. The following subsections provide example instances of MolecularDefinition resource and their corresponding profiles.
 
-Various stakeholders are encouraged to actively contribute their use cases and examples in support of the Molecular Definition Datatype Implementation Guide to enhance its practical applicability and robustness. Contributions can be made by raising a JIRA ticket, posting comments on the [Genomics Channel-Information Modeling at chat.fhir.org](https://chat.fhir.org/#narrow/channel/179197-genomics/topic/Information.20Modeling/with/539164816), or directly contacting any of the co-chairs of the HL7 Clinical Genomics Workgroup. These inputs are vital to refining the guide, facilitating standardized and interoperable genomic data exchange across diverse healthcare and research environments, and ensuring the guide effectively addresses real-world genomic data scenarios
+Various stakeholders are encouraged to actively contribute their use cases and examples in support of the MolecularDefinition Datatype Implementation Guide to enhance its practical applicability and robustness. Contributions can be made by raising a JIRA ticket, posting comments on the [Genomics Channel-Information Modeling at chat.fhir.org](https://chat.fhir.org/#narrow/channel/179197-genomics/topic/Information.20Modeling/with/539164816), or directly contacting any of the co-chairs of the HL7 Clinical Genomics Workgroup. These inputs are vital to refining the guide, facilitating standardized and interoperable genomic data exchange across diverse healthcare and research environments, and ensuring the guide effectively addresses real-world genomic data scenarios
 
 ### Representing a Molecular Sequence as a Literal String
 The following MolecularDefinitions show examples of a sequence represented as a literal leveraging the [Sequence](StructureDefinition-sequence.html) profile. The moleculeType and encoding attributes enable unambiguous interpretation of the sequence value.
@@ -50,13 +50,13 @@ Many instances of MolecularDefinition reference other instances of MolecularDefi
 
 - [Example of Sequence profile of FMR1 using CGG motifs edited by contained referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-contained.html)
 
-### Allele as a Molecular Definition
+### Allele as a MolecularDefinition
 The following examples illustrate instances of allele. In this example, the asserted state of the allele is different from the state of the context sequence at the given location. Note: the CG group is still determining how to best represent named alleles; therefore, the reference to the star allele in this example should be considered preliminary and subject to change.
 
 - [Example of Allele profile including slices for CYP2C19 position 1016](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
 - [Example of Allele profile including slices for CYP2C19 position 1016 while leveraging contained resources](MolecularDefinition-example-allelesliced-cyp2c19-1016-cont.html)
 
-### Variation as Molecular Definition
+### Variation as MolecularDefinition
 The following examples illustrate instances of variation. In this example, the state of the alternate allele is defined as being different from the state of the reference allele, but the same structure could be used to represent a variation where the two alleles are the same. Note that this example uses a 0-based interval coordinate system.
 
 - [Example of Variation profile of CYP2C19 at Position 1015 as SPDI](MolecularDefinition-example-variation-cyp2c19-1015-spdi.html)
@@ -67,7 +67,7 @@ The following example illustrates a tri-allelic polymorphism. In this example, i
 ### Two Aggregate Use Cases to Represent How Sequence, Allele, Haplotype and Genotype Profiles Can Work Together to Represent various Genotypes
 
 #### HLA Genotype 
-To illustrate the interaction of various MolecularDefinition profiles, we begin with a foundational example: [an instance of a Sequence profile](MolecularDefinition-example-sequence-hla000011.html) representing the raw coding sequence of HLA00001.1, which corresponds to the HLA-A01:01:01:01 allele. Building upon this, two distinct sets of Allele profiles are introduced, each encompassing five individual alleles derived from the HLA-A01:01:01:01 and HLA-A*01:02:01:01 groups, respectively. Each Allele set is then aggregated into a corresponding Haplotype instance, capturing the linkage of alleles on a single chromosome. Finally, these two Haplotype instances are integrated into [an instance of Genotype profile](MolecularDefinition-example-genotype-hla-00001-and-2.html), representing the combined allelic composition across both chromosomes at the HLA-A locus. This example shows how raw sequence data can be built up through alleles and haplotypes into a complete genotype. The following is the set of Molecular Definition instances that represent this use case:
+To illustrate the interaction of various MolecularDefinition profiles, we begin with a foundational example: [an instance of a Sequence profile](MolecularDefinition-example-sequence-hla000011.html) representing the raw coding sequence of HLA00001.1, which corresponds to the HLA-A01:01:01:01 allele. Building upon this, two distinct sets of Allele profiles are introduced, each encompassing five individual alleles derived from the HLA-A01:01:01:01 and HLA-A*01:02:01:01 groups, respectively. Each Allele set is then aggregated into a corresponding Haplotype instance, capturing the linkage of alleles on a single chromosome. Finally, these two Haplotype instances are integrated into [an instance of Genotype profile](MolecularDefinition-example-genotype-hla-00001-and-2.html), representing the combined allelic composition across both chromosomes at the HLA-A locus. This example shows how raw sequence data can be built up through alleles and haplotypes into a complete genotype. The following is the set of MolecularDefinition instances that represent this use case:
 
 - [Genotype of HLA-A*01:01:01:01 and HLA-A*01:02:01:01 haplotype](MolecularDefinition-example-genotype-hla-00001-and-2.html)
    - [HLA-A*01:01:01:01 Haplotype instance](MolecularDefinition-example-haplotype-hla-00001.html)
@@ -84,7 +84,7 @@ To illustrate the interaction of various MolecularDefinition profiles, we begin 
       - [Fifth Allele, HLA00001.1:c.144A](MolecularDefinition-example-allelesliced-hla-144-a.html)
 
 #### CYP2C19 Genotype
-The CYP2C19 gene encodes an enzyme essential for metabolizing several medications, including anti-coagulants, anti-depressants, and proton pump inhibitors. Variations in an individual's CYP2C19 genotype can significantly influence drug response, affecting efficacy and risk of adverse effects. In this example, the [genotype instance](MolecularDefinition-example-genotype-cyp2c19-1002-and-3.html) is represented as a composite of two haplotypes, [CYP2C19*1.002](MolecularDefinition-example-haplotype-cyp2c19-1002.html) and [CYP2C19*3.002](MolecularDefinition-example-haplotype-cyp2c19-3002.html), each defined by two alleles located at positions 661 and 1016 within the reference sequence context. This genomic information involves representing these haplotypes and their constituent alleles by leveraging the Molecular Definition profiles, i.e., Genotype, Haplotype, Allele and Sequence, through a series of interconnected profile instances. The following nested list shows this example and corresponding MolecularDefinition instances.
+The CYP2C19 gene encodes an enzyme essential for metabolizing several medications, including anti-coagulants, anti-depressants, and proton pump inhibitors. Variations in an individual's CYP2C19 genotype can significantly influence drug response, affecting efficacy and risk of adverse effects. In this example, the [genotype instance](MolecularDefinition-example-genotype-cyp2c19-1002-and-3.html) is represented as a composite of two haplotypes, [CYP2C19*1.002](MolecularDefinition-example-haplotype-cyp2c19-1002.html) and [CYP2C19*3.002](MolecularDefinition-example-haplotype-cyp2c19-3002.html), each defined by two alleles located at positions 661 and 1016 within the reference sequence context. This genomic information involves representing these haplotypes and their constituent alleles by leveraging the MolecularDefinition profiles, i.e., Genotype, Haplotype, Allele and Sequence, through a series of interconnected profile instances. The following nested list shows this example and corresponding MolecularDefinition instances.
 
 - [Genotype of CYP2C19\*1.002 and CYP2C19\*3.002](MolecularDefinition-example-genotype-cyp2c19-1002-and-3.html)
    - [CYP2C19*1.002:c.[661G; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-1002.html)
@@ -93,3 +93,6 @@ The CYP2C19 gene encodes an enzyme essential for metabolizing several medication
    - [CYP2C19*3.002:c.[661A; 1016G]](MolecularDefinition-example-haplotype-cyp2c19-3002.html)
       - [First Allele, CYP2C19*1.002:c.661A](MolecularDefinition-example-allelesliced-cyp2c19-661a.html)
       - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
+
+
+<!-- TODO: Add glossary of genomic terms for implementers -->
