@@ -1,5 +1,8 @@
 Structured genetic information plays a crucial role in modern genomic medicine, enabling precision-based approaches such as personalized medicine and targeted therapies. Accurate representation and exchange of genetic data are essential for clinical decision-making, research, and interoperability across healthcare systems. However, the inherent complexity of genetic definitions, along with variations in interpretation based on context and use case, poses significant challenges in standardizing genetic data communication.
 
+>This implementation guide is not complete. The included artifacts are marked as experimental, but they are ready for review, testing, and validation.
+{: .note-to-balloters}
+
 ### Scope
 This implementation guide addresses these challenges by leveraging the newly developed [MolecularDefinition]({{site.data.fhir.path}}moleculardefinition.html) resource to support the structured representation of fundamental genetic concepts, including sequence, allele, and variation. Additionally, it integrates various core FHIR resources to establish a robust framework for interoperable genetic data exchange.
 
@@ -33,7 +36,7 @@ As of this release, this IG and the GRIG are independent of each other. This IG 
 
 In the future, the Working Group will utilize the discrete data structures defined by this IG within the GRIG, by addition to and/or substitution of corresponding GRIG profiles (e.g., Variant, Genotype, Haplotype, etc ...). We anticipate an improved ability to exchange structured genomic data produced by clinical testing. For example, it is possible the existing GRIG profiles will remain for the community, and a new set of Observation profiles utilizing this IG will be added to the GRIG. Alternatively, the existing profiles in the GRIG might be redesigned to use this IG. The value of this IG is in the loose coupling between the well-defined and discrete data structures, so ultimately this IG will add value to genomic data interoperability regardless of the decisions or timelines related to its inclusion within the GRIG.
 
->Here is the current strategic vision, which is still a work in progress and subject to change. As with all our work, these decisions will be subject to open discussion and formal votes.
+>This diagram is the current strategic vision, which is still a work in progress and subject to change. As with all our work, these decisions will be subject to open discussion and formal votes. Timelines for implementation will be dependent on the feedback and testing.
 {: .note-to-balloters}
 
 ![Future State of Genomics in FHIR (work in progress)](future-fhir-genomics.jpeg "Future State of Genomics in FHIR (work in progress)")  
