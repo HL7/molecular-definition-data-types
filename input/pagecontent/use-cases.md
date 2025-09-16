@@ -3,45 +3,45 @@ This implementation guide, along with its included artifacts, has been designed 
 Various stakeholders are encouraged to actively contribute their use cases and examples in support of the MolecularDefinition Datatype Implementation Guide to enhance its practical applicability and robustness. Contributions can be made by raising a JIRA ticket, posting comments on the [Genomics Channel-Information Modeling at chat.fhir.org](https://chat.fhir.org/#narrow/channel/179197-genomics/topic/Information.20Modeling/with/539164816), or directly contacting any of the co-chairs of the HL7 Clinical Genomics Workgroup. These inputs are vital to refining the guide, facilitating standardized and interoperable genomic data exchange across diverse healthcare and research environments, and ensuring the guide effectively addresses real-world genomic data scenarios
 
 ### Representing a Molecular Sequence as a Literal String
-The following MolecularDefinitions show examples of a sequence represented as a literal leveraging the [Sequence](StructureDefinition-sequence.html) profile. The moleculeType and encoding attributes enable unambiguous interpretation of the sequence value.
+The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as a literal using the [Sequence](StructureDefinition-sequence.html) profile. The moleculeType and encoding attributes enable unambiguous interpretation of the sequence value.
 
 - [Simple Sequence example DNA A, IUPAC](MolecularDefinition-example-sequence-a-dna-iupac.html)
 - [Simple Sequence example Amino Acid A, IUPAC](MolecularDefinition-example-sequence-a-aa-iupac.html)
 
 ### Representing a Molecular Sequence Using Accession Number as a Code
-The following MolecularDefinitions show examples of a sequence represented as a code using an accession number leveraging the [Sequence](StructureDefinition-sequence.html) profile.
+The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as a code using an accession number using the [Sequence](StructureDefinition-sequence.html) profile.
 
 - [Example of Sequence profile of CYP2C19 as Accession Number](MolecularDefinition-example-genomic-cyp2c19-accession.html)
 
 ### Molecular Sequence from a Resolvable URL
-The following MolecularDefinitions show examples of a sequence represented as a resolvable URL leveraging the [Sequence](StructureDefinition-sequence.html) profile. This example uses the [DocumentReference]({{site.data.fhir.path}}documentreference.html) resource to represent the URL.
+The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as a resolvable URL using the [Sequence](StructureDefinition-sequence.html) profile. This example uses the [DocumentReference]({{site.data.fhir.path}}documentreference.html) resource to represent the URL.
 
 - [Sequence example of CYP2C19 as URL](MolecularDefinition-example-sequence-cyp2c19-url.html)
 
 ### Molecular Sequence from a File
-The following MolecularDefinitions show examples of a sequence represented as an attached file.
+The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as an attached file.
 
 - [Sequence example of CYP2C19 as Attachment](MolecularDefinition-example-sequence-cyp2c19-attached.html)
 
 ### Molecular Sequence extracted from another Molecular Sequence
-The following MolecularDefinitions show examples of a sequence represented as a subsequence extracted from a “parent” sequence. In these examples, a sequence representing the CYP2C19 genetic locus is used as the “parent”, from which three subsequences are extracted (corresponding to the upstream region, gene region, and downstream region).
+The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as a subsequence extracted from a “parent” sequence. In these examples, a sequence representing the CYP2C19 genetic locus is used as the “parent”, from which three subsequences are extracted (corresponding to the upstream region, gene region, and downstream region).
 
 - [Example of Sequence profile of CYP2C19 gene region](MolecularDefinition-example-sequence-cyp2c19-gene-region.html)
 - [Example of Sequence profile of CYP2C19 upstream region](MolecularDefinition-example-sequence-cyp2c19-upstream-region.html)
 - [Example of Sequence profile of CYP2C19 downstream region](MolecularDefinition-example-sequence-cyp2c19-downstream-region.html)
 
 ### Molecular Sequence constructed as a concatenation of several other Molecular Sequence instances
-The following MolecularDefinitions show examples of a sequence represented as a concatenation of sequence instances. In this example, the three subsequences from the Extracted example are reassembled into the full genetic locus.
+The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as a concatenation of sequence instances. In this example, the three subsequences from the Extracted example are reassembled into the full genetic locus.
 
 - [Example of Sequence profile of CYP2C19 of concatenated upstream, gene, and downstream regions](MolecularDefinition-example-sequence-cyp2c19-concatenated-regions.html)
 
 ### Molecular Sequence constructed as a Repeated Motif
-The following MolecularDefinitions show examples of a sequence represented as a repeated sequence motif. In this use case, the CGG trinucleotide repeat from the FMR1 gene is represented in a compressed form that emphasizes the copyCount (convenient for use cases where the number of repeats is important).
+The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as a repeated sequence motif. In this use case, the CGG trinucleotide repeat from the FMR1 gene is represented in a compressed form that emphasizes the copyCount (convenient for use cases where the number of repeats is important).
 
 - [Example of Sequence profile of FMR1 CGG motif repeated 20 times](MolecularDefinition-example-sequence-fmr1-cgg-20x-repeat.html)
 
 ### Molecular Sequence constructed as an Edit on another Molecular Sequence
-The following MolecularDefinitions show examples of a sequence represented as a relative sequence, which applies an edit to a starting sequence to create the sequence of interest. In this example, the starting sequence is a perfect CGG trinucleotide that was repeated 20 times (see the repeated motif example). The desired sequence is not a perfect repeat, however, and a single nucleotide must be edited to yield the sequence of interest. The result of this edit operation represents an actual CGG repeat region that is found in the FMR1 gene.
+The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as a relative sequence, which applies an edit to a starting sequence to create the sequence of interest. In this example, the starting sequence is a perfect CGG trinucleotide that was repeated 20 times (see the repeated motif example). The desired sequence is not a perfect repeat, however, and a single nucleotide must be edited to yield the sequence of interest. The result of this edit operation represents an actual CGG repeat region that is found in the FMR1 gene.
 
 - [Example of Sequence profile of FMR1 using CGG motifs edited by external referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-referenced.html)
 

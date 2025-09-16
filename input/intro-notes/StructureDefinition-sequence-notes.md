@@ -1,2 +1,2 @@
 ### Additional Notes
-This is the Sequence profile notes section.
+This section provides supplemental guidance for implementing the Sequence profile.
