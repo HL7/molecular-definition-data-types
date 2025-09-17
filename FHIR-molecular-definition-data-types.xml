@@ -30,10 +30,10 @@
 <artifact id="ValueSet/nucleotide-rna-1letter-unambiguous" key="ValueSet-nucleotide-rna-1letter-unambiguous" name="Nucleotide RNA 1-letter Unambiguous Symbols"/>
 <artifact id="CodeSystem/nucleotide-rna" key="CodeSystem-nucleotide-rna" name="Nucleotide RNA Symbols"/>
 <artifact id="StructureDefinition/sequence" key="StructureDefinition-sequence" name="Sequence"/>
-<artifact id="ValueSet/strand-orientation" key="ValueSet-strand-orientation" name="Strand Orientation"/>
 <artifact id="CodeSystem/strand-orientation" key="CodeSystem-strand-orientation" name="Strand Orientation"/>
-<artifact id="ValueSet/topology" key="ValueSet-topology" name="Topology"/>
+<artifact id="ValueSet/strand-orientation" key="ValueSet-strand-orientation" name="Strand Orientation ValueSet"/>
 <artifact id="CodeSystem/topology" key="CodeSystem-topology" name="Topology"/>
+<artifact id="ValueSet/topology" key="ValueSet-topology" name="Topology ValueSet"/>
 <artifact id="StructureDefinition/variation" key="StructureDefinition-variation" name="Variation"/>
 <artifact id="MolecularDefinition/example-allelesliced-cyp2c19-1016-cont" key="MolecularDefinition-example-allelesliced-cyp2c19-1016-cont" name="example-allelesliced-cyp2c19-1016-cont"/>
 <artifact id="MolecularDefinition/example-allelesliced-cyp2c19-1016g" key="MolecularDefinition-example-allelesliced-cyp2c19-1016g" name="example-allelesliced-cyp2c19-1016g"/>
