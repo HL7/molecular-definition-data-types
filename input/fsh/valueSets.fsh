@@ -21,7 +21,7 @@ Description: "Molecule type terms that describe various genomic molucles, e.g., 
 
 ValueSet: StrandOrientationVS
 Id:  strand-orientation
-Title: "Strand Orientation"
+Title: "Strand Orientation ValueSet"
 Description: "Strand orientation terms of various molecular sequences."
 * ^experimental = true
 * include codes from system StrandOrientation
@@ -42,7 +42,7 @@ Description: "Coordinate origin of how the start of the sequence is denoted."
 
 ValueSet: TopologyVS
 Id:  topology
-Title: "Topology"
+Title: "Topology ValueSet"
 Description: "Topology of how the genomic molecule are structured toplologically."
 * ^experimental = true
 * include codes from system Topology
