@@ -106,7 +106,7 @@ Description: "Single-letter and three-letter symbols for amino acids, including 
 
 ValueSet: NucleotideDNA1LetterUnambiguous
 Id: nucleotide-dna-1letter-unambiguous
-Title: "Nucleotide DNA 1-letter Unambiguous Symbols"
+Title: "Nucleotide DNA 1-letter Unambiguous Symbols ValueSet"
 Description: "Single-letter unambiguous symbols for DNA residues."
 * ^experimental = false
 * NucleotideDNA#G
@@ -116,7 +116,7 @@ Description: "Single-letter unambiguous symbols for DNA residues."
 
 ValueSet: NucleotideDNA1LetterWithN
 Id: nucleotide-dna-1letter-with-n
-Title: "Nucleotide DNA 1-letter Unambiguous Symbols Including N"
+Title: "Nucleotide DNA 1-letter Unambiguous Symbols Including N ValueSet"
 Description: "Single-letter unambiguous symbols for DNA residues, including N for any nucleotide."
 * ^experimental = false
 * NucleotideDNA#G
@@ -127,7 +127,7 @@ Description: "Single-letter unambiguous symbols for DNA residues, including N fo
 
 ValueSet: NucleotideDNA1LetterAmbiguous
 Id: nucleotide-dna-1letter-ambiguous
-Title: "Nucleotide DNA 1-letter Ambiguous Symbols"
+Title: "Nucleotide DNA 1-letter Ambiguous Symbols ValueSet"
 Description: "Single-letter ambiguous symbols for DNA residues."
 * ^experimental = false
 * NucleotideDNA#G
@@ -148,7 +148,7 @@ Description: "Single-letter ambiguous symbols for DNA residues."
 
 ValueSet: NucleotideRNA1LetterUnambiguous
 Id: nucleotide-rna-1letter-unambiguous
-Title: "Nucleotide RNA 1-letter Unambiguous Symbols"
+Title: "Nucleotide RNA 1-letter Unambiguous Symbols ValueSet"
 Description: "Single-letter unambiguous symbols for RNA residues."
 * ^experimental = false
 * NucleotideRNA#G
@@ -158,7 +158,7 @@ Description: "Single-letter unambiguous symbols for RNA residues."
 
 ValueSet: AminoAcid1LetterUnambiguous
 Id: amino-acid-1letter-unambiguous
-Title: "Amino Acid 1-letter Unambiguous Symbols"
+Title: "Amino Acid 1-letter Unambiguous Symbols ValueSet"
 Description: "Single-letter unambiguous symbols for the 20 common amino acids."
 * ^experimental = false
 * AminoAcid#A
@@ -184,7 +184,7 @@ Description: "Single-letter unambiguous symbols for the 20 common amino acids."
 
 ValueSet: AminoAcid3LetterUnambiguous
 Id: amino-acid-3letter-unambiguous
-Title: "Amino Acid 3-letter Unambiguous Symbols"
+Title: "Amino Acid 3-letter Unambiguous Symbols ValueSet"
 Description: "Three-letter unambiguous symbols for the 20 common amino acids."
 * ^experimental = false
 * AminoAcid#Ala
@@ -210,7 +210,7 @@ Description: "Three-letter unambiguous symbols for the 20 common amino acids."
 
 ValueSet: AminoAcid1LetterAmbiguous
 Id: amino-acid-1letter-ambiguous
-Title: "Amino Acid 1-letter Ambiguous Symbols"
+Title: "Amino Acid 1-letter Ambiguous Symbols ValueSet"
 Description: "Single-letter symbols for amino acids, including ambiguous symbols."
 * ^experimental = false
 * AminoAcid#A
@@ -240,7 +240,7 @@ Description: "Single-letter symbols for amino acids, including ambiguous symbols
 
 ValueSet: AminoAcid3LetterAmbiguous
 Id: amino-acid-3letter-ambiguous
-Title: "Amino Acid 3-letter Ambiguous Symbols"
+Title: "Amino Acid 3-letter Ambiguous Symbols ValueSet"
 Description: "Three-letter symbols for amino acids, including ambiguous symbols."
 * ^experimental = false
 * AminoAcid#Ala
