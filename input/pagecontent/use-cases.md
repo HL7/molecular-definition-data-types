@@ -71,6 +71,8 @@ The following examples illustrate instances of variation. In this example, the s
 The following example illustrates a tri-allelic polymorphism. In this example, it is necessary to unambiguously specify the reference and alternate alleles, neither of which might match the state of the context sequence at the specified location. The slices on the representation element are needed to support this use case.
 - [Example of Variation profile of ABCB1 Tri-allelic Variation](MolecularDefinition-example-variation-tri-allelic-ABCB1.html)
 
+Please check [complete list of Variation examples](StructureDefinition-variation-examples.html) for more examples
+
 ### Two Aggregate Use Cases to Represent How Sequence, Allele, Haplotype and Genotype Profiles Can Work Together to Represent various Genotypes
 
 #### HLA Genotype 
