@@ -53,7 +53,7 @@ Many instances of MolecularDefinition reference other instances of MolecularDefi
 
 - [Example of Sequence profile of FMR1 using CGG motifs edited by contained referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-contained.html)
 
-Please check [complete list of Sequence examples](StructureDefinition-sequence-examples.html) for more examples
+Please check the [complete list of Sequence examples](StructureDefinition-sequence-examples.html) for more examples
 
 ### Allele as a MolecularDefinition
 The following examples illustrate instances of allele. In this example, the asserted state of the allele is different from the state of the context sequence at the given location. Note: the CG group is still determining how to best represent named alleles; therefore, the reference to the star allele in this example should be considered preliminary and subject to change.
@@ -61,7 +61,7 @@ The following examples illustrate instances of allele. In this example, the asse
 - [Example of Allele profile including slices for CYP2C19 position 1016](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
 - [Example of Allele profile including slices for CYP2C19 position 1016 while leveraging contained resources](MolecularDefinition-example-allelesliced-cyp2c19-1016-cont.html)
 
-Please check [complete list of Allele examples](StructureDefinition-allele-examples.html) for more examples
+Please check the [complete list of Allele examples](StructureDefinition-allele-examples.html) for more examples
 
 ### Variation as MolecularDefinition
 The following examples illustrate instances of variation. In this example, the state of the alternate allele is defined as being different from the state of the reference allele, but the same structure could be used to represent a variation where the two alleles are the same. Note that this example uses a 0-based interval coordinate system.
@@ -71,7 +71,7 @@ The following examples illustrate instances of variation. In this example, the s
 The following example illustrates a tri-allelic polymorphism. In this example, it is necessary to unambiguously specify the reference and alternate alleles, neither of which might match the state of the context sequence at the specified location. The slices on the representation element are needed to support this use case.
 - [Example of Variation profile of ABCB1 Tri-allelic Variation](MolecularDefinition-example-variation-tri-allelic-ABCB1.html)
 
-Please check [complete list of Variation examples](StructureDefinition-variation-examples.html) for more examples
+Please check the [complete list of Variation examples](StructureDefinition-variation-examples.html) for more examples
 
 ### Two Aggregate Use Cases to Represent How Sequence, Allele, Haplotype and Genotype Profiles Can Work Together to Represent various Genotypes
 
@@ -103,6 +103,6 @@ The CYP2C19 gene encodes an enzyme essential for metabolizing several medication
       - [First Allele, CYP2C19*1.002:c.661A](MolecularDefinition-example-allelesliced-cyp2c19-661a.html)
       - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
 
-Please check [complete list of Haplotype examples](StructureDefinition-haplotype-examples.html) for more examples
+Please check the [complete list of Haplotype examples](StructureDefinition-haplotype-examples.html) and the [complete list of Genotype examples](StructureDefinition-genotype-examples.html) for more examples
 
 <!-- TODO: Add glossary of genomic terms for implementers -->
