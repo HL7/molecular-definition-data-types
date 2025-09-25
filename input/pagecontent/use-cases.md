@@ -103,5 +103,6 @@ The CYP2C19 gene encodes an enzyme essential for metabolizing several medication
       - [First Allele, CYP2C19*1.002:c.661A](MolecularDefinition-example-allelesliced-cyp2c19-661a.html)
       - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
 
+Please check [complete list of Haplotype examples](StructureDefinition-haplotype-examples.html) for more examples
 
 <!-- TODO: Add glossary of genomic terms for implementers -->
