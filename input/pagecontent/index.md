@@ -69,13 +69,13 @@ TODO: a placeholder for a Diagram and descriptions with referenced examples desc
 
 Figure below shows an Allele Example of CYP2C19 gene showing Context State “A” and Allele State “G” at position 1016
 
-Example Name: example-allelesliced-cyp2c19-1016g (TODO: add reference)
+Example Name: [example-allelesliced-cyp2c19-1016g](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
 
 ![A Diagram descriping Allele profile and how it leverages the Focus code system](Allele-state-vs-context-state-illustration.png "A Diagram descriping Allele profile and how it leverages the Focus code system")
 
 Figure below shows a Variation example of Tri-allelic ABCB1 showing Context state “T”, Alternative State “C”, and Reference State “A” at position 87531302
 
-Example Name: example-variation-tri-allelic-ABCB1 (TODO: add reference)
+Example Name: [example-variation-tri-allelic-ABCB1](example-variation-tri-allelic-ABCB1)
 
 
 ![A Diagram descriping Variation profile and how it leverages the Focus code system](Alternative-state-vs-context-state-vs-reference-state-illustration.png "A Diagram descriping Variation profile and how it leverages the Focus code system")
