@@ -65,7 +65,7 @@ The Molecular Focus is utilized to precisely describe the molecular state at a s
 Together, these codes within the Focus system provide a standardized framework for precisely representing molecular variations and states essential for genomic data interoperability and clinical interpretation.
 These codes are leveraged as discriminators to differentiate among various slices of profiles included in this implementation guide, such as the Allele and Variation profiles. By employing these codes, it becomes possible to distinctly identify and represent specific molecular states within the genomic data structure. More detailed descriptions follow in the subsequent sections, and illustrative examples are provided to demonstrate their practical implementation within FHIR instances of these profiles, ensuring clarity and consistency in genomic data exchange.
 
-TODO: a placeholder for a Diagram and descriptions with referenced examples descriping various profiles and how they leverage the Focus code system
+TODO: adjust the diagram size
 
 Figure below shows an Allele Example of CYP2C19 gene showing Context State “A” and Allele State “G” at position 1016
 
