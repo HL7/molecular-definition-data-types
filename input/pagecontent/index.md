@@ -71,14 +71,14 @@ Figure below shows an Allele Example of CYP2C19 gene showing Context State “A�
 
 Example Name: [example-allelesliced-cyp2c19-1016g](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
 
-![A Diagram descriping Allele profile and how it leverages the Focus code system](Allele-state-vs-context-state-illustration.png "A Diagram descriping Allele profile and how it leverages the Focus code system")
+![A Diagram descriping Allele profile and how it leverages the Focus code system](Allele-state-vs-context-state-illustration-resized.png "A Diagram descriping Allele profile and how it leverages the Focus code system")
 
 Figure below shows a Variation example of Tri-allelic ABCB1 showing Context state “T”, Alternative State “C”, and Reference State “A” at position 87531302
 
 Example Name: [example-variation-tri-allelic-ABCB1](example-variation-tri-allelic-ABCB1)
 
 
-![A Diagram descriping Variation profile and how it leverages the Focus code system](Alternative-state-vs-context-state-vs-reference-state-illustration.png "A Diagram descriping Variation profile and how it leverages the Focus code system")
+![A Diagram descriping Variation profile and how it leverages the Focus code system](Alternative-state-vs-context-state-vs-reference-state-illustration-resized.png "A Diagram descriping Variation profile and how it leverages the Focus code system")
 
 #### Molecule Type and Encodings
 [Molecule Type CodeSystem](CodeSystem-molecule-type.html) encompasses codes that specify the chemical composition of the corresponding genomic molecule, which may be DNA, RNA, or amino acids. In addition to defining the molecular nature of the corresponding genetic molecule, the [Encoding CodeSystem](CodeSystem-encodings.html) specifies how the biochemical structures of DNA, RNA, and amino acids are represented. For instance, amino acids can be encoded using various standardized symbol sets, including Amino Acid 1-letter Unambiguous Symbols, Amino Acid 3-letter Unambiguous Symbols, Amino Acid 1-letter Ambiguous Symbols, and Amino Acid 3-letter Ambiguous Symbols. This differentiation allows for precise and flexible representation of amino acid sequences, accommodating both exact and ambiguous biochemical characterizations essential for accurate genetic data interpretation and interoperability. Each of these code systems maintains its own curated list of valid codes, and ValueSets are used to represent the concepts for the specific encoding options. This detailed list supports accurate validation across different implementations while ensuring that data conform to standardized representations and thereby promoting consistency, accuracy, and interoperability in genetic information exchange. The following are the available ValueSets:
