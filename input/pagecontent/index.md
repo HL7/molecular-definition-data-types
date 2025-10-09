@@ -108,6 +108,10 @@ This section will include descriptions and diagrams in relation to how to use va
 #### More Code Systems
 The Clinical Genomics Workgroup is currently engaged in efforts to expand the inclusion of additional FHIR code systems that represent widely used genomics terminologies such as HGNC (HUGO Gene Nomenclature Committee), PharmVar (Pharmacogene Variation Consortium), and RefSeq (NCBI Reference Sequence Database). This initiative aims to enhance the interoperability and standardization of genomic data representation within the HL7 FHIR clinical genomics framework, thereby facilitating more consistent and comprehensive exchange of genomic information across health IT systems. These code systems are expected to be incorporated into this implementation guide, thereby streamlining the implementation of this standard and promoting greater consistency and efficiency across adopting organizations.
 
+<!-- TODO: Add glossary of genomic terms for implementers -->
+### Glossary of Genomics Terms
+For more details about genomic terms and their corresponding definition, please check this [glossary](https://hl7.org/fhir/uv/genomics-reporting/Glossary.html).
+
 ### Understanding FHIR
 <!-- From Genomics Reporting IG -->
 This implementation guide is based on the HL7 [FHIR]({{site.data.fhir.path}}index.html) standard. It uses terminology, notations and design principles that are specific to FHIR. Before reading this implementation guide, it's important to be familiar with some of the basic principles of FHIR as well as general guidance on how to read FHIR specifications. Readers who are unfamiliar with FHIR are encouraged to read (or at least skim) the following prior to reading the rest of this implementation guide.

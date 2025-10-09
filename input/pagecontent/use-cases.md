@@ -105,4 +105,4 @@ The CYP2C19 gene encodes an enzyme essential for metabolizing several medication
 
 Please check the [complete list of Haplotype examples](StructureDefinition-haplotype-examples.html) and the [complete list of Genotype examples](StructureDefinition-genotype-examples.html) for more examples
 
-<!-- TODO: Add glossary of genomic terms for implementers -->
+
