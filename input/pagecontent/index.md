@@ -102,6 +102,8 @@ Genomic location and coordinates are fundamental to ensuring the reliable and pr
 
 ##### Cytoband Interval [TBD]
 This section will include descriptions and diagrams in relation to how to use various MolDef elements and associated terminologies to represent various cytoband intervals use cases, how to handle validation, ... etc.
+
+The cytoband interval in the FHIR MolecularDefinition resource is represented as a BackboneElement called cytobandInterval, which defines a chromosomal region using cytogenetic banding nomenclature. This element requires a chromosome specified as a CodeableConcept. It optionally specifies a start and an end cytoband, each represented by a BackboneElement with components for arm, region, band, and sub-bands, all modeled as optional CodeableConcepts. This hierarchical structure allows precise definition of the chromosomal interval at cytoband resolution, facilitating standardized genomic location reporting consistent with cytogenetic conventions.
 <!-- Add a diagram about the location element and another one for focusing on cytoband interval elements -->
 
 
