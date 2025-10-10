@@ -100,10 +100,13 @@ Genomic location and coordinates are fundamental to ensuring the reliable and pr
 - The [Coordinate Origin CodeSystem](CodeSystem-coordinate-origin.html) establishes the reference points from which sequence coordinates are counted. It standardizes starting point of counting, i.e., sequence start, feature start, or feature end. Using these codes may ensure consistent and unambiguous positioning of genomic elements across different datasets and applications.
 - The [Normalization Method CodeSystem](CodeSystem-normalization-method.html) describes the standardized techniques used to normalize sequence variants including left-shift, right-shift, and fully-justified.
 
-##### Cytoband Interval [TBD]
-This section will include descriptions and diagrams in relation to how to use various MolDef elements and associated terminologies to represent various cytoband intervals use cases, how to handle validation, ... etc.
+##### Cytoband Location and Interval [TBD]
+TODO: This section will include descriptions and diagrams in relation to how to use various MolDef elements and associated terminologies to represent various cytoband intervals use cases, how to handle validation, ... etc.
+
+The cytobandLocation element defines a genomic location based on cytogenetic banding within a specific reference genome assembly. It is a BackboneElement that may be present zero or one time, containing a mandatory genomeAssembly element which details the reference genome used, as well as the cytoband interval element described below. The genomeAssembly itself includes an optional organism (species) specified as a CodeableConcept, along with optional elements for the assembly build number, accession identifier, and a description that can be expressed either as markdown or plain string. This structure represents contextualization of cytoband-based locations by linking cytogenetic intervals to well-defined genome assemblies, enabling consistent interpretation across different genomic datasets and studies.
 
 The cytoband interval in the FHIR MolecularDefinition resource is represented as a BackboneElement called cytobandInterval, which defines a chromosomal region using cytogenetic banding nomenclature. This element requires a chromosome specified as a CodeableConcept. It optionally specifies a start and an end cytoband, each represented by a BackboneElement with components for arm, region, band, and sub-bands, all modeled as optional CodeableConcepts. This hierarchical structure allows precise definition of the chromosomal interval at cytoband resolution, facilitating standardized genomic location reporting consistent with cytogenetic conventions.
+
 <!-- Add a diagram about the location element and another one for focusing on cytoband interval elements -->
 
 
