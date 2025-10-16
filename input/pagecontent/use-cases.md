@@ -71,6 +71,19 @@ The following examples illustrate instances of variation. In this example, the s
 The following example illustrates a tri-allelic polymorphism. In this example, it is necessary to unambiguously specify the reference and alternate alleles, neither of which might match the state of the context sequence at the specified location. The slices on the representation element are needed to support this use case.
 - [Example of Variation profile of ABCB1 Tri-allelic Variation](MolecularDefinition-example-variation-tri-allelic-ABCB1.html)
 
+The following examples represents how HGVS, SPDI, VRS, and VCF may be represented considering codes and location coordinate systems.
+
+Note: these examples are not complete and under active development and curation, same as other artifacts on this implementation guide.
+
+- [Example of Variation of CYP2C19 at Position 991 as HGVS](MolecularDefinition-example-variation-cyp2c19-991-hgvs.html)
+
+- [Example of Variation of CYP2C19 at Position 1015 as SPDI](MolecularDefinition-example-variation-cyp2c19-1015-spdi.html)
+
+- [Example of Variation of CYP2C19 at Position 1015 as VRS](MolecularDefinition-example-variation-cyp2c19-1015-vrs.html)
+
+- [Example of Variation of CYP2C19 at Position 1016 as VCF](MolecularDefinition-example-variation-cyp2c19-1016-vcf.html)
+
+
 Please check the [complete list of Variation examples](StructureDefinition-variation-examples.html) for more examples
 
 ### Two Aggregate Use Cases to Represent How Sequence, Allele, Haplotype and Genotype Profiles Can Work Together to Represent various Genotypes
