@@ -1,4 +1,5 @@
 // Observation examples for demonstration only. For genomic reporting, FHIR Genomics Reporting IG should be used for now
+// This example will need to be changed to leverage an Extension in Observation profile of R6, as valueReference may be deleted from Observation resource
 
 Instance: MolDef-Variation-Observation
 InstanceOf: Observation
