@@ -5,6 +5,8 @@ This implementation guide, along with its included artifacts, has been designed 
 
 Various stakeholders are encouraged to actively contribute their use cases and examples in support of the MolecularDefinition Datatype Implementation Guide to enhance its practical applicability and robustness. Contributions can be made by raising a JIRA ticket, posting comments on the [Genomics Channel-Information Modeling at chat.fhir.org](https://chat.fhir.org/#narrow/channel/179197-genomics/topic/Information.20Modeling/with/539164816), or directly contacting any of the co-chairs of the HL7 Clinical Genomics Workgroup. These inputs are vital to refining the guide, facilitating standardized and interoperable genomic data exchange across diverse healthcare and research environments, and ensuring the guide effectively addresses real-world genomic data scenarios
 
+NOTE: The following examples are under current development and curation. Please report any comment or feedback using HL7 JIRA.
+
 ### Representing a Molecular Sequence as a Literal String
 The following examples demonstrate how MolecularDefinition resources can represent of a sequence represented as a literal using the [Sequence](StructureDefinition-sequence.html) profile. The moleculeType and encoding attributes enable unambiguous interpretation of the sequence value.
 
