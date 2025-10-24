@@ -125,3 +125,7 @@ Immunogenetics and histocompatibility constitute critical domains in biomedical 
 
 It is important to note that this effort remains a work in progress; the specifications and accompanying illustrative examples are undergoing continual refinement and updates to enhance their accuracy and utility. Furthermore, some terminologies adopted in this implementation guide may diverge from traditional usage within immunogenetics and histocompatibility disciplines. Users are therefore advised to consult the specific profile definitions and the glossary provided to ensure clarity and consistency in interpretation.
 Please check the HLA Genotype examples above.
+
+TODO: a schematic diagram to be added
+
+<!-- TODO: add schematic diagram to show the use cases from genetic point of view -->
