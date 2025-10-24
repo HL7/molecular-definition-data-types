@@ -129,3 +129,5 @@ Please check the HLA Genotype examples above.
 TODO: a schematic diagram to be added
 
 <!-- TODO: add schematic diagram to show the use cases from genetic point of view -->
+
+This implementation guide is designed to align closely with the future version of the Genomics Reporting Implementation Guide, ensuring comprehensive and precise genomic reporting specifications. This alignment aims to leverage the most recent enhancements in three main FHIR resources such as Observation, DiagnosticReport, and GenomicStudy, thereby promoting consistency, interoperability, and accuracy in the context of immunogenetics and histocompatibility.
