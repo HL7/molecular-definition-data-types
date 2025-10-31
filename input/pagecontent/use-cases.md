@@ -126,6 +126,8 @@ Immunogenetics and histocompatibility constitute critical domains in biomedical 
 It is important to note that this effort remains a work in progress; the specifications and accompanying illustrative examples are undergoing continual refinement and updates to enhance their accuracy and utility. Furthermore, some terminologies adopted in this implementation guide may diverge from traditional usage within immunogenetics and histocompatibility disciplines. Users are therefore advised to consult the specific profile definitions and the glossary provided to ensure clarity and consistency in interpretation.
 Please check the [HLA Genotype examples](use-cases.html#hla-genotype).
 
+It is crucial to recognize that the terminologies employed within this guide, such as allele, haplotype, and genotype, may diverge from the definitions presented in the immunogenetics and histocompatibility Use Cases. This discrepancy underscores the need for precision in usage and comprehension. To mitigate potential confusion arising from the multiple definitions of identical concepts, the HL7 Clinical Genomics work group will undertake efforts to harmonize these terminologies, striving for alignment that ensures clarity and consistency across different contexts.
+
 TODO: a schematic diagram to be added
 
 <!-- TODO: add schematic diagram to show the use cases from genetic point of view -->
