@@ -353,8 +353,8 @@ Usage: #example
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
-* location.sequenceLocation.coordinateInterval.startQuantity.value = 124
-* location.sequenceLocation.coordinateInterval.endQuantity.value = 124
+* location.sequenceLocation.coordinateInterval.startQuantity.value = 1016
+* location.sequenceLocation.coordinateInterval.endQuantity.value = 1016
 //* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
