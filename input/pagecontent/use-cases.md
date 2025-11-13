@@ -118,6 +118,13 @@ The CYP2C19 gene encodes an enzyme essential for metabolizing several medication
       - [First Allele, CYP2C19*1.002:c.661A](MolecularDefinition-example-allelesliced-cyp2c19-661a.html)
       - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
 
+- [Genotype of CYP2C19\*1.002 (CYP2C19\*1B) and CYP2C19\*1.003 (CYP2C19\*1C) haplotypes](MolecularDefinition-example-genotype-cyp2c19-1b-and-1c.html)
+   - [CYP2C19\*1.002 (CYP2C19\*1B)](MolecularDefinition-example-haplotype-cyp2c19-1b.html)
+      - [First Allele, CYP2C19*1.002:c.661G](MolecularDefinition-example-allelesliced-cyp2c19-1b-124t.html)
+      - [Second Allele, CYP2C19*1.002:c.1016G](MolecularDefinition-example-allelesliced-cyp2c19-1b-1016g.html)
+   - [CYP2C19\*1.003 (CYP2C19\*1C)](MolecularDefinition-example-haplotype-cyp2c19-1c.html)
+      - [Allele, G at 1016](MolecularDefinition-example-allelesliced-cyp2c19-1b-1016g.html)
+
 Please check the [complete list of Haplotype examples](StructureDefinition-haplotype-examples.html) and the [complete list of Genotype examples](StructureDefinition-genotype-examples.html) for more examples
 
 ### More Immunogenetics and Histocompatibility Use Cases
