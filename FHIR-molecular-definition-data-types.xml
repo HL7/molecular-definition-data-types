@@ -98,4 +98,5 @@
 <page key="motivation" name="Motivation"/>
 <page key="toc" name="Table of Contents"/>
 <page key="use-cases" name="Use Cases"/>
+<page key="terminology" name="Supporting Terminologies"/>
 </specification>
