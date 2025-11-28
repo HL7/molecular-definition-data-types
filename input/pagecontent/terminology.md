@@ -1,0 +1,60 @@
+### Supporting terminologies
+<!-- To achieve the objective of this implementation guide, it was essential to develop multiple code systems designed to represent diverse data elements in a standardized, interoperable format. These code systems are carefully designed to preserve the meaning of genetic concepts, even when definitions vary by context. This shared framework helps ensure consistent interpretation and smooth data exchange between systems, thereby promoting clarity, accuracy, and interoperability. The following section provides a detailed description of these code systems and their intended purposes. These code systems are systematically grouped according to their specific functions and domains of use, enabling targeted application and effective management within the broader genetic data ecosystem. -->
+To fulfill the objectives of this implementation guide, it was imperative to develop multiple code systems engineered to represent diverse data elements in a standardized and interoperable manner. These code systems are meticulously constructed to maintain the semantic integrity of genetic concepts, even in cases where contextual definitions differ. This shared framework facilitates consistent interpretation and seamless data exchange across systems, thereby enhancing clarity, precision, and interoperability. The subsequent section offers a comprehensive description of these code systems and their respective purposes. These systems are methodically categorized based on their specific functions and domains of application, enabling targeted utilization and efficient governance within the overarching genetic data ecosystem.
+
+#### Molecular Focus
+The Molecular Focus is utilized to precisely describe the molecular state at a specified genomic locus. This coding system encompasses several key concepts:
+- Context State: This code represents the current state of the molecule at the given location, serving as a baseline descriptor of the molecular context within the genomic sequence.
+- Allele State: This code defines the molecular state according to a specific allele that may present at the specified locus, thereby reflecting the allele-specific variation impacting the molecule.
+- Reference State: This code indicates the molecular state as determined by comparison to a reference molecule, typically representing the canonical or consensus genomic sequence.
+- Alternative State: This code characterizes the molecular state based on an alternative genomic makeup, distinguishing it from the reference and capturing polymorphic or variant genomic information.
+Together, these codes within the Focus system provide a standardized framework for precisely representing molecular variations and states essential for genomic data interoperability and clinical interpretation.
+These codes are leveraged as discriminators to differentiate among various slices of profiles included in this implementation guide, such as the Allele and Variation profiles. By employing these codes, it becomes possible to distinctly identify and represent specific molecular states within the genomic data structure. More detailed descriptions follow in the subsequent sections, and illustrative examples are provided to demonstrate their practical implementation within FHIR instances of these profiles, ensuring clarity and consistency in genomic data exchange.
+
+TODO: adjust the diagram size
+
+Figure below shows an Allele Example of CYP2C19 gene showing Context State “A” and Allele State “G” at position 1016
+
+Example Name: [example-allelesliced-cyp2c19-1016g](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
+
+![A Diagram descriping Allele profile and how it leverages the Focus code system](Allele-state-vs-context-state-illustration.png "A Diagram descriping Allele profile and how it leverages the Focus code system")
+
+Figure below shows a Variation example of Tri-allelic ABCB1 showing Context state “T”, Alternative State “C”, and Reference State “A” at position 87531302
+
+Example Name: [example-variation-tri-allelic-ABCB1](example-variation-tri-allelic-ABCB1)
+
+
+![A Diagram descriping Variation profile and how it leverages the Focus code system](Alternative-state-vs-context-state-vs-reference-state-illustration-resized.png "A Diagram descriping Variation profile and how it leverages the Focus code system")
+
+#### Molecule Type and Encodings
+[Molecule Type CodeSystem](CodeSystem-molecule-type.html) encompasses codes that specify the chemical composition of the corresponding genomic molecule, which may be DNA, RNA, or amino acids. In addition to defining the molecular nature of the corresponding genetic molecule, the [Encoding CodeSystem](CodeSystem-encodings.html) specifies how the biochemical structures of DNA, RNA, and amino acids are represented. For instance, amino acids can be encoded using various standardized symbol sets, including Amino Acid 1-letter Unambiguous Symbols, Amino Acid 3-letter Unambiguous Symbols, Amino Acid 1-letter Ambiguous Symbols, and Amino Acid 3-letter Ambiguous Symbols. This differentiation allows for precise and flexible representation of amino acid sequences, accommodating both exact and ambiguous biochemical characterizations essential for accurate genetic data interpretation and interoperability. Each of these code systems maintains its own curated list of valid codes, and ValueSets are used to represent the concepts for the specific encoding options. This detailed list supports accurate validation across different implementations while ensuring that data conform to standardized representations and thereby promoting consistency, accuracy, and interoperability in genetic information exchange. The following are the available ValueSets:
+- [Nucleotide DNA 1-letter Ambiguous Symbols](ValueSet-nucleotide-dna-1letter-ambiguous.html) as single-letter ambiguous symbols for DNA residues.
+- [Nucleotide DNA 1-letter Symbols Including N](ValueSet-nucleotide-dna-1letter-with-n.html) as single-letter symbols for DNA residues, including N for any nucleotide.
+- [Nucleotide DNA 1-letter Unambiguous Symbols](ValueSet-nucleotide-dna-1letter-unambiguous.html) as single-letter unambiguous symbols for DNA residues. 
+- [Nucleotide RNA 1-letter Unambiguous Symbols](ValueSet-nucleotide-rna-1letter-unambiguous.html) as single-letter unambiguous symbols for RNA residues.
+- [Amino Acid 1-letter Ambiguous Symbols](ValueSet-amino-acid-1letter-ambiguous.html) as single-letter symbols for amino acids, including ambiguous symbols.
+- [Amino Acid 1-letter Unambiguous Symbols](ValueSet-amino-acid-1letter-unambiguous.html) as single-letter unambiguous symbols for the 20 common amino acids.
+- [Amino Acid 3-letter Ambiguous Symbols](ValueSet-amino-acid-3letter-ambiguous.html) as three-letter symbols for amino acids, including ambiguous symbols.
+- [Amino Acid 3-letter Unambiguous Symbols](ValueSet-amino-acid-3letter-unambiguous.html) as three-letter unambiguous symbols for the 20 common amino acids.
+
+#### Topology
+The [Topology CodeSystem](CodeSystem-topology.html) defines the structural arrangement of molecular sequences or modifications, capturing the spatial and organizational characteristics of genomic molecules. It includes codes that describe configurations such as linear contiguous sequences, linear sequences with gaps, circular sequences, and branched structures, reflecting the diverse molecular architectures found in genomic and biochemical contexts. This standard topological descriptors can facilitate precise representation of molecular structure in a macro-level, which is critical for understanding functional and regulatory genomic features.
+
+#### Location
+Genomic location and coordinates are fundamental to ensuring the reliable and precise positioning of genomic molecules within the context of another molecule, such as a DNA sequence. This implementation guide incorporates various code systems designed to support location elements, enabling accurate representation of genomic positions. These systems capture essential details like chromosome identifiers, start and end positions, and coordinate types, facilitating unambiguous mapping of genetic features relative to reference genomes. The following is a list of developed code systems to support location element:
+- The [Strand Orientation CodeSystem](CodeSystem-strand-orientation.html) defines the directionality of molecular sequences, specifying the polarity of nucleotides from 5' to 3' or 3' to 5', and for amino acids from the N-terminus to the C-terminus. Accurate representation of strand orientation is essential for interpreting genetic information correctly, as it influences transcription, translation, and the functional context of sequences.
+- The [Coordinate Origin CodeSystem](CodeSystem-coordinate-origin.html) establishes the reference points from which sequence coordinates are counted. It standardizes starting point of counting, i.e., sequence start, feature start, or feature end. Using these codes may ensure consistent and unambiguous positioning of genomic elements across different datasets and applications.
+- The [Normalization Method CodeSystem](CodeSystem-normalization-method.html) describes the standardized techniques used to normalize sequence variants including left-shift, right-shift, and fully-justified.
+
+##### Cytoband Location and Interval [TBD]
+TODO: This section will include descriptions and diagrams in relation to how to use various MolDef elements and associated terminologies to represent various cytoband intervals use cases, how to handle validation, ... etc.
+
+The cytobandLocation element defines a genomic location based on cytogenetic banding within a specific reference genome assembly. It is a BackboneElement that may be present zero or one time, containing a mandatory genomeAssembly element which details the reference genome used, as well as the cytoband interval element described below. The genomeAssembly itself includes an optional organism (species) specified as a CodeableConcept, along with optional elements for the assembly build number, accession identifier, and a description that can be expressed either as markdown or plain string. This structure represents contextualization of cytoband-based locations by linking cytogenetic intervals to well-defined genome assemblies, enabling consistent interpretation across different genomic datasets and studies.
+
+The cytoband interval in the FHIR MolecularDefinition resource is represented as a BackboneElement called cytobandInterval, which defines a chromosomal region using cytogenetic banding nomenclature. This element requires a chromosome specified as a CodeableConcept. It optionally specifies a start and an end cytoband, each represented by a BackboneElement with components for arm, region, band, and sub-bands, all modeled as optional CodeableConcepts. This hierarchical structure allows precise definition of the chromosomal interval at cytoband resolution, facilitating standardized genomic location reporting consistent with cytogenetic conventions.
+
+<!-- Add a diagram about the location element and another one for focusing on cytoband interval elements -->
+
+
+#### More Code Systems
+The Clinical Genomics Workgroup is currently engaged in efforts to expand the inclusion of additional FHIR code systems that represent widely used genomics terminologies such as HGNC (HUGO Gene Nomenclature Committee), PharmVar (Pharmacogene Variation Consortium), and RefSeq (NCBI Reference Sequence Database). This initiative aims to enhance the interoperability and standardization of genomic data representation within the HL7 FHIR clinical genomics framework, thereby facilitating more consistent and comprehensive exchange of genomic information across health IT systems. These code systems are expected to be incorporated into this implementation guide, thereby streamlining the implementation of this standard and promoting greater consistency and efficiency across adopting organizations.
