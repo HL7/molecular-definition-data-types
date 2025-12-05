@@ -108,7 +108,7 @@ Usage: #example
 
 Instance: example-variation-cyp2c19-1015-vcf
 InstanceOf: Variation
-Description: "Example of Variation profile of CYP2C19 at Position 1015 as VRS"
+Description: "Example of Variation profile of CYP2C19 at Position 1015 as VCF"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
