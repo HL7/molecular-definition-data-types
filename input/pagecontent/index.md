@@ -39,7 +39,7 @@ In the future, the Working Group will utilize the discrete data structures defi
 >This diagram is the current strategic vision, which is still a work in progress and subject to change. As with all our work, these decisions will be subject to open discussion and formal votes. Timelines for implementation will be dependent on the feedback and testing.
 {: .note-to-balloters}
 
-![Future State of Genomics in FHIR (work in progress)](Moldef-relationship-to-other-resources.pngg "Future State of Genomics in FHIR (work in progress)")  
+![Future State of Genomics in FHIR (work in progress)](Moldef-relationship-to-other-resources.png "Future State of Genomics in FHIR (work in progress)")  
   
   
 ### Profiles
