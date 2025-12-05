@@ -37,6 +37,9 @@ Example Name: [example-variation-tri-allelic-ABCB1](example-variation-tri-alleli
 - [Amino Acid 3-letter Ambiguous Symbols](ValueSet-amino-acid-3letter-ambiguous.html) as three-letter symbols for amino acids, including ambiguous symbols.
 - [Amino Acid 3-letter Unambiguous Symbols](ValueSet-amino-acid-3letter-unambiguous.html) as three-letter unambiguous symbols for the 20 common amino acids.
 
+### Type
+The Molecular Definition Type element is designed to represent a broad spectrum of categorizations and descriptive labels associated with a specific molecular type instance. It employs the CodeableConcept data type to ensure semantic clarity, terminological flexibility, and interoperability across diverse biomedical contexts. This element encompasses all descriptive classifications and conceptual groupings pertinent to the molecular instance, with the exception of those explicitly addressed by the MoleculeType element defined above.
+
 #### Topology
 The [Topology CodeSystem](CodeSystem-topology.html) defines the structural arrangement of molecular sequences or modifications, capturing the spatial and organizational characteristics of genomic molecules. It includes codes that describe configurations such as linear contiguous sequences, linear sequences with gaps, circular sequences, and branched structures, reflecting the diverse molecular architectures found in genomic and biochemical contexts. This standard topological descriptors can facilitate precise representation of molecular structure in a macro-level, which is critical for understanding functional and regulatory genomic features.
 
