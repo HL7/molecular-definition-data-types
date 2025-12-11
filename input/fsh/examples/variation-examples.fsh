@@ -120,6 +120,8 @@ Usage: #example
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.origin = CoordinateOrigin#sequence-start "Sequence start"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod = NormalizationMethod#left-shift "Left shift"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 1016
 // * location.sequenceLocation.coordinateInterval.endQuantity.value = 1016
 * representation[referenceState].literal.value = "A"
