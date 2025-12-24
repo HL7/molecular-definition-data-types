@@ -163,3 +163,18 @@ Usage: #example
 * content.attachment.contentType = #text/plain
 * content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NC_000007.14?report=fasta&log$=seqview&format=text"
 * content.attachment.title = "Homo sapiens chromosome 7, GRCh38.p14 Primary Assembly"
+
+// for VKORC1
+
+Instance: example-genomicfile-nc00001610-url
+InstanceOf: DocumentReference
+Usage: #example
+* identifier.system = "http://example.org/identifiers/files"
+* identifier.value = "11112"
+* status = #current
+* docStatus = #preliminary
+* description = "CYP2C19 gene sequence"
+* securityLabel = $v3-Confidentiality#R "Restricted"
+* content.attachment.contentType = #text/plain
+* content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NC_000016.10?report=fasta&log$=seqview&format=text"
+* content.attachment.title = "Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly"
