@@ -173,7 +173,7 @@ Usage: #example
 * identifier.value = "11112"
 * status = #current
 * docStatus = #preliminary
-* description = "CYP2C19 gene sequence"
+* description = "VKORC1 gene sequence"
 * securityLabel = $v3-Confidentiality#R "Restricted"
 * content.attachment.contentType = #text/plain
 * content.attachment.url = "https://www.ncbi.nlm.nih.gov/nuccore/NC_000016.10?report=fasta&log$=seqview&format=text"
