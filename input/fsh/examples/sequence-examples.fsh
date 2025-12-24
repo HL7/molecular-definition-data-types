@@ -240,3 +240,13 @@ Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-hla00001)
+
+// for VKORC1
+
+Instance: example-sequence-nc00001610-url
+InstanceOf: Sequence
+Description: "A sequence represented as a resolvable URL, Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly, NC_000016.10"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* representation[0].resolvable = Reference(DocumentReference/example-genomicfile-nc00001610-url)
