@@ -361,3 +361,25 @@ Usage: #example
 * representation[alleleState].literal.value = "G"
 //* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "A"
+
+
+// for VKORC1
+
+Instance: example-allelesliced-vkorc1-31096368c
+InstanceOf: Allele
+Description: "A simple Allele example showing VKORC1 rs9923231 reference (C)"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nc00001610-url"
+* location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
+* location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly, NC_000016.10"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
+* location.sequenceLocation.coordinateInterval.startQuantity.value = 31096368
+* location.sequenceLocation.coordinateInterval.endQuantity.value = 31096368
+//* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
+//* representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
+* representation[alleleState].code.coding.display = "NC_000016.10:g.31096368C"
+* representation[alleleState].literal.value = "C"
+//* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
+* representation[contextState].literal.value = "C"
