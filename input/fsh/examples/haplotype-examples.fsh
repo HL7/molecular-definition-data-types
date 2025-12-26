@@ -75,3 +75,13 @@ Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
 * member[0] = Reference(MolecularDefinition/example-allelesliced-vkorc1-31096368c)
+
+
+// VKORC1 variant (T)
+Instance: example-haplotype-vkorc1-31096368t
+InstanceOf: Haplotype
+Description: "Example of Haplotype profile representing VKORC1 having (T) at 31096368 in reference to NC_000016.10"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* member[0] = Reference(MolecularDefinition/example-allelesliced-vkorc1-31096368t)
