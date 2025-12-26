@@ -39,9 +39,18 @@ Usage: #example
 
 Instance: example-genotype-vkorc1-31096368t-and-31096368t
 InstanceOf: Genotype
-Description: "Example of Genotype profile representing VKORC1 C and T haplotypes"
+Description: "Example of Genotype profile representing VKORC1 T and T haplotypes"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
 * member[0] = Reference(MolecularDefinition/example-haplotype-vkorc1-31096368t)
 * member[+] = Reference(MolecularDefinition/example-haplotype-vkorc1-31096368t)
+
+Instance: example-genotype-vkorc1-31096368c-and-31096368c
+InstanceOf: Genotype
+Description: "Example of Genotype profile representing VKORC1 C and C haplotypes"
+Usage: #example
+* moleculeType.coding = MoleculeType#dna "DNA Sequence"
+* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* member[0] = Reference(MolecularDefinition/example-haplotype-vkorc1-31096368c)
+* member[+] = Reference(MolecularDefinition/example-haplotype-vkorc1-31096368c)
