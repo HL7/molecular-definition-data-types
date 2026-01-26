@@ -127,6 +127,9 @@ The CYP2C19 gene encodes an enzyme essential for metabolizing several medication
 
 Please check the [complete list of Haplotype examples](StructureDefinition-haplotype-examples.html) and the [complete list of Genotype examples](StructureDefinition-genotype-examples.html) for more examples
 
+### VKORC1 Genotype
+- [Genotype of VKORC1 of C and T at 31096368](MolecularDefinition-example-genotype-vkorc1-31096368c-and-31096368t.html)
+
 ### More Immunogenetics and Histocompatibility Use Cases
 Immunogenetics and histocompatibility constitute critical domains in biomedical research and clinical practice, underpinning the understanding of immune responses, transplant compatibility, and disease susceptibility. The introduction of the Molecular Definition resource within the HL7 FHIR framework represents a significant advancement by providing a standardized model for capturing and exchanging detailed molecular characteristics relevant to these fields. This resource facilitates precise representation of genetic and molecular data essential for accurate immunogenetic and histocompatibility assessments. 
 
