@@ -133,9 +133,11 @@ The following examples would be relevant from a genomic definitional prespective
    - [Haplotype of VKORC1, C at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368c.html)
    - [Haplotype of VKORC1, T at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368t.html)
 - [Genotype of VKORC1 of T/T at 31096368](MolecularDefinition-example-genotype-vkorc1-31096368t-and-31096368t.html)
-   - - [Haplotype of VKORC1, T at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368t.html)
+   - [Haplotype of VKORC1, T at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368t.html)
    - [Haplotype of VKORC1, T at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368t.html)
 - [Genotype of VKORC1 of C/C at 31096368](MolecularDefinition-example-genotype-vkorc1-31096368c-and-31096368c.html)
+   - [Haplotype of VKORC1, C at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368c.html)
+   - [Haplotype of VKORC1, C at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368c.html)
 
 ### More Immunogenetics and Histocompatibility Use Cases
 Immunogenetics and histocompatibility constitute critical domains in biomedical research and clinical practice, underpinning the understanding of immune responses, transplant compatibility, and disease susceptibility. The introduction of the Molecular Definition resource within the HL7 FHIR framework represents a significant advancement by providing a standardized model for capturing and exchanging detailed molecular characteristics relevant to these fields. This resource facilitates precise representation of genetic and molecular data essential for accurate immunogenetic and histocompatibility assessments. 
