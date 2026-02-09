@@ -130,6 +130,8 @@ Please check the [complete list of Haplotype examples](StructureDefinition-haplo
 ### VKORC1 Genotype
 The following examples would be relevant from a genomic definitional prespective to the Genotype example [Pgx-geno-1003](https://hl7.org/fhir/uv/genomics-reporting/Observation-Pgx-geno-1003.html) of FHIR Genomics Reporting Implementation Guide.
 - [Genotype of VKORC1 of C/T at 31096368](MolecularDefinition-example-genotype-vkorc1-31096368c-and-31096368t.html)
+   - [Haplotype of VKORC1, C at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368c.html)
+   - [Haplotype of VKORC1, C at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368t.html)
 - [Genotype of VKORC1 of T/T at 31096368](MolecularDefinition-example-genotype-vkorc1-31096368t-and-31096368t.html)
 - [Genotype of VKORC1 of C/C at 31096368](MolecularDefinition-example-genotype-vkorc1-31096368c-and-31096368c.html)
 
