@@ -133,6 +133,8 @@ The following examples would be relevant from a genomic definitional prespective
    - [Haplotype of VKORC1, C at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368c.html)
    - [Haplotype of VKORC1, T at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368t.html)
 - [Genotype of VKORC1 of T/T at 31096368](MolecularDefinition-example-genotype-vkorc1-31096368t-and-31096368t.html)
+   - - [Haplotype of VKORC1, T at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368t.html)
+   - [Haplotype of VKORC1, T at 31096368](MolecularDefinition-example-haplotype-vkorc1-31096368t.html)
 - [Genotype of VKORC1 of C/C at 31096368](MolecularDefinition-example-genotype-vkorc1-31096368c-and-31096368c.html)
 
 ### More Immunogenetics and Histocompatibility Use Cases
