@@ -1,6 +1,8 @@
 # molecular-definition-data-types
 FHIR Implementation guide that defines shared data types for molecular definitions
 
+Build Implementation Guide: https://build.fhir.org/ig/HL7/molecular-definition-data-types/
+
 ## Writing Prompt
 The following can be used an AI prompt to review the documentation (make suggestions to improve the prompt):
 
