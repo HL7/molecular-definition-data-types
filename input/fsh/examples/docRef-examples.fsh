@@ -1,5 +1,3 @@
-Alias: $v3-Confidentiality = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
-
 Instance: example-genomicfile-af1961831-url
 InstanceOf: DocumentReference
 Usage: #example

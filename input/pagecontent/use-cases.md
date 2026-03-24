@@ -83,7 +83,7 @@ Note: these examples are not complete and under active development and curation,
 
 - [Example of Variation of CYP2C19 at Position 1015 as VRS](MolecularDefinition-example-variation-cyp2c19-1015-vrs.html)
 
-- [Example of Variation of CYP2C19 at Position 1016 as VCF](MolecularDefinition-example-variation-cyp2c19-1016-vcf.html)
+- [Example of Variation of CYP2C19 at Position 1015 as VCF](MolecularDefinition-example-variation-cyp2c19-1015-vcf.html)
 
 
 Please check the [complete list of Variation examples](StructureDefinition-variation-examples.html) for more examples

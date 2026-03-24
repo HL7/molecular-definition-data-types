@@ -1,7 +1,3 @@
-// Alias: $LNC = http://loinc.org
-Alias: $PHV = http://www.pharmvar.org
-
-
 // CYP2C19*1.002:c.[661G; 1016G]
 
 Instance: example-allelesliced-cyp2c19-661g
@@ -378,8 +374,7 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 31096368
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 31096368
 //* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
-//* representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
-* representation[alleleState].code.coding.display = "NC_000016.10:g.31096368C"
+* representation[alleleState].code.coding = $HGVS#NC_000016.10:g.31096368C= "NC_000016.10:g.31096368C="
 * representation[alleleState].literal.value = "C"
 //* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"
@@ -397,8 +392,7 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 31096368
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 31096368
 //* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
-//* representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
-* representation[alleleState].code.coding.display = "NC_000016.10:g.31096368T"
+* representation[alleleState].code.coding = $HGVS#NC_000016.10:g.31096368C>T "NC_000016.10:g.31096368C>T"
 * representation[alleleState].literal.value = "T"
 //* representation[+].focus.coding = MolecularDefinitionFocus#context-state "Context State"
 * representation[contextState].literal.value = "C"

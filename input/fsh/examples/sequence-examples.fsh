@@ -1,13 +1,10 @@
-Alias: $REFSEQ = http://www.ncbi.nlm.nih.gov/refseq
-Alias: $LNC = http://loinc.org
-
 Instance: example-sequence-a-dna-iupac
 InstanceOf: Sequence
 Description: "Simple Sequence example with IUPAC encoding, A"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-* representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "A"
 
 
@@ -17,7 +14,7 @@ Description: "Simple Sequence example with IUPAC encoding, C"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-* representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "C"
 
 
@@ -28,7 +25,7 @@ Usage: #example
 * moleculeType.coding = MoleculeType#aa "AA Sequence"
 * type.coding = MoleculeType#aa "AA Sequence"
 // * representation[0].literal.encoding.coding = Encodings#aa-1-noamb-20common "Amino acid, 1 letter, no ambiguity, 20 common"
-* representation[0].literal.encoding.coding = Encodings#amino-acid-1letter-unambiguous "Amino Acid 1-letter Unambiguous Symbols"
+* representation[0].literal.encoding = Encodings#amino-acid-1letter-unambiguous
 * representation[0].literal.value = "A"
 
 
@@ -147,7 +144,7 @@ Description: "Simple Sequence example of GGC sequence"
 Usage: #example
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-* representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "CGG"
 
 
@@ -189,7 +186,7 @@ Description: "Simple Sequence example with IUPAC encoding, A"
 Usage: #inline
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-* representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "A"
 
 
@@ -199,7 +196,7 @@ Description: "Simple Sequence example with IUPAC encoding, C"
 Usage: #inline
 * moleculeType.coding = MoleculeType#dna "DNA Sequence"
 * type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
-* representation[0].literal.encoding.coding = Encodings#nucleotide-dna-1letter-unambiguous "Nucleotide DNA 1-letter Unambiguous Symbols"
+* representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "C"
 
 

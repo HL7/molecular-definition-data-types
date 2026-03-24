@@ -21,7 +21,7 @@ Example Name: [example-allelesliced-cyp2c19-1016g](MolecularDefinition-example-a
 
 Figure below shows a Variation example of Tri-allelic ABCB1 showing Context state “T”, Alternative State “C”, and Reference State “A” at position 87531302
 
-Example Name: [example-variation-tri-allelic-ABCB1](example-variation-tri-allelic-ABCB1)
+Example Name: [example-variation-tri-allelic-ABCB1](MolecularDefinition-example-variation-tri-allelic-ABCB1.html)
 
 
 ![A Diagram descriping Variation profile and how it leverages the Focus code system](Alternative-state-vs-context-state-vs-reference-state-illustration-resized-1.png "A Diagram descriping Variation profile and how it leverages the Focus code system")

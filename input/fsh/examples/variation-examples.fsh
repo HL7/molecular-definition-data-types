@@ -1,6 +1,3 @@
-Alias: $VRN = http://varnomen.hgvs.org
-
-
 Instance: example-variation-cyp2c19-1015-spdi
 InstanceOf: Variation
 Description: "Example of Variation profile of CYP2C19 at Position 1015 as SPDI"
@@ -89,10 +86,9 @@ Usage: #example
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 1015
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 1016
 * representation[referenceState].literal.value = "A"
-* representation[referenceState].code = $VRN#NM_000769.4:c.991A "NM_000769.4:c.991A"
+* representation[referenceState].code = $HGVS#NM_000769.4:c.991A= "NM_000769.4:c.991A="
 * representation[alternativeState].literal.value = "G"
-* representation[alternativeState].code = $VRN#NM_000769.4:c.991A>G "NM_000769.4:c.991A>G"
-
+* representation[alternativeState].code = $HGVS#NM_000769.4:c.991A>G "NM_000769.4:c.991A>G"
 
 Instance: example-variation-cyp2c19-1015-vrs
 InstanceOf: Variation
