@@ -27,12 +27,12 @@ publisher:
   url: http://www.hl7.org/Special/committees/clingenomics
   email: cg@lists.HL7.org
 
-# dependencies:
+dependencies:
 #  hl7.fhir.r6.core: latest
 #  hl7.terminology.r5: latest
 #  hl7.fhir.uv.extensions.r5: latest
-
-#  hl7.fhir.uv.cg-incubator: dev
+  # MolecularDefinition is an additional resource in the CG incubator from FHIR 6.0.0-snapshot1
+  hl7.fhir.uv.cg-incubator: current
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced

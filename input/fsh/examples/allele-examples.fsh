@@ -4,8 +4,8 @@ Instance: example-allelesliced-cyp2c19-661g
 InstanceOf: Allele
 Description: "A simple Allele example showing CYP2C19*1.002:c.661G"
 Usage: #example
-* moleculeType.coding = MoleculeType#rna "RNA Sequence"
-* type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#rna "RNA sequence"
+* type.coding = $CGMoleculeType#rna "RNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nm0007694-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
@@ -24,8 +24,8 @@ Instance: example-allelesliced-cyp2c19-661a
 InstanceOf: Allele
 Description: "A simple Allele example showing CYP2C19*3.002:c.661A"
 Usage: #example
-* moleculeType.coding = MoleculeType#rna "RNA Sequence"
-* type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#rna "RNA sequence"
+* type.coding = $CGMoleculeType#rna "RNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nm0007694-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
@@ -45,8 +45,8 @@ Instance: example-allelesliced-cyp2c19-1016g
 InstanceOf: Allele
 Description: "A simple Allele example showing a G at position 1016 on NM_000769.4, applicable to both CYP2C19*1.002 and CYP2C19*3.002"
 Usage: #example
-* moleculeType.coding = MoleculeType#rna "RNA Sequence"
-* type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#rna "RNA sequence"
+* type.coding = $CGMoleculeType#rna "RNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nm0007694-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
@@ -69,8 +69,8 @@ InstanceOf: Allele
 Description: "Example of Allele profile including slices for CYP2C19 position 1016 while leveraging contained resources"
 Usage: #example
 * contained = example-sequence-nm0007694-acc
-* moleculeType.coding = MoleculeType#rna "RNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#rna "RNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "#example-sequence-nm0007694-acc"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
@@ -86,8 +86,8 @@ Usage: #example
 Instance: example-sequence-nm0007694-acc
 InstanceOf: Sequence
 Usage: #inline
-* moleculeType.coding = MoleculeType#rna "RNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#rna "RNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].code.coding = $REFSEQ#NM_000769.4 "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), mRNA"
 
 
@@ -95,8 +95,8 @@ Instance: example-allelesliced-hla-98-t
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[98T])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -113,8 +113,8 @@ Instance: example-allelesliced-hla-121-c
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[121C])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -131,8 +131,8 @@ Instance: example-allelesliced-hla-123-c
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[123C])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -149,8 +149,8 @@ Instance: example-allelesliced-hla-126-g
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[126G])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -167,8 +167,8 @@ Instance: example-allelesliced-hla-144-c
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[144C])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -187,8 +187,8 @@ Instance: example-allelesliced-hla-98-c
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[98C])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -205,8 +205,8 @@ Instance: example-allelesliced-hla-121-a
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[121A])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -223,8 +223,8 @@ Instance: example-allelesliced-hla-123-t
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[123T])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -241,8 +241,8 @@ Instance: example-allelesliced-hla-126-a
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[126A])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -259,8 +259,8 @@ Instance: example-allelesliced-hla-144-a
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[144A])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
@@ -278,17 +278,17 @@ Instance: example-allelesliced-cyp2c19-661g-coded
 InstanceOf: Allele
 Description: "A simple Allele example showing CYP2C19*1.002:c.661G"
 Usage: #example
-* moleculeType.coding = MoleculeType#rna "RNA Sequence"
-* type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#rna "RNA sequence"
+* type.coding = $CGMoleculeType#rna "RNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nm0007694-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
-* location.sequenceLocation.coordinateInterval.coordinateSystem.origin = CoordinateOrigin#sequence-start "Sequence start"
-* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod = NormalizationMethod#left-shift "Left shift"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.origin = $CGCoordinateOrigin#sequence-start "Sequence Start"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod = $CGNormalizationMethod#left-shift "Left Shift"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 661
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 661
-* location.sequenceLocation.strand = StrandOrientation#forward "Forward strand"
+* location.sequenceLocation.strand = $CGStrandOrientation#forward "Forward strand"
 //* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
 * representation[alleleState].code.coding = $PHV#PV00076 "CYP2C19*1.002"
 * representation[alleleState].code.coding.display = "CYP2C19*1.002"
@@ -301,14 +301,14 @@ Instance: example-allelesliced-hla-144-a-coded
 InstanceOf: Allele
 Description: "An Allele example representing a part of HLA00001.1:c.[144A])"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-hla000011"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: HLA00001"
 * location.sequenceLocation.coordinateInterval.coordinateSystem.system.coding = $LNC#LA30102-0 "1-based character counting"
-* location.sequenceLocation.coordinateInterval.coordinateSystem.origin = CoordinateOrigin#sequence-start "Sequence start"
-* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod = NormalizationMethod#left-shift "Left shift"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.origin = $CGCoordinateOrigin#sequence-start "Sequence Start"
+* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod = $CGNormalizationMethod#left-shift "Left Shift"
 * location.sequenceLocation.coordinateInterval.startQuantity.value = 144
 * location.sequenceLocation.coordinateInterval.endQuantity.value = 144
 //* representation[0].focus.coding = MolecularDefinitionFocus#allele-state "Allele State"
@@ -324,8 +324,8 @@ Instance: example-allelesliced-cyp2c19-1b-124t
 InstanceOf: Allele
 Description: "A simple Allele example showing CYP2C19*1.002*1B 124 T"
 Usage: #example
-* moleculeType.coding = MoleculeType#rna "RNA Sequence"
-* type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#rna "RNA sequence"
+* type.coding = $CGMoleculeType#rna "RNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nm0007694-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
@@ -343,8 +343,8 @@ Instance: example-allelesliced-cyp2c19-1b-1016g
 InstanceOf: Allele
 Description: "A simple Allele example showing CYP2C19*1.002*1B 1016 G"
 Usage: #example
-* moleculeType.coding = MoleculeType#rna "RNA Sequence"
-* type.coding = MoleculeType#rna "RNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#rna "RNA sequence"
+* type.coding = $CGMoleculeType#rna "RNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nm0007694-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
@@ -365,8 +365,8 @@ Instance: example-allelesliced-vkorc1-31096368c
 InstanceOf: Allele
 Description: "A simple Allele example showing VKORC1 rs9923231 reference (C)"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nc00001610-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly, NC_000016.10"
@@ -383,8 +383,8 @@ Instance: example-allelesliced-vkorc1-31096368t
 InstanceOf: Allele
 Description: "A simple Allele example showing VKORC1 rs9923231 variant (T)"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be changed later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be changed later to an additional info other than this if moleculeType
 * location.sequenceLocation.sequenceContext.reference = "MolecularDefinition/example-sequence-nc00001610-url"
 * location.sequenceLocation.sequenceContext.type = "MolecularDefinition"
 * location.sequenceLocation.sequenceContext.display = "Starting Sequence Resource: Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly, NC_000016.10"

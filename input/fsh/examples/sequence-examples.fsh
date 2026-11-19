@@ -2,8 +2,8 @@ Instance: example-sequence-a-dna-iupac
 InstanceOf: Sequence
 Description: "Simple Sequence example with IUPAC encoding, A"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "A"
 
@@ -12,8 +12,8 @@ Instance: example-sequence-c-dna-iupac
 InstanceOf: Sequence
 Description: "Simple Sequence example with IUPAC encoding, C"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "C"
 
@@ -22,8 +22,8 @@ Instance: example-sequence-a-aa-iupac
 InstanceOf: Sequence
 Description: "Simple Sequence example with IUPAC encoding"
 Usage: #example
-* moleculeType.coding = MoleculeType#aa "AA Sequence"
-* type.coding = MoleculeType#aa "AA Sequence"
+* moleculeType.coding = $CGMoleculeType#aa "Amino acid sequence"
+* type.coding = $CGMoleculeType#aa "Amino acid sequence"
 // * representation[0].literal.encoding.coding = Encodings#aa-1-noamb-20common "Amino acid, 1 letter, no ambiguity, 20 common"
 * representation[0].literal.encoding = Encodings#amino-acid-1letter-unambiguous
 * representation[0].literal.value = "A"
@@ -33,8 +33,8 @@ Instance: example-genomic-cyp2c19-accession
 InstanceOf: Sequence
 Description: "A sequence represented as a code using an accession number"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].code.coding = $REFSEQ#NG_008384.3 "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
 
 
@@ -42,16 +42,16 @@ Instance: example-sequence-cyp2c19-url
 InstanceOf: Sequence
 Description: "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-url)
 
 Instance: example-sequence-nm0007694-url
 InstanceOf: Sequence
 Description: "A sequence represented as a resolvable URL"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-nm0007694)
 
 
@@ -59,8 +59,8 @@ Instance: example-sequence-cyp2c19-attached
 InstanceOf: Sequence
 Description: "A sequence represented as an attachement"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-attached)
 
 
@@ -68,8 +68,8 @@ Instance: example-sequence-cyp2c19-accession
 InstanceOf: Sequence
 Description: "A sequence represented as an attachement"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-cyp2c19-accession)
 
 
@@ -77,8 +77,8 @@ Instance: example-sequence-cyp2c19-gene-region
 InstanceOf: Sequence
 Description: "A gene region extracted from a sequence"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation.extracted.startingMolecule.reference = "MolecularDefinition/example-sequence-cyp2c19-accession"
 // * representation.extracted.startingMolecule.type = "MolecularDefinition"
 // * representation.extracted.startingMolecule.display = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
@@ -92,8 +92,8 @@ Instance: example-sequence-cyp2c19-upstream-region
 InstanceOf: Sequence
 Description: "An upstream region extracted from a sequence"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation.extracted.startingMolecule.reference = "MolecularDefinition/example-sequence-cyp2c19-accession"
 // * representation.extracted.startingMolecule.type = "MolecularDefinition"
 // * representation.extracted.startingMolecule.display = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
@@ -107,8 +107,8 @@ Instance: example-sequence-cyp2c19-downstream-region
 InstanceOf: Sequence
 Description: "A downstream region extracted from a sequence"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation.extracted.startingMolecule.reference = "MolecularDefinition/example-sequence-cyp2c19-accession"
 // * representation.extracted.startingMolecule.type = "MolecularDefinition"
 // * representation.extracted.startingMolecule.display = "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), RefSeqGene (LRG_584) on chromosome 10"
@@ -122,8 +122,8 @@ Instance: example-sequence-cyp2c19-concatenated-regions
 InstanceOf: Sequence
 Description: "A sequence represented as a concatenation of sequence instances"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation.concatenated.sequenceElement[0].sequence.reference = "MolecularDefinition/example-sequence-cyp2c19-upstream-region"
 * representation.concatenated.sequenceElement[=].sequence.type = "MolecularDefinition"
 * representation.concatenated.sequenceElement[=].sequence.display = "Sequence CYP2C19 Upstream Region"
@@ -142,8 +142,8 @@ Instance: example-sequence-cgg
 InstanceOf: Sequence
 Description: "Simple Sequence example of GGC sequence"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "CGG"
 
@@ -152,8 +152,8 @@ Instance: example-sequence-fmr1-cgg-20x-repeat
 InstanceOf: Sequence
 Description: "A sequence example composed of 20x repeats of CGG sequence"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation.repeated.sequenceMotif.reference = "MolecularDefinition/example-sequence-cgg"
 * representation.repeated.sequenceMotif.type = "MolecularDefinition"
 * representation.repeated.sequenceMotif.display = "cgg"
@@ -164,8 +164,8 @@ Instance: example-sequence-fmr1-cgg-20x-edited-referenced
 InstanceOf: Sequence
 Description: "A sequence example composed of 20x repeats of CGG sequence edited using referenced resources"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation.relative.startingMolecule.reference = "MolecularDefinition/example-sequence-fmr1-cgg-20x-repeat"
 * representation.relative.startingMolecule.type = "MolecularDefinition"
 * representation.relative.startingMolecule.display = "CGG 20X"
@@ -184,8 +184,8 @@ Instance: replacement
 InstanceOf: Sequence
 Description: "Simple Sequence example with IUPAC encoding, A"
 Usage: #inline
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "A"
 
@@ -194,8 +194,8 @@ Instance: replaced
 InstanceOf: Sequence
 Description: "Simple Sequence example with IUPAC encoding, C"
 Usage: #inline
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].literal.encoding = Encodings#nucleotide-dna-1letter-unambiguous
 * representation[0].literal.value = "C"
 
@@ -206,8 +206,8 @@ Description: "A sequence example composed of 20x repeats of CGG sequence edited 
 Usage: #example
 * contained[0] = replacement
 * contained[+] = replaced
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * moleculeType.coding.display = "DNA Sequence"
 * representation.relative.startingMolecule.reference = "MolecularDefinition/example-sequence-fmr1-cgg-20x-repeat"
 * representation.relative.startingMolecule.type = "MolecularDefinition"
@@ -225,8 +225,8 @@ Instance: example-sequence-nc00000714-url
 InstanceOf: Sequence
 Description: "A sequence represented as a resolvable URL, NC_000007.14 Homo sapiens chromosome 7, GRCh38.p14 Primary Assembly"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-nc00000714-url)
 
 
@@ -234,8 +234,8 @@ Instance: example-sequence-hla000011
 InstanceOf: Sequence
 Description: "A sequence represented as a resolvable URL of HLA00001"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-hla00001)
 
 // for VKORC1
@@ -244,6 +244,6 @@ Instance: example-sequence-nc00001610-url
 InstanceOf: Sequence
 Description: "A sequence represented as a resolvable URL, Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly, NC_000016.10"
 Usage: #example
-* moleculeType.coding = MoleculeType#dna "DNA Sequence"
-* type.coding = MoleculeType#dna "DNA Sequence" // need to be change later to an additional info other than this if moleculeType
+* moleculeType.coding = $CGMoleculeType#dna "DNA sequence"
+* type.coding = $CGMoleculeType#dna "DNA sequence" // need to be change later to an additional info other than this if moleculeType
 * representation[0].resolvable = Reference(DocumentReference/example-genomicfile-nc00001610-url)

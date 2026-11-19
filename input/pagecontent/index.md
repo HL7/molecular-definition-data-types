@@ -4,7 +4,7 @@ Structured genetic information plays a crucial role in modern genomic medicine, 
 {: .note-to-balloters}
 
 ### Scope
-This implementation guide addresses these challenges by leveraging the newly developed [MolecularDefinition]({{site.data.fhir.path}}moleculardefinition.html) resource to support the structured representation of fundamental genetic concepts, including sequence, allele, and variation. Additionally, it integrates various core FHIR resources to establish a robust framework for interoperable genetic data exchange.
+This implementation guide addresses these challenges by leveraging the newly developed [MolecularDefinition](https://build.fhir.org/ig/HL7/cg-incubator/StructureDefinition-MolecularDefinition.html) resource to support the structured representation of fundamental genetic concepts, including sequence, allele, and variation. Additionally, it integrates various core FHIR resources to establish a robust framework for interoperable genetic data exchange.
 
 The guide outlines methodologies and provides practical examples of how to utilize the developed MolecularDefinition profiles across diverse genomic applications, including:
 
@@ -23,7 +23,7 @@ Readers are encouraged to start with this page and follow the linked sections in
 Suggested Sequence:
 1. [Motivation](motivation.html) of this implementation guide
 2. [Introduction to HL7 FHIR](#understanding-fhir)
-3. [MolecularDefinition resource]({{site.data.fhir.path}}moleculardefinition.html)
+3. [MolecularDefinition resource](https://build.fhir.org/ig/HL7/cg-incubator/StructureDefinition-MolecularDefinition.html)
 4. MolecularDefinition [profiles](#profiles) and their corresponding genetic concepts
 5. [Supporting terminologies](terminology.html), i.e., code systems and value sets
 6. [Example Use Cases](use-cases.html)
