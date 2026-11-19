@@ -1,0 +1,107 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|0.1.0-ci-build",
+  "id": "example-variation-cyp2c19-1015-spdi-coded",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/variation"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "DNA sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "sequenceLocation": {
+        "sequenceContext": {
+          "reference": "MolecularDefinition/example-sequence-nm0007694-url",
+          "type": "MolecularDefinition",
+          "display": "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
+        },
+        "coordinateInterval": {
+          "coordinateSystem": {
+            "system": {
+              "coding": [
+                {
+                  "code": "LA30100-4",
+                  "system": "http://loinc.org",
+                  "display": "0-based interval counting"
+                }
+              ]
+            },
+            "origin": {
+              "coding": [
+                {
+                  "code": "sequence-start",
+                  "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/coordinatesystem-origin",
+                  "display": "Sequence Start"
+                }
+              ]
+            },
+            "normalizationMethod": {
+              "coding": [
+                {
+                  "code": "fully-justified",
+                  "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/coordinatesystem-normalizationmethod",
+                  "display": "Fully Justified"
+                }
+              ]
+            }
+          },
+          "startQuantity": {
+            "value": 1015
+          }
+        }
+      }
+    }
+  ],
+  "representation": [
+    {
+      "literal": {
+        "encoding": {
+          "coding": [
+            {
+              "code": "nucleotide-dna-1letter-unambiguous",
+              "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings",
+              "display": "Nucleotide DNA 1-letter Unambiguous Symbols"
+            }
+          ]
+        },
+        "value": "A"
+      },
+      "focus": "reference-state"
+    },
+    {
+      "literal": {
+        "encoding": {
+          "coding": [
+            {
+              "code": "nucleotide-dna-1letter-unambiguous",
+              "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings",
+              "display": "Nucleotide DNA 1-letter Unambiguous Symbols"
+            }
+          ]
+        },
+        "value": "G"
+      },
+      "focus": "alternative-state"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|0.1.0-ci-build",
+  "id": "example-variation-tri-allelic-ABCB1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/variation"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "DNA sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "sequenceLocation": {
+        "sequenceContext": {
+          "reference": "MolecularDefinition/example-sequence-nc00000714-url",
+          "type": "MolecularDefinition",
+          "display": "Homo sapiens chromosome 7, GRCh38.p14 Primary Assembly, NC_000007.14"
+        },
+        "coordinateInterval": {
+          "coordinateSystem": {
+            "system": {
+              "coding": [
+                {
+                  "code": "LA30100-4",
+                  "system": "http://loinc.org",
+                  "display": "0-based interval counting"
+                }
+              ]
+            }
+          },
+          "startQuantity": {
+            "value": 87531302
+          }
+        }
+      }
+    }
+  ],
+  "representation": [
+    {
+      "literal": {
+        "value": "A"
+      },
+      "focus": "reference-state"
+    },
+    {
+      "literal": {
+        "value": "C"
+      },
+      "focus": "alternative-state"
+    },
+    {
+      "literal": {
+        "value": "T"
+      },
+      "focus": "context-state"
+    }
+  ]
+}
