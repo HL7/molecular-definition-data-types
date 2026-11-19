@@ -1,0 +1,59 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|0.1.0-ci-build",
+  "id": "example-sequence-cyp2c19-downstream-region",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "DNA sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "extracted": {
+        "startingMolecule": {
+          "reference": "MolecularDefinition/example-sequence-cyp2c19-accession"
+        },
+        "coordinateInterval": {
+          "coordinateSystem": {
+            "system": {
+              "coding": [
+                {
+                  "code": "LA30100-4",
+                  "system": "http://loinc.org",
+                  "display": "0-based interval counting"
+                }
+              ]
+            }
+          },
+          "startQuantity": {
+            "value": 97868
+          },
+          "endQuantity": {
+            "value": 99871
+          }
+        },
+        "reverseComplement": false
+      }
+    }
+  ]
+}

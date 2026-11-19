@@ -1,0 +1,132 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|0.1.0-ci-build",
+  "id": "example-allelesliced-cyp2c19-1016-cont",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/allele"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "MolecularDefinition",
+      "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|0.1.0-ci-build",
+      "id": "example-sequence-nm0007694-acc",
+      "meta": {
+        "profile": [
+          "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+        ]
+      },
+      "moleculeType": {
+        "coding": [
+          {
+            "code": "rna",
+            "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+            "display": "RNA sequence"
+          }
+        ]
+      },
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "dna",
+              "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+              "display": "DNA sequence"
+            }
+          ]
+        }
+      ],
+      "representation": [
+        {
+          "code": [
+            {
+              "coding": [
+                {
+                  "code": "NM_000769.4",
+                  "system": "http://www.ncbi.nlm.nih.gov/refseq",
+                  "display": "Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), mRNA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "rna",
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "RNA sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "sequenceLocation": {
+        "sequenceContext": {
+          "reference": "#example-sequence-nm0007694-acc",
+          "type": "MolecularDefinition",
+          "display": "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
+        },
+        "coordinateInterval": {
+          "coordinateSystem": {
+            "system": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "LA30102-0",
+                  "display": "1-based character counting"
+                }
+              ]
+            }
+          },
+          "startQuantity": {
+            "value": 1016
+          },
+          "endQuantity": {
+            "value": 1016
+          }
+        }
+      }
+    }
+  ],
+  "representation": [
+    {
+      "code": [
+        {
+          "coding": [
+            {
+              "code": "PV00076",
+              "system": "http://www.pharmvar.org",
+              "display": "CYP2C19*1.002"
+            }
+          ]
+        }
+      ],
+      "literal": {
+        "value": "G"
+      },
+      "focus": "allele-state"
+    },
+    {
+      "literal": {
+        "value": "A"
+      },
+      "focus": "context-state"
+    }
+  ]
+}
