@@ -1,7 +1,7 @@
 {
   "package-id" : "hl7.fhir.uv.molecular-definition-data-types",
-  "version" : "1.0.0-ballot1",
-  "path" : "http://hl7.org/fhir/uv/molecular-definition-data-types/2025Sep",
+  "version" : "1.0.0-ballot",
+  "path" : "http://hl7.org/fhir/uv/molecular-definition-data-types/1.0.0-202701-ballot",
   "mode" : "working",
   "status" : "ballot",
   "sequence" : "STU1",
@@ -9,6 +9,9 @@
   "first" : true,
   "title" : "Molecular Definition Implementation Guide for Molecular Data Types",
   "ci-build" : "http://build.fhir.org/ig/HL7/molecular-definition-data-types",
+  "registry-description": "The Clinical Genomics Molecular Definition Data Types Implementation Guide provides a consolidated workspace for emerging FHIR resources, profiles, operations, vocabularies, and other artifacts developed by the HL7 Clinical Genomics Work Group. The content is actively evolving and supports trial use, pilot implementations, and community review.",
+  "registry-country": "uv",
+  "registry-authority": "HL7",
   "category" : "Diagnostics",
   "introduction" : "The Molecular Definition Implementation Guide for Molecular Data Types defines the use of the MolecularDefinition resource to represent genomic data types."
 }
