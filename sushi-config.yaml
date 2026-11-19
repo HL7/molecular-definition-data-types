@@ -34,6 +34,9 @@ dependencies:
   # MolecularDefinition is an additional resource in the CG incubator from FHIR 6.0.0-snapshot1
   hl7.fhir.uv.cg-incubator: current
 
+parameters:
+  auto-oid-root: 2.16.840.1.113883.4.642.40.109
+
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
