@@ -31,7 +31,7 @@ dependencies:
 #  hl7.fhir.r6.core: latest
 #  hl7.terminology.r5: latest
 #  hl7.fhir.uv.extensions.r5: latest
-  hl7.fhir.uv.cg-incubator: current
+  hl7.fhir.uv.cg-incubator: 1.0.0-ballot
 
 #  hl7.fhir.uv.cg-incubator: dev
 
