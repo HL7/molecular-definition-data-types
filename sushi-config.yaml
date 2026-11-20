@@ -16,10 +16,10 @@ extension:
     valueCode: draft
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
     valueInteger: 0
-version: 1.0.0-ballot1
+version: 1.0.0-ballot
 fhirVersion: 6.0.0-snapshot1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
-releaseLabel: ci-build
+releaseLabel: STU 1 Ballot
 license: CC0-1.0
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 publisher:
@@ -27,10 +27,11 @@ publisher:
   url: http://www.hl7.org/Special/committees/clingenomics
   email: cg@lists.HL7.org
 
-# dependencies:
+dependencies:
 #  hl7.fhir.r6.core: latest
 #  hl7.terminology.r5: latest
 #  hl7.fhir.uv.extensions.r5: latest
+  hl7.fhir.uv.cg-incubator: 1.0.0-ballot
 
 #  hl7.fhir.uv.cg-incubator: dev
 
