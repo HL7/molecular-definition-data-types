@@ -4,29 +4,29 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-# Suppressing warnings about reference to experimental CodeSystem - the CodeSystem is experimental in R6, perhaps an error to be corrected
+# The R6 core snapshots type id and value elements with FHIRPath system types (e.g. http://hl7.org/fhirpath/System.String) from the fhirpath-types CodeSystem, which R6 publishes as experimental
 Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-snapshot1
 
-# Suppressing external CodeSystem validation warnings since tx.fhir.org does not yet support these codesystems
+# RefSeq and PharmVar codes cannot be validated because tx.fhir.org has no definition of these external code systems
 A definition for CodeSystem 'http://www.ncbi.nlm.nih.gov/refseq' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://www.pharmvar.org' could not be found, so the code cannot be validated
 
-# eld-31: the additional binding on MolecularDefinition.language is inherited without a key from the R6 core (Resource.language); this IG defines no additional bindings of its own
+# eld-31 fires on MolecularDefinition.language, whose additional binding is inherited without a key from the R6 core (Resource.language); all additional bindings defined by this IG have keys
 Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' at %
 
 # The JIRA spec artifact is maintained in https://github.com/HL7/JIRA-Spec-Artifacts and is updated by pull request at publication time, using the proposal in FHIR-molecular-definition-data-types.xml
 The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.%
 
-# IG Publisher drops resourceDefinition on contained additional resources (it is present in the source JSON), see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
+# The IG Publisher drops resourceDefinition on contained additional resources although the source JSON declares it, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
 This resource is an additional resource, so must have a resourceDefinition of 'http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot'
 
-# Follow-on of the contained resourceDefinition issue above: the contained Sequence only fails the profile match because the publisher drops its resourceDefinition, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
+# Follow-on of the publisher issue above: the contained Sequence fails the profile match only because its resourceDefinition is dropped, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
 Unable to find a profile match for #example-sequence-nm0007694-acc among choices:%
 
-# Info only: the spdx-license CodeSystem is published as draft in the R6 core specification, the IG only uses its license code CC0-1.0
+# The spdx-license CodeSystem is published as draft in the R6 core; this IG only uses its license code CC0-1.0
 Reference to draft CodeSystem http://hl7.org/fhir/spdx-license%
 
-# Info only: details of the failed profile match of the contained MolecularDefinitions, caused by the dropped resourceDefinition, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
+# Follow-on of the publisher issue above: details of the failed profile matches of the contained MolecularDefinitions, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
 Details for #example-sequence-nm0007694-acc matching against profile%
 Details for #replacement matching against profile%
 Details for #replaced matching against profile%
