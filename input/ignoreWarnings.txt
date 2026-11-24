@@ -22,3 +22,11 @@ This resource is an additional resource, so must have a resourceDefinition of 'h
 
 # Follow-on of the contained resourceDefinition issue above: the contained Sequence only fails the profile match because the publisher drops its resourceDefinition, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
 Unable to find a profile match for #example-sequence-nm0007694-acc among choices:%
+
+# Info only: the spdx-license CodeSystem is published as draft in the R6 core specification, the IG only uses its license code CC0-1.0
+Reference to draft CodeSystem http://hl7.org/fhir/spdx-license%
+
+# Info only: details of the failed profile match of the contained MolecularDefinitions, caused by the dropped resourceDefinition, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
+Details for #example-sequence-nm0007694-acc matching against profile%
+Details for #replacement matching against profile%
+Details for #replaced matching against profile%
