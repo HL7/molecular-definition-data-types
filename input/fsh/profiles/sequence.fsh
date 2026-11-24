@@ -7,8 +7,7 @@ Id: sequence
 
 * type MS
 * type 1..1
-* type from MoleculeTypeVS (required)
-* topology from TopologyVS (required)
+* type from $CGMoleculeTypeVS (required)
 * member 0..0
 * location 0..0
 

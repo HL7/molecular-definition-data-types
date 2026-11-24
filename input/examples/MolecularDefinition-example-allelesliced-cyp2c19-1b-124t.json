@@ -11,8 +11,8 @@
     "coding": [
       {
         "code": "rna",
-        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
-        "display": "RNA Sequence"
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "RNA sequence"
       }
     ]
   },
@@ -21,8 +21,8 @@
       "coding": [
         {
           "code": "rna",
-          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
-          "display": "RNA Sequence"
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "RNA sequence"
         }
       ]
     }

@@ -7,8 +7,7 @@ Id: haplotype
 
 * type MS
 * type 1..1
-* type from MoleculeTypeVS (required)
-* topology from TopologyVS (required)
+* type from $CGMoleculeTypeVS (required)
 * location 0..0
 
 * member MS

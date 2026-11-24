@@ -11,8 +11,8 @@
     "coding": [
       {
         "code": "dna",
-        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
-        "display": "DNA Sequence"
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "DNA sequence"
       }
     ]
   },
@@ -21,8 +21,8 @@
       "coding": [
         {
           "code": "dna",
-          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
-          "display": "DNA Sequence"
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
         }
       ]
     }
@@ -33,8 +33,8 @@
         "encoding": {
           "coding": [
             {
-              "code": "nucleotide-dna-1letter-unambiguous",
-              "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings"
+              "code": "nuc-dna-1-noamb",
+              "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-literal-encoding"
             }
           ]
         },

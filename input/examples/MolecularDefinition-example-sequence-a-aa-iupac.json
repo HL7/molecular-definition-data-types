@@ -11,8 +11,8 @@
     "coding": [
       {
         "code": "aa",
-        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
-        "display": "AA Sequence"
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "Amino acid sequence"
       }
     ]
   },
@@ -21,8 +21,8 @@
       "coding": [
         {
           "code": "aa",
-          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
-          "display": "AA Sequence"
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "Amino acid sequence"
         }
       ]
     }
@@ -33,8 +33,8 @@
         "encoding": {
           "coding": [
             {
-              "code": "amino-acid-1letter-unambiguous",
-              "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings"
+              "code": "aa-1-noamb-20common",
+              "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-literal-encoding"
             }
           ]
         },

@@ -11,8 +11,8 @@
     "coding": [
       {
         "code": "dna",
-        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
-        "display": "DNA Sequence"
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "DNA sequence"
       }
     ]
   },
@@ -21,8 +21,8 @@
       "coding": [
         {
           "code": "dna",
-          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
-          "display": "DNA Sequence"
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
         }
       ]
     }
@@ -50,8 +50,8 @@
               "coding": [
                 {
                   "code": "sequence-start",
-                  "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/coordinate-origin",
-                  "display": "Sequence start"
+                  "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/coordinatesystem-origin",
+                  "display": "Sequence Start"
                 }
               ]
             },
@@ -59,8 +59,8 @@
               "coding": [
                 {
                   "code": "left-shift",
-                  "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/normalization-method",
-                  "display": "Left shift"
+                  "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/coordinatesystem-normalizationmethod",
+                  "display": "Left Shift"
                 }
               ]
             }

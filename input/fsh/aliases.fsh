@@ -8,3 +8,6 @@ Alias: $CGTopology = http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardef
 Alias: $CGStrandOrientation = http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-strand
 Alias: $CGCoordinateOrigin = http://hl7.org/fhir/uv/cg-incubator/CodeSystem/coordinatesystem-origin
 Alias: $CGNormalizationMethod = http://hl7.org/fhir/uv/cg-incubator/CodeSystem/coordinatesystem-normalizationmethod
+Alias: $CGRepresentationFocus = http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-representation-focus
+Alias: $CGMoleculeTypeVS = http://hl7.org/fhir/uv/cg-incubator/ValueSet/moleculardefinition-moleculetype
+Alias: $CGLiteralEncodingVS = http://hl7.org/fhir/uv/cg-incubator/ValueSet/moleculardefinition-literal-encoding

@@ -6,17 +6,13 @@ Id: allele
 
 * type MS
 * type 1..1
-* type from MoleculeTypeVS (required)
-* topology from TopologyVS (required)
+* type from $CGMoleculeTypeVS (required)
 * location ^short = "Genomic location of the specified allele"
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
-* location.sequenceLocation.strand from StrandOrientationVS (required)
-* location.sequenceLocation.coordinateInterval.coordinateSystem.origin from CoordinateOriginVS (required)
-* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod from NormalizationMethodVS (required)
 * member 0..0
 
-* representation.literal.encoding from EncodingsVS (required)
+* representation.literal.encoding from $CGLiteralEncodingVS (required)
 * insert SetLiteralBindings
 
 * representation ^slicing.discriminator.type = #value
@@ -29,5 +25,5 @@ Id: allele
     contextState 0..1 MS and 
     alleleState 1..1 MS
 
-* representation[contextState].focus = MolecularDefinitionFocus#context-state "Context State" // context state slice
-* representation[alleleState].focus = MolecularDefinitionFocus#allele-state "Allele State" // allele state slice
+* representation[contextState].focus = $CGRepresentationFocus#context-state "Context State" // context state slice
+* representation[alleleState].focus = $CGRepresentationFocus#allele-state "Allele State" // allele state slice
