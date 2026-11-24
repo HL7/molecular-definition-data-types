@@ -4,7 +4,7 @@
   "path" : "http://hl7.org/fhir/uv/molecular-definition-data-types/1.0.0-202701-ballot",
   "mode" : "working",
   "status" : "ballot",
-  "sequence" : "STU1",
+  "sequence" : "STU 1",
   "desc" : "This is the initial release of the Molecular Definition Implementation Guide for Molecular Data Types for initial ballot January 2027.",
   "first" : true,
   "title" : "Molecular Definition Implementation Guide for Molecular Data Types",

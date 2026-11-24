@@ -14,9 +14,6 @@ A definition for CodeSystem 'http://www.pharmvar.org' could not be found, so the
 # eld-31 fires on MolecularDefinition.language, whose additional binding is inherited without a key from the R6 core (Resource.language); all additional bindings defined by this IG have keys
 Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' at %
 
-# The JIRA spec artifact is maintained in https://github.com/HL7/JIRA-Spec-Artifacts and is updated by pull request at publication time, using the proposal in FHIR-molecular-definition-data-types.xml
-The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.%
-
 # The IG Publisher drops resourceDefinition on contained additional resources although the source JSON declares it, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
 This resource is an additional resource, so must have a resourceDefinition of 'http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot'
 
