@@ -8,14 +8,14 @@ canonical: http://hl7.org/fhir/uv/molecular-definition-data-types
 name: MolecularDefinitionDataTypes
 title: Molecular Definition Implementation Guide for Molecular Data Types
 description: The Molecular Definition Implementation Guide for Molecular Data Types defines the use of the MolecularDefinition resource to represent genomic data types.
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg  #<<< must include a http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension that identifies the workgroup responsible for the IG. This is the authoritative element.
     valueCode: cg  # <<< The value must be the code for the workgroup
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-    valueCode: draft
+    valueCode: trial-use
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
-    valueInteger: 0
+    valueInteger: 1
 version: 1.0.0-ballot
 fhirVersion: 6.0.0-snapshot1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
@@ -25,7 +25,7 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 publisher:
   name: HL7 International / Clinical Genomics
   url: http://www.hl7.org/Special/committees/clingenomics
-  email: cg@lists.HL7.org
+  email: clingenomics@lists.hl7.org
 
 dependencies:
 #  hl7.fhir.r6.core: latest
