@@ -31,9 +31,10 @@ dependencies:
 #  hl7.fhir.r6.core: latest
 #  hl7.terminology.r5: latest
 #  hl7.fhir.uv.extensions.r5: latest
-  hl7.fhir.uv.cg-incubator: 1.0.0-ballot
+  # dev = local build if present, otherwise current (CI).
+  # Switch to 1.0.0-ballot once cg-incubator is published.
+  hl7.fhir.uv.cg-incubator: dev
 
-#  hl7.fhir.uv.cg-incubator: dev
 parameters:
   auto-oid-root: 2.16.840.1.113883.4.642.40.109
 
