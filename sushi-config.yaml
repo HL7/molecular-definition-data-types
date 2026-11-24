@@ -99,6 +99,131 @@ menu:
     Use Cases: use-cases.html
   Artifacts: artifacts.html
 
+# MolecularDefinition is an additional resource from hl7.fhir.uv.cg-incubator. SUSHI cannot set
+# resourceDefinition on instances, so these examples live as JSON in input/examples. Their
+# descriptions for the IG resource list are maintained here.
+resources:
+  MolecularDefinition/example-allelesliced-cyp2c19-1016-cont:
+    description: "Example of Allele profile including slices for CYP2C19 position 1016 while leveraging contained resources"
+  MolecularDefinition/example-allelesliced-cyp2c19-1016g:
+    description: "A simple Allele example showing a G at position 1016 on NM_000769.4, applicable to both CYP2C19*1.002 and CYP2C19*3.002"
+  MolecularDefinition/example-allelesliced-cyp2c19-1b-1016g:
+    description: "A simple Allele example showing CYP2C19*1.002*1B 1016 G"
+  MolecularDefinition/example-allelesliced-cyp2c19-1b-124t:
+    description: "A simple Allele example showing CYP2C19*1.002*1B 124 T"
+  MolecularDefinition/example-allelesliced-cyp2c19-661a:
+    description: "A simple Allele example showing CYP2C19*3.002:c.661A"
+  MolecularDefinition/example-allelesliced-cyp2c19-661g:
+    description: "A simple Allele example showing CYP2C19*1.002:c.661G"
+  MolecularDefinition/example-allelesliced-cyp2c19-661g-coded:
+    description: "A simple Allele example showing CYP2C19*1.002:c.661G"
+  MolecularDefinition/example-allelesliced-hla-121-a:
+    description: "An Allele example representing a part of HLA00001.1:c.[121A])"
+  MolecularDefinition/example-allelesliced-hla-121-c:
+    description: "An Allele example representing a part of HLA00001.1:c.[121C])"
+  MolecularDefinition/example-allelesliced-hla-123-c:
+    description: "An Allele example representing a part of HLA00001.1:c.[123C])"
+  MolecularDefinition/example-allelesliced-hla-123-t:
+    description: "An Allele example representing a part of HLA00001.1:c.[123T])"
+  MolecularDefinition/example-allelesliced-hla-126-a:
+    description: "An Allele example representing a part of HLA00001.1:c.[126A])"
+  MolecularDefinition/example-allelesliced-hla-126-g:
+    description: "An Allele example representing a part of HLA00001.1:c.[126G])"
+  MolecularDefinition/example-allelesliced-hla-144-a:
+    description: "An Allele example representing a part of HLA00001.1:c.[144A])"
+  MolecularDefinition/example-allelesliced-hla-144-a-coded:
+    description: "An Allele example representing a part of HLA00001.1:c.[144A])"
+  MolecularDefinition/example-allelesliced-hla-144-c:
+    description: "An Allele example representing a part of HLA00001.1:c.[144C])"
+  MolecularDefinition/example-allelesliced-hla-98-c:
+    description: "An Allele example representing a part of HLA00001.1:c.[98C])"
+  MolecularDefinition/example-allelesliced-hla-98-t:
+    description: "An Allele example representing a part of HLA00001.1:c.[98T])"
+  MolecularDefinition/example-allelesliced-vkorc1-31096368c:
+    description: "A simple Allele example showing VKORC1 rs9923231 reference (C)"
+  MolecularDefinition/example-allelesliced-vkorc1-31096368t:
+    description: "A simple Allele example showing VKORC1 rs9923231 variant (T)"
+  MolecularDefinition/example-genomic-cyp2c19-accession:
+    description: "A sequence represented as a code using an accession number"
+  MolecularDefinition/example-genotype-cyp2c19-1002-and-3:
+    description: "Example of Genotype profile representing CYP2C19*1.002 and CYP2C19*3.00 haplotypes"
+  MolecularDefinition/example-genotype-cyp2c19-1b-and-1c:
+    description: "Example of Genotype profile representing CYP2C19*1.002 (CYP2C19*1B) and CYP2C19*1.003 (CYP2C19*1C) haplotypes"
+  MolecularDefinition/example-genotype-hla-00001-and-2:
+    description: "Example of Genotype profile representing HLA-A*01:01:01:01 and HLA-A*01:02:01:01 haplotypes"
+  MolecularDefinition/example-genotype-vkorc1-31096368c-and-31096368c:
+    description: "Example of Genotype profile representing VKORC1 C and C haplotypes"
+  MolecularDefinition/example-genotype-vkorc1-31096368c-and-31096368t:
+    description: "Example of Genotype profile representing VKORC1 C and T haplotypes"
+  MolecularDefinition/example-genotype-vkorc1-31096368t-and-31096368t:
+    description: "Example of Genotype profile representing VKORC1 T and T haplotypes"
+  MolecularDefinition/example-haplotype-cyp2c19-1002:
+    description: "Example of Haplotype profile representing CYP2C19*1.002 as CYP2C19*1.002:c.[661G; 1016G]"
+  MolecularDefinition/example-haplotype-cyp2c19-1b:
+    description: "Example of Haplotype profile representing CYP2C19*1.002 (CYP2C192*1B) as T at 124 and G at 1016 in reference to NM_000769.4"
+  MolecularDefinition/example-haplotype-cyp2c19-1c:
+    description: "Example of Haplotype profile representing CYP2C19*1.003 (CYP2C19*1C) as G at 1016 in reference to NM_000769.4"
+  MolecularDefinition/example-haplotype-cyp2c19-3002:
+    description: "Example of Haplotype profile representing CYP2C19*3.002 as CYP2C19*3.002:c.[661A; 1016G]"
+  MolecularDefinition/example-haplotype-hla-00001:
+    description: "Example of Haplotype profile representing HLA-A*01:01:01:01 HLA00001.1:c.[98T; 121C; 123C; 126G; 144C]"
+  MolecularDefinition/example-haplotype-hla-00002:
+    description: "Example of Haplotype profile representing HLA-A*01:02:01:01 as HLA00001.1:c.[98C; 121A; 123T; 126A; 144A]"
+  MolecularDefinition/example-haplotype-vkorc1-31096368c:
+    description: "Example of Haplotype profile representing VKORC1 rs9923231 reference (C) at 31096368 in reference to NC_000016.10"
+  MolecularDefinition/example-haplotype-vkorc1-31096368t:
+    description: "Example of Haplotype profile representing VKORC1 having (T) at 31096368 in reference to NC_000016.10"
+  MolecularDefinition/example-sequence-a-aa-iupac:
+    description: "Simple Sequence example with IUPAC encoding"
+  MolecularDefinition/example-sequence-a-dna-iupac:
+    description: "Simple Sequence example with IUPAC encoding, A"
+  MolecularDefinition/example-sequence-c-dna-iupac:
+    description: "Simple Sequence example with IUPAC encoding, C"
+  MolecularDefinition/example-sequence-cgg:
+    description: "Simple Sequence example of GGC sequence"
+  MolecularDefinition/example-sequence-cyp2c19-accession:
+    description: "A sequence represented as an attachement"
+  MolecularDefinition/example-sequence-cyp2c19-attached:
+    description: "A sequence represented as an attachement"
+  MolecularDefinition/example-sequence-cyp2c19-concatenated-regions:
+    description: "A sequence represented as a concatenation of sequence instances"
+  MolecularDefinition/example-sequence-cyp2c19-downstream-region:
+    description: "A downstream region extracted from a sequence"
+  MolecularDefinition/example-sequence-cyp2c19-gene-region:
+    description: "A gene region extracted from a sequence"
+  MolecularDefinition/example-sequence-cyp2c19-upstream-region:
+    description: "An upstream region extracted from a sequence"
+  MolecularDefinition/example-sequence-cyp2c19-url:
+    description: "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
+  MolecularDefinition/example-sequence-fmr1-cgg-20x-edited-contained:
+    description: "A sequence example composed of 20x repeats of CGG sequence edited using contained resources"
+  MolecularDefinition/example-sequence-fmr1-cgg-20x-edited-referenced:
+    description: "A sequence example composed of 20x repeats of CGG sequence edited using referenced resources"
+  MolecularDefinition/example-sequence-fmr1-cgg-20x-repeat:
+    description: "A sequence example composed of 20x repeats of CGG sequence"
+  MolecularDefinition/example-sequence-hla000011:
+    description: "A sequence represented as a resolvable URL of HLA00001"
+  MolecularDefinition/example-sequence-nc00000714-url:
+    description: "A sequence represented as a resolvable URL, NC_000007.14 Homo sapiens chromosome 7, GRCh38.p14 Primary Assembly"
+  MolecularDefinition/example-sequence-nc00001610-url:
+    description: "A sequence represented as a resolvable URL, Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly, NC_000016.10"
+  MolecularDefinition/example-sequence-nm0007694-url:
+    description: "A sequence represented as a resolvable URL"
+  MolecularDefinition/example-variation-cyp2c19-1015-spdi:
+    description: "Example of Variation profile of CYP2C19 at Position 1015 as SPDI"
+  MolecularDefinition/example-variation-cyp2c19-1015-spdi-coded:
+    description: "Example of Variation profile of CYP2C19 at Position 1015 as SPDI"
+  MolecularDefinition/example-variation-cyp2c19-1015-vcf:
+    description: "Example of Variation profile of CYP2C19 at Position 1015 as VCF"
+  MolecularDefinition/example-variation-cyp2c19-1015-vrs:
+    description: "Example of Variation profile of CYP2C19 at Position 1015 as VRS"
+  MolecularDefinition/example-variation-cyp2c19-991-hgvs:
+    description: "Example of Variation profile of CYP2C19 at Position 911 as HGVS"
+  MolecularDefinition/example-variation-tri-allelic-ABCB1:
+    description: "Example of Variation profile of tri-allelic variant in ABCB1"
+  MolecularDefinition/example-variation-tri-allelic-ABCB1-coded:
+    description: "Example of Variation profile of tri-allelic variant in ABCB1"
+
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

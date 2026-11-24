@@ -1,0 +1,85 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-allelesliced-cyp2c19-1b-124t",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/allele"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "rna",
+        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+        "display": "RNA Sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "rna",
+          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+          "display": "RNA Sequence"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "sequenceLocation": {
+        "sequenceContext": {
+          "reference": "MolecularDefinition/example-sequence-nm0007694-url",
+          "type": "MolecularDefinition",
+          "display": "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
+        },
+        "coordinateInterval": {
+          "coordinateSystem": {
+            "system": {
+              "coding": [
+                {
+                  "code": "LA30102-0",
+                  "system": "http://loinc.org",
+                  "display": "1-based character counting"
+                }
+              ]
+            }
+          },
+          "startQuantity": {
+            "value": 124
+          },
+          "endQuantity": {
+            "value": 124
+          }
+        }
+      }
+    }
+  ],
+  "representation": [
+    {
+      "code": [
+        {
+          "coding": [
+            {
+              "code": "PV00076",
+              "system": "http://www.pharmvar.org",
+              "display": "CYP2C19*1.002"
+            }
+          ]
+        }
+      ],
+      "literal": {
+        "value": "T"
+      },
+      "focus": "allele-state"
+    },
+    {
+      "literal": {
+        "value": "C"
+      },
+      "focus": "context-state"
+    }
+  ]
+}

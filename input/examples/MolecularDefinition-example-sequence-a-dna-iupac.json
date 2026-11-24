@@ -1,0 +1,45 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-sequence-a-dna-iupac",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+        "display": "DNA Sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+          "display": "DNA Sequence"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "literal": {
+        "encoding": {
+          "coding": [
+            {
+              "code": "nucleotide-dna-1letter-unambiguous",
+              "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings"
+            }
+          ]
+        },
+        "value": "A"
+      }
+    }
+  ]
+}

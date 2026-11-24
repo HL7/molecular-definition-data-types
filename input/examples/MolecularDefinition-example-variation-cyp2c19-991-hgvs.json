@@ -1,0 +1,114 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-variation-cyp2c19-991-hgvs",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/variation"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+        "display": "DNA Sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+          "display": "DNA Sequence"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "sequenceLocation": {
+        "sequenceContext": {
+          "reference": "MolecularDefinition/example-sequence-nm0007694-url",
+          "type": "MolecularDefinition",
+          "display": "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
+        },
+        "coordinateInterval": {
+          "coordinateSystem": {
+            "system": {
+              "coding": [
+                {
+                  "code": "LA30102-0",
+                  "system": "http://loinc.org",
+                  "display": "1-based character counting"
+                }
+              ]
+            },
+            "origin": {
+              "coding": [
+                {
+                  "code": "sequence-start",
+                  "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/coordinate-origin",
+                  "display": "Sequence start"
+                }
+              ]
+            },
+            "normalizationMethod": {
+              "coding": [
+                {
+                  "code": "right-shift",
+                  "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/normalization-method",
+                  "display": "Right shift"
+                }
+              ]
+            }
+          },
+          "startQuantity": {
+            "value": 1015
+          },
+          "endQuantity": {
+            "value": 1016
+          }
+        }
+      }
+    }
+  ],
+  "representation": [
+    {
+      "literal": {
+        "value": "A"
+      },
+      "code": [
+        {
+          "coding": [
+            {
+              "code": "NM_000769.4:c.991A=",
+              "system": "http://varnomen.hgvs.org",
+              "display": "NM_000769.4:c.991A="
+            }
+          ]
+        }
+      ],
+      "focus": "reference-state"
+    },
+    {
+      "literal": {
+        "value": "G"
+      },
+      "code": [
+        {
+          "coding": [
+            {
+              "code": "NM_000769.4:c.991A>G",
+              "system": "http://varnomen.hgvs.org",
+              "display": "NM_000769.4:c.991A>G"
+            }
+          ]
+        }
+      ],
+      "focus": "alternative-state"
+    }
+  ]
+}

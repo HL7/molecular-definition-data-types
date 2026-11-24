@@ -1,0 +1,74 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-allelesliced-hla-98-c",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/allele"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+        "display": "DNA Sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+          "display": "DNA Sequence"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "sequenceLocation": {
+        "sequenceContext": {
+          "reference": "MolecularDefinition/example-sequence-hla000011",
+          "type": "MolecularDefinition",
+          "display": "Starting Sequence Resource: HLA00001"
+        },
+        "coordinateInterval": {
+          "coordinateSystem": {
+            "system": {
+              "coding": [
+                {
+                  "code": "LA30102-0",
+                  "system": "http://loinc.org",
+                  "display": "1-based character counting"
+                }
+              ]
+            }
+          },
+          "startQuantity": {
+            "value": 98
+          },
+          "endQuantity": {
+            "value": 98
+          }
+        }
+      }
+    }
+  ],
+  "representation": [
+    {
+      "literal": {
+        "value": "C"
+      },
+      "focus": "allele-state"
+    },
+    {
+      "literal": {
+        "value": "T"
+      },
+      "focus": "context-state"
+    }
+  ]
+}

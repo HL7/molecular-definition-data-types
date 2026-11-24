@@ -1,0 +1,59 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-sequence-cyp2c19-gene-region",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+        "display": "DNA Sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type",
+          "display": "DNA Sequence"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "extracted": {
+        "startingMolecule": {
+          "reference": "MolecularDefinition/example-sequence-cyp2c19-accession"
+        },
+        "coordinateInterval": {
+          "coordinateSystem": {
+            "system": {
+              "coding": [
+                {
+                  "code": "LA30100-4",
+                  "system": "http://loinc.org",
+                  "display": "0-based interval counting"
+                }
+              ]
+            }
+          },
+          "startQuantity": {
+            "value": 5001
+          },
+          "endQuantity": {
+            "value": 97867
+          }
+        },
+        "reverseComplement": false
+      }
+    }
+  ]
+}
