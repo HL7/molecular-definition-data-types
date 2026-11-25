@@ -1,0 +1,75 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-sequence-fmr1-cgg-20x-edited-referenced",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "DNA sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "relative": {
+        "startingMolecule": {
+          "reference": "MolecularDefinition/example-sequence-fmr1-cgg-20x-repeat",
+          "type": "MolecularDefinition",
+          "display": "CGG 20X"
+        },
+        "edit": [
+          {
+            "coordinateInterval": {
+              "coordinateSystem": {
+                "system": {
+                  "coding": [
+                    {
+                      "code": "LA30102-0",
+                      "system": "http://loinc.org",
+                      "display": "1-based character counting"
+                    }
+                  ]
+                }
+              },
+              "startQuantity": {
+                "value": 31
+              },
+              "endQuantity": {
+                "value": 31
+              }
+            },
+            "replacementMolecule": {
+              "reference": "MolecularDefinition/example-sequence-a-dna-iupac",
+              "type": "MolecularDefinition",
+              "display": "A"
+            },
+            "replacedMolecule": {
+              "reference": "MolecularDefinition/example-sequence-c-dna-iupac",
+              "type": "MolecularDefinition",
+              "display": "C"
+            },
+            "editOrder": 0
+          }
+        ]
+      }
+    }
+  ]
+}

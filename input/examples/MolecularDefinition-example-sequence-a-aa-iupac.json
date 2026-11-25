@@ -1,0 +1,45 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-sequence-a-aa-iupac",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "aa",
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "Amino acid sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "aa",
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "Amino acid sequence"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "literal": {
+        "encoding": {
+          "coding": [
+            {
+              "code": "aa-1-noamb-20common",
+              "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-literal-encoding"
+            }
+          ]
+        },
+        "value": "A"
+      }
+    }
+  ]
+}

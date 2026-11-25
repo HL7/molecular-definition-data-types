@@ -7,13 +7,9 @@ Id: variation
 
 * type MS
 * type 1..1
-* type from MoleculeTypeVS (required)
-* topology from TopologyVS (required)
+* type from $CGMoleculeTypeVS (required)
 * location 1..1
 * location.sequenceLocation.sequenceContext only Reference(Sequence)
-* location.sequenceLocation.strand from StrandOrientationVS (required)
-* location.sequenceLocation.coordinateInterval.coordinateSystem.origin from CoordinateOriginVS (required)
-* location.sequenceLocation.coordinateInterval.coordinateSystem.normalizationMethod from NormalizationMethodVS (required)
 
 * member 0..0  // to be used later when using R6 draft 3
 
@@ -28,7 +24,7 @@ Id: variation
     referenceState 1..1 MS and 
     alternativeState 1..1 MS
 
-* representation[contextState].focus = MolecularDefinitionFocus#context-state "Context State" // context state slice
-* representation[referenceState].focus = MolecularDefinitionFocus#reference-state "Reference State" // reference state slice
-* representation[alternativeState].focus = MolecularDefinitionFocus#alternative-state "Alternative State" // alternative state slice
+* representation[contextState].focus = $CGRepresentationFocus#context-state "Context State" // context state slice
+* representation[referenceState].focus = $CGRepresentationFocus#reference-state "Reference State" // reference state slice
+* representation[alternativeState].focus = $CGRepresentationFocus#alternative-state "Alternative State" // alternative state slice
 

@@ -4,22 +4,26 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-# Suppressing warnings about using tooling from version 5.0.0 for a version 6.0.0-ballot3 because version 6.0.0 tooling not available
-This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.tools.r5' is from version 5.0.0
-The ImplementationGuide is based on FHIR version 6.0.0-ballot3 but package hl7.terminology.r5#6.5.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+# The R6 core snapshots type id and value elements with FHIRPath system types (e.g. http://hl7.org/fhirpath/System.String) from the fhirpath-types CodeSystem, which R6 publishes as experimental
+Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-snapshot1
 
-
-# Suppressing the warnings about reference to jurisdiction elements (now deprecated) becuase errors in IG Publisher if jurisdiction elements are not present.
-Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
-
-# Suppressing warnings about reference to experimental CodeSystem - the CodeSystem is experimental in R6, perhaps an error to be corrected
-Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
-
-# Suppressing messages about references to Draft CodeSystems that we have defined in this IG (we plan to keep these in the IG for the first release)
-Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecule-type|1.0.0-ballot1
-Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/molecular-definition-focus|1.0.0-ballot1
-Reference to draft CodeSystem http://hl7.org/fhir/uv/molecular-definition-data-types/CodeSystem/encodings|1.0.0-ballot1
-
-# Suppressing external CodeSystem validation warnings since tx.fhir.org does not yet support these codesystems
+# RefSeq and PharmVar codes cannot be validated because tx.fhir.org has no definition of these external code systems
 A definition for CodeSystem 'http://www.ncbi.nlm.nih.gov/refseq' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://www.pharmvar.org' could not be found, so the code cannot be validated
+
+# eld-31 fires on MolecularDefinition.language, whose additional binding is inherited without a key from the R6 core (Resource.language); all additional bindings defined by this IG have keys
+Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' at %
+
+# The IG Publisher drops resourceDefinition on contained additional resources although the source JSON declares it, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
+This resource is an additional resource, so must have a resourceDefinition of 'http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot'
+
+# Follow-on of the publisher issue above: the contained Sequence fails the profile match only because its resourceDefinition is dropped, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
+Unable to find a profile match for #example-sequence-nm0007694-acc among choices:%
+
+# The spdx-license CodeSystem is published as draft in the R6 core; this IG only uses its license code CC0-1.0
+Reference to draft CodeSystem http://hl7.org/fhir/spdx-license%
+
+# Follow-on of the publisher issue above: details of the failed profile matches of the contained MolecularDefinitions, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
+Details for #example-sequence-nm0007694-acc matching against profile%
+Details for #replacement matching against profile%
+Details for #replaced matching against profile%

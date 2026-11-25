@@ -1,0 +1,42 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-sequence-fmr1-cgg-20x-repeat",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+    ]
+  },
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "DNA sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "repeated": {
+        "sequenceMotif": {
+          "reference": "MolecularDefinition/example-sequence-cgg",
+          "type": "MolecularDefinition",
+          "display": "cgg"
+        },
+        "copyCount": 20
+      }
+    }
+  ]
+}

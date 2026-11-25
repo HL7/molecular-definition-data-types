@@ -1,0 +1,160 @@
+{
+  "resourceType": "MolecularDefinition",
+  "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+  "id": "example-sequence-fmr1-cgg-20x-edited-contained",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "MolecularDefinition",
+      "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+      "id": "replacement",
+      "meta": {
+        "profile": [
+          "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+        ]
+      },
+      "moleculeType": {
+        "coding": [
+          {
+            "code": "dna",
+            "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+            "display": "DNA sequence"
+          }
+        ]
+      },
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "dna",
+              "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+              "display": "DNA sequence"
+            }
+          ]
+        }
+      ],
+      "representation": [
+        {
+          "literal": {
+            "encoding": {
+              "coding": [
+                {
+                  "code": "nuc-dna-1-noamb",
+                  "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-literal-encoding"
+                }
+              ]
+            },
+            "value": "A"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "MolecularDefinition",
+      "resourceDefinition": "http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot",
+      "id": "replaced",
+      "meta": {
+        "profile": [
+          "http://hl7.org/fhir/uv/molecular-definition-data-types/StructureDefinition/sequence"
+        ]
+      },
+      "moleculeType": {
+        "coding": [
+          {
+            "code": "dna",
+            "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+            "display": "DNA sequence"
+          }
+        ]
+      },
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "dna",
+              "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+              "display": "DNA sequence"
+            }
+          ]
+        }
+      ],
+      "representation": [
+        {
+          "literal": {
+            "encoding": {
+              "coding": [
+                {
+                  "code": "nuc-dna-1-noamb",
+                  "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-literal-encoding"
+                }
+              ]
+            },
+            "value": "C"
+          }
+        }
+      ]
+    }
+  ],
+  "moleculeType": {
+    "coding": [
+      {
+        "code": "dna",
+        "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+        "display": "DNA sequence"
+      }
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "dna",
+          "system": "http://hl7.org/fhir/uv/cg-incubator/CodeSystem/moleculardefinition-moleculetype",
+          "display": "DNA sequence"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "relative": {
+        "startingMolecule": {
+          "reference": "MolecularDefinition/example-sequence-fmr1-cgg-20x-repeat",
+          "type": "MolecularDefinition",
+          "display": "CGG 20X"
+        },
+        "edit": [
+          {
+            "coordinateInterval": {
+              "coordinateSystem": {
+                "system": {
+                  "coding": [
+                    {
+                      "code": "LA30102-0",
+                      "system": "http://loinc.org",
+                      "display": "1-based character counting"
+                    }
+                  ]
+                }
+              }
+            },
+            "replacementMolecule": {
+              "reference": "#replacement",
+              "type": "MolecularDefinition",
+              "display": "A"
+            },
+            "replacedMolecule": {
+              "reference": "#replaced",
+              "type": "MolecularDefinition",
+              "display": "C"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
