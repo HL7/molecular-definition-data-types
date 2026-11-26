@@ -51,9 +51,7 @@ The following examples demonstrate how MolecularDefinition resources can represe
 - [Example of Sequence profile of FMR1 using CGG motifs edited by external referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-referenced.html)
 
 ### Molecular Sequence including a Contained Referenced resource
-Many instances of MolecularDefinition reference other instances of MolecularDefinition. When references within a message are not desired, contained resources can be used. This example shows how contained resources can be used to create a standalone message. It is the same content that was used in the relative (edit) example, but the references have been changed to contained resources.
-
-- [Example of Sequence profile of FMR1 using CGG motifs edited by contained referenced sequence resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-contained.html)
+Many instances of MolecularDefinition reference other instances of MolecularDefinition. When references within a message are not desired, contained resources can be used to create a standalone message. The IG Publisher currently does not support contained MolecularDefinition resources (it drops their `resourceDefinition`, see [this discussion](https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378)). The example for this use case has therefore been withdrawn for now and will be added again once the tooling supports it. Until then, see the [edit example using referenced resources](MolecularDefinition-example-sequence-fmr1-cgg-20x-edited-referenced.html).
 
 Please check the [complete list of Sequence examples](StructureDefinition-sequence-examples.html) for more examples
 
@@ -61,7 +59,7 @@ Please check the [complete list of Sequence examples](StructureDefinition-sequen
 The following examples illustrate instances of allele. In this example, the asserted state of the allele is different from the state of the context sequence at the given location. Note: the CG group is still determining how to best represent named alleles; therefore, the reference to the star allele in this example should be considered preliminary and subject to change.
 
 - [Example of Allele profile including slices for CYP2C19 position 1016](MolecularDefinition-example-allelesliced-cyp2c19-1016g.html)
-- [Example of Allele profile including slices for CYP2C19 position 1016 while leveraging contained resources](MolecularDefinition-example-allelesliced-cyp2c19-1016-cont.html)
+- [Example of Allele profile including slices for CYP2C19 position 1016 with the context sequence identified by accession](MolecularDefinition-example-allelesliced-cyp2c19-1016-cont.html)
 
 Please check the [complete list of Allele examples](StructureDefinition-allele-examples.html) for more examples
 
