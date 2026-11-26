@@ -104,7 +104,7 @@ menu:
 # descriptions for the IG resource list are maintained here.
 resources:
   MolecularDefinition/example-allelesliced-cyp2c19-1016-cont:
-    description: "Example of Allele profile including slices for CYP2C19 position 1016 while leveraging contained resources"
+    description: "Example of Allele profile including slices for CYP2C19 position 1016 with the context sequence identified by accession"
   MolecularDefinition/example-allelesliced-cyp2c19-1016g:
     description: "A simple Allele example showing a G at position 1016 on NM_000769.4, applicable to both CYP2C19*1.002 and CYP2C19*3.002"
   MolecularDefinition/example-allelesliced-cyp2c19-1b-1016g:
@@ -195,8 +195,6 @@ resources:
     description: "An upstream region extracted from a sequence"
   MolecularDefinition/example-sequence-cyp2c19-url:
     description: "Starting Sequence Resource: (CYP2C19), mRNA, NM_000769.4"
-  MolecularDefinition/example-sequence-fmr1-cgg-20x-edited-contained:
-    description: "A sequence example composed of 20x repeats of CGG sequence edited using contained resources"
   MolecularDefinition/example-sequence-fmr1-cgg-20x-edited-referenced:
     description: "A sequence example composed of 20x repeats of CGG sequence edited using referenced resources"
   MolecularDefinition/example-sequence-fmr1-cgg-20x-repeat:
@@ -207,6 +205,8 @@ resources:
     description: "A sequence represented as a resolvable URL, NC_000007.14 Homo sapiens chromosome 7, GRCh38.p14 Primary Assembly"
   MolecularDefinition/example-sequence-nc00001610-url:
     description: "A sequence represented as a resolvable URL, Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly, NC_000016.10"
+  MolecularDefinition/example-sequence-nm0007694-acc:
+    description: "A sequence identified by its accession, NM_000769.4 Homo sapiens cytochrome P450 family 2 subfamily C member 19 (CYP2C19), mRNA"
   MolecularDefinition/example-sequence-nm0007694-url:
     description: "A sequence represented as a resolvable URL"
   MolecularDefinition/example-variation-cyp2c19-1015-spdi:

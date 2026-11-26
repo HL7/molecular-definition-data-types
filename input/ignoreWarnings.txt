@@ -14,16 +14,5 @@ A definition for CodeSystem 'http://www.pharmvar.org' could not be found, so the
 # eld-31 fires on MolecularDefinition.language, whose additional binding is inherited without a key from the R6 core (Resource.language); all additional bindings defined by this IG have keys
 Constraint failed: eld-31: 'additionalBindings should have a key (key.exists())' at %
 
-# The IG Publisher drops resourceDefinition on contained additional resources although the source JSON declares it, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
-This resource is an additional resource, so must have a resourceDefinition of 'http://hl7.org/fhir/StructureDefinition/MolecularDefinition|1.0.0-ballot'
-
-# Follow-on of the publisher issue above: the contained Sequence fails the profile match only because its resourceDefinition is dropped, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
-Unable to find a profile match for #example-sequence-nm0007694-acc among choices:%
-
 # The spdx-license CodeSystem is published as draft in the R6 core; this IG only uses its license code CC0-1.0
 Reference to draft CodeSystem http://hl7.org/fhir/spdx-license%
-
-# Follow-on of the publisher issue above: details of the failed profile matches of the contained MolecularDefinitions, see https://chat.fhir.org/#narrow/channel/179165-committers/topic/Additional.20Resources.20examples.20issue/near/643383378
-Details for #example-sequence-nm0007694-acc matching against profile%
-Details for #replacement matching against profile%
-Details for #replaced matching against profile%
